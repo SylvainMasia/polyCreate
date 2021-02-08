@@ -60,14 +60,22 @@ public class PolycreateFactoryImpl extends EFactoryImpl implements PolycreateFac
 			return createMission();
 		case PolycreatePackage.SEQUENCE:
 			return createSequence();
-		case PolycreatePackage.PHYSICAL_ACTION:
-			return createPhysicalAction();
 		case PolycreatePackage.LOGICAL_ACTION:
 			return createLogicalAction();
 		case PolycreatePackage.CONDITION:
 			return createCondition();
 		case PolycreatePackage.ALTERNATIVE_SEQUENCE:
 			return createAlternativeSequence();
+		case PolycreatePackage.MOVE_FORWARD:
+			return createMoveForward();
+		case PolycreatePackage.ROTATE_LEFT:
+			return createRotateLeft();
+		case PolycreatePackage.ROTATE_RIGHT:
+			return createRotateRight();
+		case PolycreatePackage.GRAB:
+			return createGrab();
+		case PolycreatePackage.RELEASE:
+			return createRelease();
 		default:
 			throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -98,16 +106,6 @@ public class PolycreateFactoryImpl extends EFactoryImpl implements PolycreateFac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public PhysicalAction createPhysicalAction() {
-		PhysicalActionImpl physicalAction = new PhysicalActionImpl();
-		return physicalAction;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public LogicalAction createLogicalAction() {
 		LogicalActionImpl logicalAction = new LogicalActionImpl();
 		return logicalAction;
@@ -131,6 +129,56 @@ public class PolycreateFactoryImpl extends EFactoryImpl implements PolycreateFac
 	public AlternativeSequence createAlternativeSequence() {
 		AlternativeSequenceImpl alternativeSequence = new AlternativeSequenceImpl();
 		return alternativeSequence;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public MoveForward createMoveForward() {
+		MoveForwardImpl moveForward = new MoveForwardImpl();
+		return moveForward;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public RotateLeft createRotateLeft() {
+		RotateLeftImpl rotateLeft = new RotateLeftImpl();
+		return rotateLeft;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public RotateRight createRotateRight() {
+		RotateRightImpl rotateRight = new RotateRightImpl();
+		return rotateRight;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Grab createGrab() {
+		GrabImpl grab = new GrabImpl();
+		return grab;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Release createRelease() {
+		ReleaseImpl release = new ReleaseImpl();
+		return release;
 	}
 
 	/**

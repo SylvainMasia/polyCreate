@@ -2,25 +2,25 @@
  */
 package fr.univcotedazur.webots.polycreate.impl;
 
-import fr.univcotedazur.webots.polycreate.PhysicalAction;
 import fr.univcotedazur.webots.polycreate.PolycreatePackage;
+import fr.univcotedazur.webots.polycreate.RotateRight;
 
 import org.eclipse.emf.ecore.EClass;
 
 /**
  * <!-- begin-user-doc -->
- * An implementation of the model object '<em><b>Physical Action</b></em>'.
+ * An implementation of the model object '<em><b>Rotate Right</b></em>'.
  * <!-- end-user-doc -->
  *
  * @generated
  */
-public abstract class PhysicalActionImpl extends ActionImpl implements PhysicalAction {
+public class RotateRightImpl extends RotateImpl implements RotateRight {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected PhysicalActionImpl() {
+	protected RotateRightImpl() {
 		super();
 	}
 
@@ -31,7 +31,7 @@ public abstract class PhysicalActionImpl extends ActionImpl implements PhysicalA
 	 */
 	@Override
 	protected EClass eStaticClass() {
-		return PolycreatePackage.Literals.PHYSICAL_ACTION;
+		return PolycreatePackage.Literals.ROTATE_RIGHT;
 	}
 
-} //PhysicalActionImpl
+} //RotateRightImpl

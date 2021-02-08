@@ -102,6 +102,36 @@ public class PolycreateAdapterFactory extends AdapterFactoryImpl {
 		}
 
 		@Override
+		public Adapter caseRotate(Rotate object) {
+			return createRotateAdapter();
+		}
+
+		@Override
+		public Adapter caseMoveForward(MoveForward object) {
+			return createMoveForwardAdapter();
+		}
+
+		@Override
+		public Adapter caseRotateLeft(RotateLeft object) {
+			return createRotateLeftAdapter();
+		}
+
+		@Override
+		public Adapter caseRotateRight(RotateRight object) {
+			return createRotateRightAdapter();
+		}
+
+		@Override
+		public Adapter caseGrab(Grab object) {
+			return createGrabAdapter();
+		}
+
+		@Override
+		public Adapter caseRelease(Release object) {
+			return createReleaseAdapter();
+		}
+
+		@Override
 		public Adapter defaultCase(EObject object) {
 			return createEObjectAdapter();
 		}
@@ -215,6 +245,90 @@ public class PolycreateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createAlternativeSequenceAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.Rotate <em>Rotate</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see fr.univcotedazur.webots.polycreate.Rotate
+	 * @generated
+	 */
+	public Adapter createRotateAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.MoveForward <em>Move Forward</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see fr.univcotedazur.webots.polycreate.MoveForward
+	 * @generated
+	 */
+	public Adapter createMoveForwardAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.RotateLeft <em>Rotate Left</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see fr.univcotedazur.webots.polycreate.RotateLeft
+	 * @generated
+	 */
+	public Adapter createRotateLeftAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.RotateRight <em>Rotate Right</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see fr.univcotedazur.webots.polycreate.RotateRight
+	 * @generated
+	 */
+	public Adapter createRotateRightAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.Grab <em>Grab</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see fr.univcotedazur.webots.polycreate.Grab
+	 * @generated
+	 */
+	public Adapter createGrabAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.Release <em>Release</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see fr.univcotedazur.webots.polycreate.Release
+	 * @generated
+	 */
+	public Adapter createReleaseAdapter() {
 		return null;
 	}
 

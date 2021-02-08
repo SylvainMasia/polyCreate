@@ -9,7 +9,7 @@ package fr.univcotedazur.webots.polycreate;
  *
  *
  * @see fr.univcotedazur.webots.polycreate.PolycreatePackage#getPhysicalAction()
- * @model
+ * @model abstract="true"
  * @generated
  */
 public interface PhysicalAction extends Action {

@@ -40,15 +40,6 @@ public interface PolycreateFactory extends EFactory {
 	Sequence createSequence();
 
 	/**
-	 * Returns a new object of class '<em>Physical Action</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Physical Action</em>'.
-	 * @generated
-	 */
-	PhysicalAction createPhysicalAction();
-
-	/**
 	 * Returns a new object of class '<em>Logical Action</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -74,6 +65,51 @@ public interface PolycreateFactory extends EFactory {
 	 * @generated
 	 */
 	AlternativeSequence createAlternativeSequence();
+
+	/**
+	 * Returns a new object of class '<em>Move Forward</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Move Forward</em>'.
+	 * @generated
+	 */
+	MoveForward createMoveForward();
+
+	/**
+	 * Returns a new object of class '<em>Rotate Left</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Rotate Left</em>'.
+	 * @generated
+	 */
+	RotateLeft createRotateLeft();
+
+	/**
+	 * Returns a new object of class '<em>Rotate Right</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Rotate Right</em>'.
+	 * @generated
+	 */
+	RotateRight createRotateRight();
+
+	/**
+	 * Returns a new object of class '<em>Grab</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Grab</em>'.
+	 * @generated
+	 */
+	Grab createGrab();
+
+	/**
+	 * Returns a new object of class '<em>Release</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Release</em>'.
+	 * @generated
+	 */
+	Release createRelease();
 
 	/**
 	 * Returns the package supported by this factory.

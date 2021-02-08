@@ -119,29 +119,6 @@ public class PolycreateItemProviderAdapterFactory extends PolycreateAdapterFacto
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.PhysicalAction} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected PhysicalActionItemProvider physicalActionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.PhysicalAction}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createPhysicalActionAdapter() {
-		if (physicalActionItemProvider == null) {
-			physicalActionItemProvider = new PhysicalActionItemProvider(this);
-		}
-
-		return physicalActionItemProvider;
-	}
-
-	/**
 	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.LogicalAction} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -208,6 +185,121 @@ public class PolycreateItemProviderAdapterFactory extends PolycreateAdapterFacto
 		}
 
 		return alternativeSequenceItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.MoveForward} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected MoveForwardItemProvider moveForwardItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.MoveForward}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createMoveForwardAdapter() {
+		if (moveForwardItemProvider == null) {
+			moveForwardItemProvider = new MoveForwardItemProvider(this);
+		}
+
+		return moveForwardItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.RotateLeft} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RotateLeftItemProvider rotateLeftItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.RotateLeft}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRotateLeftAdapter() {
+		if (rotateLeftItemProvider == null) {
+			rotateLeftItemProvider = new RotateLeftItemProvider(this);
+		}
+
+		return rotateLeftItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.RotateRight} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RotateRightItemProvider rotateRightItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.RotateRight}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRotateRightAdapter() {
+		if (rotateRightItemProvider == null) {
+			rotateRightItemProvider = new RotateRightItemProvider(this);
+		}
+
+		return rotateRightItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.Grab} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected GrabItemProvider grabItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.Grab}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createGrabAdapter() {
+		if (grabItemProvider == null) {
+			grabItemProvider = new GrabItemProvider(this);
+		}
+
+		return grabItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.Release} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ReleaseItemProvider releaseItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.Release}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createReleaseAdapter() {
+		if (releaseItemProvider == null) {
+			releaseItemProvider = new ReleaseItemProvider(this);
+		}
+
+		return releaseItemProvider;
 	}
 
 	/**
@@ -313,14 +405,22 @@ public class PolycreateItemProviderAdapterFactory extends PolycreateAdapterFacto
 			missionItemProvider.dispose();
 		if (sequenceItemProvider != null)
 			sequenceItemProvider.dispose();
-		if (physicalActionItemProvider != null)
-			physicalActionItemProvider.dispose();
 		if (logicalActionItemProvider != null)
 			logicalActionItemProvider.dispose();
 		if (conditionItemProvider != null)
 			conditionItemProvider.dispose();
 		if (alternativeSequenceItemProvider != null)
 			alternativeSequenceItemProvider.dispose();
+		if (moveForwardItemProvider != null)
+			moveForwardItemProvider.dispose();
+		if (rotateLeftItemProvider != null)
+			rotateLeftItemProvider.dispose();
+		if (rotateRightItemProvider != null)
+			rotateRightItemProvider.dispose();
+		if (grabItemProvider != null)
+			grabItemProvider.dispose();
+		if (releaseItemProvider != null)
+			releaseItemProvider.dispose();
 	}
 
 }

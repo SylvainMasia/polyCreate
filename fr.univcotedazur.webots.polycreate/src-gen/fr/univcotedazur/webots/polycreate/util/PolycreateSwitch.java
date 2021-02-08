@@ -121,6 +121,76 @@ public class PolycreateSwitch<T> extends Switch<T> {
 				result = defaultCase(theEObject);
 			return result;
 		}
+		case PolycreatePackage.ROTATE: {
+			Rotate rotate = (Rotate) theEObject;
+			T result = caseRotate(rotate);
+			if (result == null)
+				result = casePhysicalAction(rotate);
+			if (result == null)
+				result = caseAction(rotate);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
+		case PolycreatePackage.MOVE_FORWARD: {
+			MoveForward moveForward = (MoveForward) theEObject;
+			T result = caseMoveForward(moveForward);
+			if (result == null)
+				result = casePhysicalAction(moveForward);
+			if (result == null)
+				result = caseAction(moveForward);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
+		case PolycreatePackage.ROTATE_LEFT: {
+			RotateLeft rotateLeft = (RotateLeft) theEObject;
+			T result = caseRotateLeft(rotateLeft);
+			if (result == null)
+				result = caseRotate(rotateLeft);
+			if (result == null)
+				result = casePhysicalAction(rotateLeft);
+			if (result == null)
+				result = caseAction(rotateLeft);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
+		case PolycreatePackage.ROTATE_RIGHT: {
+			RotateRight rotateRight = (RotateRight) theEObject;
+			T result = caseRotateRight(rotateRight);
+			if (result == null)
+				result = caseRotate(rotateRight);
+			if (result == null)
+				result = casePhysicalAction(rotateRight);
+			if (result == null)
+				result = caseAction(rotateRight);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
+		case PolycreatePackage.GRAB: {
+			Grab grab = (Grab) theEObject;
+			T result = caseGrab(grab);
+			if (result == null)
+				result = casePhysicalAction(grab);
+			if (result == null)
+				result = caseAction(grab);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
+		case PolycreatePackage.RELEASE: {
+			Release release = (Release) theEObject;
+			T result = caseRelease(release);
+			if (result == null)
+				result = casePhysicalAction(release);
+			if (result == null)
+				result = caseAction(release);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
 		default:
 			return defaultCase(theEObject);
 		}
@@ -228,6 +298,96 @@ public class PolycreateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseAlternativeSequence(AlternativeSequence object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Rotate</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Rotate</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseRotate(Rotate object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Move Forward</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Move Forward</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseMoveForward(MoveForward object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Rotate Left</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Rotate Left</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseRotateLeft(RotateLeft object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Rotate Right</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Rotate Right</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseRotateRight(RotateRight object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Grab</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Grab</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseGrab(Grab object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Release</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Release</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseRelease(Release object) {
 		return null;
 	}
 
