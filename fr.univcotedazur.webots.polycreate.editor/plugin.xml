@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated polycreate -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="fr.univcotedazur.webots.polycreate.presentation.PolycreateModelWizardID"
+            name="%_UI_PolycreateModelWizard_label"
+            class="fr.univcotedazur.webots.polycreate.presentation.PolycreateModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/PolycreateModelFile.gif">
+         <description>%_UI_PolycreateModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated polycreate -->
+      <editor
+            id="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID"
+            name="%_UI_PolycreateEditor_label"
+            icon="icons/full/obj16/PolycreateModelFile.gif"
+            extensions="polycreate"
+            class="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditor"
+            contributorClass="fr.univcotedazur.webots.polycreate.presentation.PolycreateActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
