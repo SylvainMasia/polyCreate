@@ -6,6 +6,9 @@ IRobot Create Behavioural Language Engineering
 
 [IRobot's Create](https://cyberbotics.com/doc/guide/create)
 
+# File extention
+.pcsd
+
 # Steps
 
 - add to path :
