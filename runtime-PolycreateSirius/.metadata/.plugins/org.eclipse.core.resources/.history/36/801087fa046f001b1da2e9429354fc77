@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:polycreate="http://www.example.org/polycreate" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_6rI5AG76Eeul2Kbquf7PeQ" selectedViews="_bVG00G77Eeul2Kbquf7PeQ" version="14.1.0.201810161215">
+    <semanticResources>MyPolycreate.polycreate</semanticResources>
+    <semanticResources>test.pcsd</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_bVG00G77Eeul2Kbquf7PeQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_dJfjkG77Eeul2Kbquf7PeQ" name="Main Mission Diagram" repPath="#_dJMooG77Eeul2Kbquf7PeQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']"/>
+        <target xmi:type="polycreate:Mission" href="MyPolycreate.polycreate#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_dJMooG77Eeul2Kbquf7PeQ" name="Main Mission Diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_dJcgQG77Eeul2Kbquf7PeQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_dJcgQW77Eeul2Kbquf7PeQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_dJwCQG77Eeul2Kbquf7PeQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_dJwCQW77Eeul2Kbquf7PeQ" type="Sirius" element="_dJMooG77Eeul2Kbquf7PeQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_0ioXwG78Eeuzx4UFiT8YCg" visible="false" type="2001" element="_0iemwG78Eeuzx4UFiT8YCg">
+          <children xmi:type="notation:Node" xmi:id="_0isCIG78Eeuzx4UFiT8YCg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_0isCIW78Eeuzx4UFiT8YCg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_0itQQG78Eeuzx4UFiT8YCg" type="3003" element="_0iiRIG78Eeuzx4UFiT8YCg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_0itQQW78Eeuzx4UFiT8YCg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0itQQm78Eeuzx4UFiT8YCg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0ioXwW78Eeuzx4UFiT8YCg" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ioXwm78Eeuzx4UFiT8YCg" x="25" y="65" width="781" height="306"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IrkCoG8CEeuDWaxTdEyOmA" type="2002" element="_IrHWsG8CEeuDWaxTdEyOmA">
+          <children xmi:type="notation:Node" xmi:id="_IrntAG8CEeuDWaxTdEyOmA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_Iro7IG8CEeuDWaxTdEyOmA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_gIwF0G8CEeuDWaxTdEyOmA" visible="false" type="3007" element="_gIu3sm8CEeuDWaxTdEyOmA">
+              <children xmi:type="notation:Node" xmi:id="_gIws4G8CEeuDWaxTdEyOmA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_gIws4W8CEeuDWaxTdEyOmA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_kQpIQG8CEeuDWaxTdEyOmA" type="3017" element="_kQRU0G8CEeuDWaxTdEyOmA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_kQpIQW8CEeuDWaxTdEyOmA" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kQpIQm8CEeuDWaxTdEyOmA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_gIwF0W8CEeuDWaxTdEyOmA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gIwF0m8CEeuDWaxTdEyOmA" x="30" y="39" width="111" height="96"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_5NFtAG8CEeuDWaxTdEyOmA" type="3008" element="_5Mxj8m8CEeuDWaxTdEyOmA">
+              <children xmi:type="notation:Node" xmi:id="_5NFtA28CEeuDWaxTdEyOmA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_5NGUEG8CEeuDWaxTdEyOmA" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_5NGUEW8CEeuDWaxTdEyOmA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_5NGUEm8CEeuDWaxTdEyOmA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_5NFtAW8CEeuDWaxTdEyOmA" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5NFtAm8CEeuDWaxTdEyOmA" x="365" y="113" width="243" height="168"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_yhilkG8DEeuDWaxTdEyOmA" type="3007" element="_yhhXcm8DEeuDWaxTdEyOmA">
+              <children xmi:type="notation:Node" xmi:id="_yhjMoG8DEeuDWaxTdEyOmA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_yhjMoW8DEeuDWaxTdEyOmA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_yhjMom8DEeuDWaxTdEyOmA" type="3002" element="_yhh-gG8DEeuDWaxTdEyOmA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_yhjMo28DEeuDWaxTdEyOmA" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yhjMpG8DEeuDWaxTdEyOmA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_yhilkW8DEeuDWaxTdEyOmA" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yhilkm8DEeuDWaxTdEyOmA" x="65" y="84" width="101" height="96"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Iro7IW8CEeuDWaxTdEyOmA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Iro7Im8CEeuDWaxTdEyOmA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_IrkCoW8CEeuDWaxTdEyOmA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IrkCom8CEeuDWaxTdEyOmA" x="35" y="60" width="718" height="333"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_dJwCQm77Eeul2Kbquf7PeQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_0iemwG78Eeuzx4UFiT8YCg" name="Séquence" visible="false" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="polycreate:Sequence" href="MyPolycreate.polycreate#//@sequences.0"/>
+      <semanticElements xmi:type="polycreate:Sequence" href="MyPolycreate.polycreate#//@sequences.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_0iiRIG78Eeuzx4UFiT8YCg" labelSize="12" labelAlignment="LEFT" color="209,209,209">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@nodeMappings[name='Sequence']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@nodeMappings[name='Sequence']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_IrHWsG8CEeuDWaxTdEyOmA" name="Sequence">
+      <target xmi:type="polycreate:Sequence" href="MyPolycreate.polycreate#//@sequences.0"/>
+      <semanticElements xmi:type="polycreate:Sequence" href="MyPolycreate.polycreate#//@sequences.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_IrJL4G8CEeuDWaxTdEyOmA" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_gIu3sm8CEeuDWaxTdEyOmA" name="Invalid feature as name" visible="false" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="polycreate:LogicalAction" href="MyPolycreate.polycreate#//@sequences.0/@actions.0"/>
+        <semanticElements xmi:type="polycreate:LogicalAction" href="MyPolycreate.polycreate#//@sequences.0/@actions.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Lozenge" uid="_kQRU0G8CEeuDWaxTdEyOmA" labelSize="12" labelPosition="node">
+          <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subNodeMappings[name='Logical']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subNodeMappings[name='Logical']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_5Mxj8m8CEeuDWaxTdEyOmA" name="LogialAction">
+        <target xmi:type="polycreate:LogicalAction" href="MyPolycreate.polycreate#//@sequences.0/@actions.0"/>
+        <semanticElements xmi:type="polycreate:LogicalAction" href="MyPolycreate.polycreate#//@sequences.0/@actions.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_-At0EG8CEeuDWaxTdEyOmA" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="252,175,62">
+          <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subContainerMappings[name='LogicalAction']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subContainerMappings[name='LogicalAction']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_yhhXcm8DEeuDWaxTdEyOmA" name="Move forward" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="polycreate:MoveForward" href="MyPolycreate.polycreate#//@sequences.0/@actions.1"/>
+        <semanticElements xmi:type="polycreate:MoveForward" href="MyPolycreate.polycreate#//@sequences.0/@actions.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" uid="_yhh-gG8DEeuDWaxTdEyOmA" labelSize="5" showIcon="false" labelAlignment="LEFT">
+          <description xmi:type="style:DotDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subNodeMappings[name='MoveForward']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subNodeMappings[name='MoveForward']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_dJT9YG77Eeul2Kbquf7PeQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer"/>
+    <target xmi:type="polycreate:Mission" href="MyPolycreate.polycreate#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
