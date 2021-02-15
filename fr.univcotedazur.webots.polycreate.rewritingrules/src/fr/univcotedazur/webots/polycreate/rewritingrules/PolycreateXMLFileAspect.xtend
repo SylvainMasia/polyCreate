@@ -7,27 +7,52 @@ import fr.univcotedazur.webots.polycreate.Sequence
 import fr.inria.diverse.k3.al.annotationprocessor.Step
 
 //import static extension fr.univcotedazur.webots.polycreate.rewritingrules.SequenceAspect.*
+import fr.inria.diverse.k3.al.annotationprocessor.ReplaceAspectMethod
+import fr.univcotedazur.kairos.webots.polycreate.controler.PolyCreateControler
+import fr.univcotedazur.webots.polycreate.PhysicalAction
+import fr.univcotedazur.webots.polycreate.MoveForward
 
-@Aspect(className=Mission)
-class MissionAspect {
-	
-	@Main
-	def void entryPoint() {
-		System.out.println("Running main");
-		for(Sequence s : _self.sequences) {
-			System.out.println("Running test sequence");
-			System.out.println(s == null);
-			s.runIt();
-		}
-	}
-}
-
-@Aspect(className=Sequence)
-class SequenceAspect {
-	public var int currentActionIndex = 0;
-	
-	@Step
-	def void runIt() {
-		System.out.println("Running sequence");
-	}
-}
+//@Aspect(className=Mission)
+//class MissionAspect {
+//	PolyCreateControler controler;
+//	
+//	@Main
+//	def void entryPoint() {
+//		_self.controler = new PolyCreateControler();
+//		for(Sequence s : _self.sequences) {
+//			s.runIt(_self.controler);
+//		}
+//	}
+//}
+//
+//@Aspect(className=Sequence)
+//class SequenceAspect {
+//	public var int currentActionIndex = 0;
+//	
+//	@Step
+//	@ReplaceAspectMethod
+//	def void runIt(PolyCreateControler controler) {
+//		System.out.println("Running sequence");
+//		
+//	}
+//}
+//
+//@Aspect(className=PhysicalAction)
+//abstract class PhysicalActionAspect {
+//	
+//	@Step
+//	@ReplaceAspectMethod
+//	def abstract void runIt(PolyCreateControler controler);
+//}
+//
+//@Aspect(className=MoveForward)
+//class MoveForwardAspect {
+//	
+//	@Step
+//	@ReplaceAspectMethod
+//	def void runIt(PolyCreateControler controler){
+//		controler.goForward();
+//		controler.passiveWait(_self.distance);
+//		controler.stop();
+//	}
+//}

@@ -188,6 +188,29 @@ public class PolycreateItemProviderAdapterFactory extends PolycreateAdapterFacto
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.Rotate} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RotateItemProvider rotateItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.Rotate}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRotateAdapter() {
+		if (rotateItemProvider == null) {
+			rotateItemProvider = new RotateItemProvider(this);
+		}
+
+		return rotateItemProvider;
+	}
+
+	/**
 	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.MoveForward} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -208,52 +231,6 @@ public class PolycreateItemProviderAdapterFactory extends PolycreateAdapterFacto
 		}
 
 		return moveForwardItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.RotateLeft} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected RotateLeftItemProvider rotateLeftItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.RotateLeft}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createRotateLeftAdapter() {
-		if (rotateLeftItemProvider == null) {
-			rotateLeftItemProvider = new RotateLeftItemProvider(this);
-		}
-
-		return rotateLeftItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.RotateRight} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected RotateRightItemProvider rotateRightItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.RotateRight}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createRotateRightAdapter() {
-		if (rotateRightItemProvider == null) {
-			rotateRightItemProvider = new RotateRightItemProvider(this);
-		}
-
-		return rotateRightItemProvider;
 	}
 
 	/**
@@ -411,12 +388,10 @@ public class PolycreateItemProviderAdapterFactory extends PolycreateAdapterFacto
 			conditionItemProvider.dispose();
 		if (alternativeSequenceItemProvider != null)
 			alternativeSequenceItemProvider.dispose();
+		if (rotateItemProvider != null)
+			rotateItemProvider.dispose();
 		if (moveForwardItemProvider != null)
 			moveForwardItemProvider.dispose();
-		if (rotateLeftItemProvider != null)
-			rotateLeftItemProvider.dispose();
-		if (rotateRightItemProvider != null)
-			rotateRightItemProvider.dispose();
 		if (grabItemProvider != null)
 			grabItemProvider.dispose();
 		if (releaseItemProvider != null)

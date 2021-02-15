@@ -78,26 +78,7 @@
           <backgroundColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
           <foregroundColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@userColorsPalettes[name='Ecore%20Palette']/@entries[name='EClass']"/>
         </computedStyleDescriptions>
-        <computedStyleDescriptions xmi:type="style:FlatContainerStyleDescription" xmi:id="__nGUUG8IEeuSIeQRYTtl5w" arcWidth="8" arcHeight="8" borderSizeComputationExpression="1" iconPath="/fr.univcotedazur.webots.polycreate.edit/icons/full/obj16/Rotate.gif" tooltipExpression="service:renderTooltip" roundedCorner="true" widthComputationExpression="12" heightComputationExpression="10" backgroundStyle="Liquid">
-          <borderColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@userColorsPalettes[name='Ecore%20Palette']/@entries[name='Dark%20EClass']"/>
-          <labelFormat>italic</labelFormat>
-          <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-          <backgroundColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
-          <foregroundColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@userColorsPalettes[name='Ecore%20Palette']/@entries[name='Abstract%20EClass']"/>
-        </computedStyleDescriptions>
         <computedStyleDescriptions xmi:type="style:FlatContainerStyleDescription" xmi:id="__nG7YG8IEeuSIeQRYTtl5w" arcWidth="8" arcHeight="8" borderSizeComputationExpression="1" iconPath="/fr.univcotedazur.webots.polycreate.edit/icons/full/obj16/MoveForward.gif" tooltipExpression="service:renderTooltip" roundedCorner="true" widthComputationExpression="12" heightComputationExpression="10" backgroundStyle="Liquid">
-          <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-          <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-          <backgroundColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
-          <foregroundColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@userColorsPalettes[name='Ecore%20Palette']/@entries[name='EClass']"/>
-        </computedStyleDescriptions>
-        <computedStyleDescriptions xmi:type="style:FlatContainerStyleDescription" xmi:id="__nG7ZG8IEeuSIeQRYTtl5w" arcWidth="8" arcHeight="8" borderSizeComputationExpression="1" iconPath="/fr.univcotedazur.webots.polycreate.edit/icons/full/obj16/RotateLeft.gif" tooltipExpression="service:renderTooltip" roundedCorner="true" widthComputationExpression="12" heightComputationExpression="10" backgroundStyle="Liquid">
-          <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-          <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-          <backgroundColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
-          <foregroundColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@userColorsPalettes[name='Ecore%20Palette']/@entries[name='EClass']"/>
-        </computedStyleDescriptions>
-        <computedStyleDescriptions xmi:type="style:FlatContainerStyleDescription" xmi:id="__nHicW8IEeuSIeQRYTtl5w" arcWidth="8" arcHeight="8" borderSizeComputationExpression="1" iconPath="/fr.univcotedazur.webots.polycreate.edit/icons/full/obj16/RotateRight.gif" tooltipExpression="service:renderTooltip" roundedCorner="true" widthComputationExpression="12" heightComputationExpression="10" backgroundStyle="Liquid">
           <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           <backgroundColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
@@ -110,6 +91,12 @@
           <foregroundColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@userColorsPalettes[name='Ecore%20Palette']/@entries[name='EClass']"/>
         </computedStyleDescriptions>
         <computedStyleDescriptions xmi:type="style:FlatContainerStyleDescription" xmi:id="__nIJgW8IEeuSIeQRYTtl5w" arcWidth="8" arcHeight="8" borderSizeComputationExpression="1" iconPath="/fr.univcotedazur.webots.polycreate.edit/icons/full/obj16/Release.gif" tooltipExpression="service:renderTooltip" roundedCorner="true" widthComputationExpression="12" heightComputationExpression="10" backgroundStyle="Liquid">
+          <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <backgroundColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          <foregroundColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@userColorsPalettes[name='Ecore%20Palette']/@entries[name='EClass']"/>
+        </computedStyleDescriptions>
+        <computedStyleDescriptions xmi:type="style:FlatContainerStyleDescription" xmi:id="_diL6sG-bEeuc4IYRAt5Djw" arcWidth="8" arcHeight="8" borderSizeComputationExpression="1" iconPath="/fr.univcotedazur.webots.polycreate.edit/icons/full/obj16/Rotate.gif" tooltipExpression="service:renderTooltip" roundedCorner="true" widthComputationExpression="12" heightComputationExpression="10" backgroundStyle="Liquid">
           <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           <backgroundColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
@@ -223,24 +210,6 @@
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_Not_gWooEeuVmfnhFEa7EQ" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Not_gmooEeuVmfnhFEa7EQ" x="755" y="460" width="137" height="100"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_Uo3ojGooEeuVmfnhFEa7EQ" type="2003" element="_Uoz-IGooEeuVmfnhFEa7EQ">
-          <children xmi:type="notation:Node" xmi:id="_Uo4PkGooEeuVmfnhFEa7EQ" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_Uo4PkWooEeuVmfnhFEa7EQ" type="7004">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_Uo4PkmooEeuVmfnhFEa7EQ"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_Uo4Pk2ooEeuVmfnhFEa7EQ"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_Uo3ojWooEeuVmfnhFEa7EQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uo3ojmooEeuVmfnhFEa7EQ" x="535" y="610" width="120" height="100"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_apUIHmooEeuVmfnhFEa7EQ" type="2003" element="_apQdoGooEeuVmfnhFEa7EQ">
-          <children xmi:type="notation:Node" xmi:id="_apUvEGooEeuVmfnhFEa7EQ" type="5007"/>
-          <children xmi:type="notation:Node" xmi:id="_apUvEWooEeuVmfnhFEa7EQ" type="7004">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_apUvEmooEeuVmfnhFEa7EQ"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_apUvE2ooEeuVmfnhFEa7EQ"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_apUIH2ooEeuVmfnhFEa7EQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_apUIIGooEeuVmfnhFEa7EQ" x="685" y="610" width="120" height="100"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_fKnwAGooEeuVmfnhFEa7EQ" type="2003" element="_fKkFoGooEeuVmfnhFEa7EQ">
           <children xmi:type="notation:Node" xmi:id="_fKnwA2ooEeuVmfnhFEa7EQ" type="5007"/>
@@ -404,38 +373,6 @@
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NXYX42ooEeuVmfnhFEa7EQ" points="[0, 0, -97, 77]$[97, -77, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NXY-8GooEeuVmfnhFEa7EQ" id="(0.423728813559322,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NXY-8WooEeuVmfnhFEa7EQ" id="(0.5,0.5)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_ZrDI8GooEeuVmfnhFEa7EQ" type="4001" element="_Zq-3mGooEeuVmfnhFEa7EQ" source="_Uo3ojGooEeuVmfnhFEa7EQ" target="_Jrq7IGooEeuVmfnhFEa7EQ">
-          <children xmi:type="notation:Node" xmi:id="_ZrDI9GooEeuVmfnhFEa7EQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZrDI9WooEeuVmfnhFEa7EQ" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_ZrDI9mooEeuVmfnhFEa7EQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZrDI92ooEeuVmfnhFEa7EQ" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_ZrDI-GooEeuVmfnhFEa7EQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZrDI-WooEeuVmfnhFEa7EQ" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ZrDI8WooEeuVmfnhFEa7EQ" routing="Tree"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_ZrDI8mooEeuVmfnhFEa7EQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZrDI82ooEeuVmfnhFEa7EQ" points="[0, 0, -49, 90]$[49, -90, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZrDI-mooEeuVmfnhFEa7EQ" id="(0.3474576271186441,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZrDI-2ooEeuVmfnhFEa7EQ" id="(0.5,0.5)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_b2oPsGooEeuVmfnhFEa7EQ" type="4001" element="_b2klZWooEeuVmfnhFEa7EQ" source="_apUIHmooEeuVmfnhFEa7EQ" target="_Jrq7IGooEeuVmfnhFEa7EQ">
-          <children xmi:type="notation:Node" xmi:id="_b2oPtGooEeuVmfnhFEa7EQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b2oPtWooEeuVmfnhFEa7EQ" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_b2oPtmooEeuVmfnhFEa7EQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b2oPt2ooEeuVmfnhFEa7EQ" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_b2oPuGooEeuVmfnhFEa7EQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b2oPuWooEeuVmfnhFEa7EQ" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_b2oPsWooEeuVmfnhFEa7EQ" routing="Tree"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_b2oPsmooEeuVmfnhFEa7EQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_b2oPs2ooEeuVmfnhFEa7EQ" points="[0, 0, 39, 52]$[-39, -52, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b2oPumooEeuVmfnhFEa7EQ" id="(0.5,0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b2oPu2ooEeuVmfnhFEa7EQ" id="(0.5,0.5)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_ia8RQGooEeuVmfnhFEa7EQ" type="4001" element="_ia3YzGooEeuVmfnhFEa7EQ" source="_Not_gGooEeuVmfnhFEa7EQ" target="__ucu8GolEeuVmfnhFEa7EQ">
           <children xmi:type="notation:Node" xmi:id="_ia8RRGooEeuVmfnhFEa7EQ" type="6001">
@@ -677,15 +614,13 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_JrmCoGooEeuVmfnhFEa7EQ" name="Rotate" tooltipText="" outgoingEdges="_NXUtkmooEeuVmfnhFEa7EQ" incomingEdges="_Zq-3mGooEeuVmfnhFEa7EQ _b2klZWooEeuVmfnhFEa7EQ" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_JrmCoGooEeuVmfnhFEa7EQ" name="Rotate" tooltipText="" outgoingEdges="_NXUtkmooEeuVmfnhFEa7EQ" width="12" height="10">
       <target xmi:type="ecore:EClass" href="polycreate.ecore#//Rotate"/>
       <semanticElements xmi:type="ecore:EClass" href="polycreate.ecore#//Rotate"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="__nGUUm8IEeuSIeQRYTtl5w" iconPath="/fr.univcotedazur.webots.polycreate.edit/icons/full/obj16/Rotate.gif" description="__nGUUG8IEeuSIeQRYTtl5w" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="228,228,228">
-        <labelFormat>italic</labelFormat>
-      </ownedStyle>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_diL6sm-bEeuc4IYRAt5Djw" iconPath="/fr.univcotedazur.webots.polycreate.edit/icons/full/obj16/Rotate.gif" description="_diL6sG-bEeuc4IYRAt5Djw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216"/>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_PL4bYGooEeuVmfnhFEa7EQ" name="degrees : EInt = 90" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="polycreate.ecore#//Rotate/degrees"/>
@@ -724,48 +659,6 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Uoz-IGooEeuVmfnhFEa7EQ" name="RotateLeft" tooltipText="" outgoingEdges="_Zq-3mGooEeuVmfnhFEa7EQ" width="12" height="10">
-      <target xmi:type="ecore:EClass" href="polycreate.ecore#//RotateLeft"/>
-      <semanticElements xmi:type="ecore:EClass" href="polycreate.ecore#//RotateLeft"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="__nG7Zm8IEeuSIeQRYTtl5w" iconPath="/fr.univcotedazur.webots.polycreate.edit/icons/full/obj16/RotateLeft.gif" description="__nG7ZG8IEeuSIeQRYTtl5w" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216"/>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Zq-3mGooEeuVmfnhFEa7EQ" sourceNode="_Uoz-IGooEeuVmfnhFEa7EQ" targetNode="_JrmCoGooEeuVmfnhFEa7EQ">
-      <target xmi:type="ecore:EClass" href="polycreate.ecore#//RotateLeft"/>
-      <semanticElements xmi:type="ecore:EClass" href="polycreate.ecore#//RotateLeft"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Zq_ekGooEeuVmfnhFEa7EQ" targetArrow="InputClosedArrow" routingStyle="tree">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_Zq_ekWooEeuVmfnhFEa7EQ" showIcon="false">
-          <labelFormat>italic</labelFormat>
-        </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Zq_ekmooEeuVmfnhFEa7EQ" showIcon="false"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_apQdoGooEeuVmfnhFEa7EQ" name="RotateRight" tooltipText="" outgoingEdges="_b2klZWooEeuVmfnhFEa7EQ" width="12" height="10">
-      <target xmi:type="ecore:EClass" href="polycreate.ecore#//RotateRight"/>
-      <semanticElements xmi:type="ecore:EClass" href="polycreate.ecore#//RotateRight"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="__nHic28IEeuSIeQRYTtl5w" iconPath="/fr.univcotedazur.webots.polycreate.edit/icons/full/obj16/RotateRight.gif" description="__nHicW8IEeuSIeQRYTtl5w" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216"/>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_b2klZWooEeuVmfnhFEa7EQ" sourceNode="_apQdoGooEeuVmfnhFEa7EQ" targetNode="_JrmCoGooEeuVmfnhFEa7EQ">
-      <target xmi:type="ecore:EClass" href="polycreate.ecore#//RotateRight"/>
-      <semanticElements xmi:type="ecore:EClass" href="polycreate.ecore#//RotateRight"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_b2klZmooEeuVmfnhFEa7EQ" targetArrow="InputClosedArrow" routingStyle="tree">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_b2klZ2ooEeuVmfnhFEa7EQ" showIcon="false">
-          <labelFormat>italic</labelFormat>
-        </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_b2klaGooEeuVmfnhFEa7EQ" showIcon="false"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_fKkFoGooEeuVmfnhFEa7EQ" name="Grab" tooltipText="" outgoingEdges="_it3NVWooEeuVmfnhFEa7EQ" width="12" height="10">
       <target xmi:type="ecore:EClass" href="polycreate.ecore#//Grab"/>

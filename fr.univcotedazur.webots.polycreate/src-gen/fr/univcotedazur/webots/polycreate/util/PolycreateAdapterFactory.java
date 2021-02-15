@@ -112,16 +112,6 @@ public class PolycreateAdapterFactory extends AdapterFactoryImpl {
 		}
 
 		@Override
-		public Adapter caseRotateLeft(RotateLeft object) {
-			return createRotateLeftAdapter();
-		}
-
-		@Override
-		public Adapter caseRotateRight(RotateRight object) {
-			return createRotateRightAdapter();
-		}
-
-		@Override
 		public Adapter caseGrab(Grab object) {
 			return createGrabAdapter();
 		}
@@ -273,34 +263,6 @@ public class PolycreateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createMoveForwardAdapter() {
-		return null;
-	}
-
-	/**
-	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.RotateLeft <em>Rotate Left</em>}'.
-	 * <!-- begin-user-doc -->
-	 * This default implementation returns null so that we can easily ignore cases;
-	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
-	 * <!-- end-user-doc -->
-	 * @return the new adapter.
-	 * @see fr.univcotedazur.webots.polycreate.RotateLeft
-	 * @generated
-	 */
-	public Adapter createRotateLeftAdapter() {
-		return null;
-	}
-
-	/**
-	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.RotateRight <em>Rotate Right</em>}'.
-	 * <!-- begin-user-doc -->
-	 * This default implementation returns null so that we can easily ignore cases;
-	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
-	 * <!-- end-user-doc -->
-	 * @return the new adapter.
-	 * @see fr.univcotedazur.webots.polycreate.RotateRight
-	 * @generated
-	 */
-	public Adapter createRotateRightAdapter() {
 		return null;
 	}
 

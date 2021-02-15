@@ -15,7 +15,7 @@ package fr.univcotedazur.webots.polycreate;
  * </ul>
  *
  * @see fr.univcotedazur.webots.polycreate.PolycreatePackage#getRotate()
- * @model abstract="true"
+ * @model
  * @generated
  */
 public interface Rotate extends PhysicalAction {

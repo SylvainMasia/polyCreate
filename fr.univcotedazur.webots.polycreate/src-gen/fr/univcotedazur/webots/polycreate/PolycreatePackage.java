@@ -463,98 +463,6 @@ public interface PolycreatePackage extends EPackage {
 	int MOVE_FORWARD_OPERATION_COUNT = PHYSICAL_ACTION_OPERATION_COUNT + 0;
 
 	/**
-	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.RotateLeftImpl <em>Rotate Left</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see fr.univcotedazur.webots.polycreate.impl.RotateLeftImpl
-	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getRotateLeft()
-	 * @generated
-	 */
-	int ROTATE_LEFT = 9;
-
-	/**
-	 * The feature id for the '<em><b>Degrees</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ROTATE_LEFT__DEGREES = ROTATE__DEGREES;
-
-	/**
-	 * The number of structural features of the '<em>Rotate Left</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ROTATE_LEFT_FEATURE_COUNT = ROTATE_FEATURE_COUNT + 0;
-
-	/**
-	 * The operation id for the '<em>Run It</em>' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ROTATE_LEFT___RUN_IT = ROTATE___RUN_IT;
-
-	/**
-	 * The number of operations of the '<em>Rotate Left</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ROTATE_LEFT_OPERATION_COUNT = ROTATE_OPERATION_COUNT + 0;
-
-	/**
-	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.RotateRightImpl <em>Rotate Right</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see fr.univcotedazur.webots.polycreate.impl.RotateRightImpl
-	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getRotateRight()
-	 * @generated
-	 */
-	int ROTATE_RIGHT = 10;
-
-	/**
-	 * The feature id for the '<em><b>Degrees</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ROTATE_RIGHT__DEGREES = ROTATE__DEGREES;
-
-	/**
-	 * The number of structural features of the '<em>Rotate Right</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ROTATE_RIGHT_FEATURE_COUNT = ROTATE_FEATURE_COUNT + 0;
-
-	/**
-	 * The operation id for the '<em>Run It</em>' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ROTATE_RIGHT___RUN_IT = ROTATE___RUN_IT;
-
-	/**
-	 * The number of operations of the '<em>Rotate Right</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ROTATE_RIGHT_OPERATION_COUNT = ROTATE_OPERATION_COUNT + 0;
-
-	/**
 	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.GrabImpl <em>Grab</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -562,7 +470,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getGrab()
 	 * @generated
 	 */
-	int GRAB = 11;
+	int GRAB = 9;
 
 	/**
 	 * The number of structural features of the '<em>Grab</em>' class.
@@ -599,7 +507,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getRelease()
 	 * @generated
 	 */
-	int RELEASE = 12;
+	int RELEASE = 10;
 
 	/**
 	 * The number of structural features of the '<em>Release</em>' class.
@@ -836,26 +744,6 @@ public interface PolycreatePackage extends EPackage {
 	EAttribute getMoveForward_Distance();
 
 	/**
-	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.RotateLeft <em>Rotate Left</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Rotate Left</em>'.
-	 * @see fr.univcotedazur.webots.polycreate.RotateLeft
-	 * @generated
-	 */
-	EClass getRotateLeft();
-
-	/**
-	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.RotateRight <em>Rotate Right</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Rotate Right</em>'.
-	 * @see fr.univcotedazur.webots.polycreate.RotateRight
-	 * @generated
-	 */
-	EClass getRotateRight();
-
-	/**
 	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.Grab <em>Grab</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1075,26 +963,6 @@ public interface PolycreatePackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute MOVE_FORWARD__DISTANCE = eINSTANCE.getMoveForward_Distance();
-
-		/**
-		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.RotateLeftImpl <em>Rotate Left</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see fr.univcotedazur.webots.polycreate.impl.RotateLeftImpl
-		 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getRotateLeft()
-		 * @generated
-		 */
-		EClass ROTATE_LEFT = eINSTANCE.getRotateLeft();
-
-		/**
-		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.RotateRightImpl <em>Rotate Right</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see fr.univcotedazur.webots.polycreate.impl.RotateRightImpl
-		 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getRotateRight()
-		 * @generated
-		 */
-		EClass ROTATE_RIGHT = eINSTANCE.getRotateRight();
 
 		/**
 		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.GrabImpl <em>Grab</em>}' class.

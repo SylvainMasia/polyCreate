@@ -66,12 +66,10 @@ public class PolycreateFactoryImpl extends EFactoryImpl implements PolycreateFac
 			return createCondition();
 		case PolycreatePackage.ALTERNATIVE_SEQUENCE:
 			return createAlternativeSequence();
+		case PolycreatePackage.ROTATE:
+			return createRotate();
 		case PolycreatePackage.MOVE_FORWARD:
 			return createMoveForward();
-		case PolycreatePackage.ROTATE_LEFT:
-			return createRotateLeft();
-		case PolycreatePackage.ROTATE_RIGHT:
-			return createRotateRight();
 		case PolycreatePackage.GRAB:
 			return createGrab();
 		case PolycreatePackage.RELEASE:
@@ -136,29 +134,19 @@ public class PolycreateFactoryImpl extends EFactoryImpl implements PolycreateFac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public Rotate createRotate() {
+		RotateImpl rotate = new RotateImpl();
+		return rotate;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public MoveForward createMoveForward() {
 		MoveForwardImpl moveForward = new MoveForwardImpl();
 		return moveForward;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public RotateLeft createRotateLeft() {
-		RotateLeftImpl rotateLeft = new RotateLeftImpl();
-		return rotateLeft;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public RotateRight createRotateRight() {
-		RotateRightImpl rotateRight = new RotateRightImpl();
-		return rotateRight;
 	}
 
 	/**

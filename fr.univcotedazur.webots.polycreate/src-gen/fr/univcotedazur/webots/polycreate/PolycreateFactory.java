@@ -67,6 +67,15 @@ public interface PolycreateFactory extends EFactory {
 	AlternativeSequence createAlternativeSequence();
 
 	/**
+	 * Returns a new object of class '<em>Rotate</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Rotate</em>'.
+	 * @generated
+	 */
+	Rotate createRotate();
+
+	/**
 	 * Returns a new object of class '<em>Move Forward</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -74,24 +83,6 @@ public interface PolycreateFactory extends EFactory {
 	 * @generated
 	 */
 	MoveForward createMoveForward();
-
-	/**
-	 * Returns a new object of class '<em>Rotate Left</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Rotate Left</em>'.
-	 * @generated
-	 */
-	RotateLeft createRotateLeft();
-
-	/**
-	 * Returns a new object of class '<em>Rotate Right</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Rotate Right</em>'.
-	 * @generated
-	 */
-	RotateRight createRotateRight();
 
 	/**
 	 * Returns a new object of class '<em>Grab</em>'.

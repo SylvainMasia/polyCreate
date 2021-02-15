@@ -2,7 +2,8 @@
 <polycreate:Mission xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:polycreate="http://www.example.org/polycreate">
   <sequences>
     <actions xsi:type="polycreate:MoveForward"/>
-    <actions xsi:type="polycreate:RotateRight"/>
-    <actions xsi:type="polycreate:MoveForward"/>
+    <actions xsi:type="polycreate:Rotate"/>
+    <actions xsi:type="polycreate:MoveForward" distance="10"/>
+    <actions xsi:type="polycreate:Rotate" degrees="-90"/>
   </sequences>
 </polycreate:Mission>

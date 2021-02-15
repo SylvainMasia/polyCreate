@@ -141,12 +141,12 @@ public class PolyCreateControler extends Robot {
 	}
 
 
-	void openGripper() {
+	public void openGripper() {
 		gripMotors[0].setPosition(0.5);
 		gripMotors[1].setPosition(0.5);
 	}
 
-	void closeGripper() {
+	public void closeGripper() {
 		gripMotors[0].setPosition(-0.2);
 		gripMotors[1].setPosition(-0.2);
 	}
@@ -159,11 +159,11 @@ public class PolyCreateControler extends Robot {
 		return gripperSensor.getValue();
 	}
 
-	boolean isThereCollisionAtLeft() {
+	public boolean isThereCollisionAtLeft() {
 		return (leftBumper.getValue() != 0.0);
 	}
 
-	boolean isThereCollisionAtRight() {
+	public boolean isThereCollisionAtRight() {
 		return (rightBumper.getValue() != 0.0);
 	}
 
@@ -172,38 +172,38 @@ public class PolyCreateControler extends Robot {
 			receiver.nextPacket();
 	}
 
-	boolean isThereVirtualwall() {
+	public boolean isThereVirtualwall() {
 		return (receiver.getQueueLength() > 0);
 	}
 
-	boolean isThereCliffAtLeft() {
+	public boolean isThereCliffAtLeft() {
 		return (leftCliffSensor.getValue() < 100.0 || frontLeftCliffSensor.getValue() < 100.0);
 	}
 
-	boolean isThereCliffAtRight() {
+	public boolean isThereCliffAtRight() {
 		return (rightCliffSensor.getValue() < 100.0 || frontRightCliffSensor.getValue() < 100.0);
 	}
 
-	boolean isThereCliffAtFront() {
+	public boolean isThereCliffAtFront() {
 		return (frontLeftCliffSensor.getValue() < 100.0 || frontRightCliffSensor.getValue() < 100.0);
 	}
 
-	void goForward() {
+	public void goForward() {
 		leftMotor.setVelocity(MAX_SPEED);
 		rightMotor.setVelocity(MAX_SPEED);
 	}
 
-	void goBackward() {
+	public void goBackward() {
 		leftMotor.setVelocity(-HALF_SPEED);
 		rightMotor.setVelocity(-HALF_SPEED);
 	}
 
-	void stop() {
+	public void stop() {
 		leftMotor.setVelocity(NULL_SPEED);
 		rightMotor.setVelocity(NULL_SPEED);
 	}
 
-	void passiveWait(double sec) {
+	public void passiveWait(double sec) {
 		double start_time = getTime();
 		do {
 			step(timestep);
@@ -214,7 +214,7 @@ public class PolyCreateControler extends Robot {
 		return  random.nextDouble();
 	}
 
-	void turn(double angle) {
+	public void turn(double angle) {
 		stop();
 		double l_offset = leftSensor.getValue();
 		double r_offset = rightSensor.getValue();

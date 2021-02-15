@@ -14,8 +14,6 @@ import fr.univcotedazur.webots.polycreate.PolycreateFactory;
 import fr.univcotedazur.webots.polycreate.PolycreatePackage;
 import fr.univcotedazur.webots.polycreate.Release;
 import fr.univcotedazur.webots.polycreate.Rotate;
-import fr.univcotedazur.webots.polycreate.RotateLeft;
-import fr.univcotedazur.webots.polycreate.RotateRight;
 import fr.univcotedazur.webots.polycreate.Sequence;
 
 import org.eclipse.emf.ecore.EAttribute;
@@ -95,20 +93,6 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * @generated
 	 */
 	private EClass moveForwardEClass = null;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private EClass rotateLeftEClass = null;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private EClass rotateRightEClass = null;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -373,24 +357,6 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getRotateLeft() {
-		return rotateLeftEClass;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EClass getRotateRight() {
-		return rotateRightEClass;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public EClass getGrab() {
 		return grabEClass;
 	}
@@ -462,10 +428,6 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 		moveForwardEClass = createEClass(MOVE_FORWARD);
 		createEAttribute(moveForwardEClass, MOVE_FORWARD__DISTANCE);
 
-		rotateLeftEClass = createEClass(ROTATE_LEFT);
-
-		rotateRightEClass = createEClass(ROTATE_RIGHT);
-
 		grabEClass = createEClass(GRAB);
 
 		releaseEClass = createEClass(RELEASE);
@@ -505,8 +467,6 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 		alternativeSequenceEClass.getESuperTypes().add(this.getSequence());
 		rotateEClass.getESuperTypes().add(this.getPhysicalAction());
 		moveForwardEClass.getESuperTypes().add(this.getPhysicalAction());
-		rotateLeftEClass.getESuperTypes().add(this.getRotate());
-		rotateRightEClass.getESuperTypes().add(this.getRotate());
 		grabEClass.getESuperTypes().add(this.getPhysicalAction());
 		releaseEClass.getESuperTypes().add(this.getPhysicalAction());
 
@@ -553,7 +513,7 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 				AlternativeSequence.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE,
 				IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
-		initEClass(rotateEClass, Rotate.class, "Rotate", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEClass(rotateEClass, Rotate.class, "Rotate", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getRotate_Degrees(), ecorePackage.getEInt(), "degrees", "90", 0, 1, Rotate.class, !IS_TRANSIENT,
 				!IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
@@ -561,12 +521,6 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 				IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getMoveForward_Distance(), ecorePackage.getEInt(), "distance", "5", 0, 1, MoveForward.class,
 				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-
-		initEClass(rotateLeftEClass, RotateLeft.class, "RotateLeft", !IS_ABSTRACT, !IS_INTERFACE,
-				IS_GENERATED_INSTANCE_CLASS);
-
-		initEClass(rotateRightEClass, RotateRight.class, "RotateRight", !IS_ABSTRACT, !IS_INTERFACE,
-				IS_GENERATED_INSTANCE_CLASS);
 
 		initEClass(grabEClass, Grab.class, "Grab", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 

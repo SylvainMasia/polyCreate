@@ -143,32 +143,6 @@ public class PolycreateSwitch<T> extends Switch<T> {
 				result = defaultCase(theEObject);
 			return result;
 		}
-		case PolycreatePackage.ROTATE_LEFT: {
-			RotateLeft rotateLeft = (RotateLeft) theEObject;
-			T result = caseRotateLeft(rotateLeft);
-			if (result == null)
-				result = caseRotate(rotateLeft);
-			if (result == null)
-				result = casePhysicalAction(rotateLeft);
-			if (result == null)
-				result = caseAction(rotateLeft);
-			if (result == null)
-				result = defaultCase(theEObject);
-			return result;
-		}
-		case PolycreatePackage.ROTATE_RIGHT: {
-			RotateRight rotateRight = (RotateRight) theEObject;
-			T result = caseRotateRight(rotateRight);
-			if (result == null)
-				result = caseRotate(rotateRight);
-			if (result == null)
-				result = casePhysicalAction(rotateRight);
-			if (result == null)
-				result = caseAction(rotateRight);
-			if (result == null)
-				result = defaultCase(theEObject);
-			return result;
-		}
 		case PolycreatePackage.GRAB: {
 			Grab grab = (Grab) theEObject;
 			T result = caseGrab(grab);
@@ -328,36 +302,6 @@ public class PolycreateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseMoveForward(MoveForward object) {
-		return null;
-	}
-
-	/**
-	 * Returns the result of interpreting the object as an instance of '<em>Rotate Left</em>'.
-	 * <!-- begin-user-doc -->
-	 * This implementation returns null;
-	 * returning a non-null result will terminate the switch.
-	 * <!-- end-user-doc -->
-	 * @param object the target of the switch.
-	 * @return the result of interpreting the object as an instance of '<em>Rotate Left</em>'.
-	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
-	 * @generated
-	 */
-	public T caseRotateLeft(RotateLeft object) {
-		return null;
-	}
-
-	/**
-	 * Returns the result of interpreting the object as an instance of '<em>Rotate Right</em>'.
-	 * <!-- begin-user-doc -->
-	 * This implementation returns null;
-	 * returning a non-null result will terminate the switch.
-	 * <!-- end-user-doc -->
-	 * @param object the target of the switch.
-	 * @return the result of interpreting the object as an instance of '<em>Rotate Right</em>'.
-	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
-	 * @generated
-	 */
-	public T caseRotateRight(RotateRight object) {
 		return null;
 	}
 

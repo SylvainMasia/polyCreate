@@ -38,8 +38,6 @@
     <genClasses ecoreClass="polycreate.ecore#//MoveForward">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute polycreate.ecore#//MoveForward/distance"/>
     </genClasses>
-    <genClasses ecoreClass="polycreate.ecore#//RotateLeft"/>
-    <genClasses ecoreClass="polycreate.ecore#//RotateRight"/>
     <genClasses ecoreClass="polycreate.ecore#//Grab"/>
     <genClasses ecoreClass="polycreate.ecore#//Release"/>
   </genPackages>
