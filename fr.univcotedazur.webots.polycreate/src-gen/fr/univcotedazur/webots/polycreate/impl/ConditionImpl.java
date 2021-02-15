@@ -129,7 +129,7 @@ public class ConditionImpl extends MinimalEObjectImpl.Container implements Condi
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void run() {
+	public void runIt() {
 		// TODO: implement this method
 		// Ensure that you remove @generated or mark it @generated NOT
 		throw new UnsupportedOperationException();
@@ -218,8 +218,8 @@ public class ConditionImpl extends MinimalEObjectImpl.Container implements Condi
 		case PolycreatePackage.CONDITION___IS_VALID:
 			isValid();
 			return null;
-		case PolycreatePackage.CONDITION___RUN:
-			run();
+		case PolycreatePackage.CONDITION___RUN_IT:
+			runIt();
 			return null;
 		}
 		return super.eInvoke(operationID, arguments);

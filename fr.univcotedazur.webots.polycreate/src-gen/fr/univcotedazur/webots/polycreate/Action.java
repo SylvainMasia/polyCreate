@@ -21,6 +21,6 @@ public interface Action extends EObject {
 	 * @model
 	 * @generated
 	 */
-	void run();
+	void runIt();
 
 } // Action

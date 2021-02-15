@@ -229,7 +229,7 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EOperation getSequence__Run() {
+	public EOperation getSequence__RunIt() {
 		return sequenceEClass.getEOperations().get(0);
 	}
 
@@ -247,7 +247,7 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EOperation getAction__Run() {
+	public EOperation getAction__RunIt() {
 		return actionEClass.getEOperations().get(0);
 	}
 
@@ -310,7 +310,7 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EOperation getCondition__Run() {
+	public EOperation getCondition__RunIt() {
 		return conditionEClass.getEOperations().get(1);
 	}
 
@@ -438,10 +438,10 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 
 		sequenceEClass = createEClass(SEQUENCE);
 		createEReference(sequenceEClass, SEQUENCE__ACTIONS);
-		createEOperation(sequenceEClass, SEQUENCE___RUN);
+		createEOperation(sequenceEClass, SEQUENCE___RUN_IT);
 
 		actionEClass = createEClass(ACTION);
-		createEOperation(actionEClass, ACTION___RUN);
+		createEOperation(actionEClass, ACTION___RUN_IT);
 
 		physicalActionEClass = createEClass(PHYSICAL_ACTION);
 
@@ -451,7 +451,7 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 		conditionEClass = createEClass(CONDITION);
 		createEReference(conditionEClass, CONDITION__ALTERNATIVE_SEQUENCE);
 		createEOperation(conditionEClass, CONDITION___IS_VALID);
-		createEOperation(conditionEClass, CONDITION___RUN);
+		createEOperation(conditionEClass, CONDITION___RUN_IT);
 
 		alternativeSequenceEClass = createEClass(ALTERNATIVE_SEQUENCE);
 		createEReference(alternativeSequenceEClass, ALTERNATIVE_SEQUENCE__NEXT_SEQUENCE);
@@ -522,11 +522,11 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE,
 				IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
-		initEOperation(getSequence__Run(), null, "run", 0, 1, IS_UNIQUE, IS_ORDERED);
+		initEOperation(getSequence__RunIt(), null, "runIt", 0, 1, IS_UNIQUE, IS_ORDERED);
 
 		initEClass(actionEClass, Action.class, "Action", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
-		initEOperation(getAction__Run(), null, "run", 0, 1, IS_UNIQUE, IS_ORDERED);
+		initEOperation(getAction__RunIt(), null, "runIt", 0, 1, IS_UNIQUE, IS_ORDERED);
 
 		initEClass(physicalActionEClass, PhysicalAction.class, "PhysicalAction", IS_ABSTRACT, !IS_INTERFACE,
 				IS_GENERATED_INSTANCE_CLASS);
@@ -545,7 +545,7 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 
 		initEOperation(getCondition__IsValid(), null, "isValid", 0, 1, IS_UNIQUE, IS_ORDERED);
 
-		initEOperation(getCondition__Run(), null, "run", 0, 1, IS_UNIQUE, IS_ORDERED);
+		initEOperation(getCondition__RunIt(), null, "runIt", 0, 1, IS_UNIQUE, IS_ORDERED);
 
 		initEClass(alternativeSequenceEClass, AlternativeSequence.class, "AlternativeSequence", !IS_ABSTRACT,
 				!IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);

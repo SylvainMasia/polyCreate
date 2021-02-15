@@ -123,13 +123,13 @@ public interface PolycreatePackage extends EPackage {
 	int SEQUENCE_FEATURE_COUNT = 1;
 
 	/**
-	 * The operation id for the '<em>Run</em>' operation.
+	 * The operation id for the '<em>Run It</em>' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int SEQUENCE___RUN = 0;
+	int SEQUENCE___RUN_IT = 0;
 
 	/**
 	 * The number of operations of the '<em>Sequence</em>' class.
@@ -160,13 +160,13 @@ public interface PolycreatePackage extends EPackage {
 	int ACTION_FEATURE_COUNT = 0;
 
 	/**
-	 * The operation id for the '<em>Run</em>' operation.
+	 * The operation id for the '<em>Run It</em>' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int ACTION___RUN = 0;
+	int ACTION___RUN_IT = 0;
 
 	/**
 	 * The number of operations of the '<em>Action</em>' class.
@@ -197,13 +197,13 @@ public interface PolycreatePackage extends EPackage {
 	int PHYSICAL_ACTION_FEATURE_COUNT = ACTION_FEATURE_COUNT + 0;
 
 	/**
-	 * The operation id for the '<em>Run</em>' operation.
+	 * The operation id for the '<em>Run It</em>' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int PHYSICAL_ACTION___RUN = ACTION___RUN;
+	int PHYSICAL_ACTION___RUN_IT = ACTION___RUN_IT;
 
 	/**
 	 * The number of operations of the '<em>Physical Action</em>' class.
@@ -243,13 +243,13 @@ public interface PolycreatePackage extends EPackage {
 	int LOGICAL_ACTION_FEATURE_COUNT = ACTION_FEATURE_COUNT + 1;
 
 	/**
-	 * The operation id for the '<em>Run</em>' operation.
+	 * The operation id for the '<em>Run It</em>' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int LOGICAL_ACTION___RUN = ACTION___RUN;
+	int LOGICAL_ACTION___RUN_IT = ACTION___RUN_IT;
 
 	/**
 	 * The number of operations of the '<em>Logical Action</em>' class.
@@ -298,13 +298,13 @@ public interface PolycreatePackage extends EPackage {
 	int CONDITION___IS_VALID = 0;
 
 	/**
-	 * The operation id for the '<em>Run</em>' operation.
+	 * The operation id for the '<em>Run It</em>' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int CONDITION___RUN = 1;
+	int CONDITION___RUN_IT = 1;
 
 	/**
 	 * The number of operations of the '<em>Condition</em>' class.
@@ -353,13 +353,13 @@ public interface PolycreatePackage extends EPackage {
 	int ALTERNATIVE_SEQUENCE_FEATURE_COUNT = SEQUENCE_FEATURE_COUNT + 1;
 
 	/**
-	 * The operation id for the '<em>Run</em>' operation.
+	 * The operation id for the '<em>Run It</em>' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int ALTERNATIVE_SEQUENCE___RUN = SEQUENCE___RUN;
+	int ALTERNATIVE_SEQUENCE___RUN_IT = SEQUENCE___RUN_IT;
 
 	/**
 	 * The number of operations of the '<em>Alternative Sequence</em>' class.
@@ -399,13 +399,13 @@ public interface PolycreatePackage extends EPackage {
 	int ROTATE_FEATURE_COUNT = PHYSICAL_ACTION_FEATURE_COUNT + 1;
 
 	/**
-	 * The operation id for the '<em>Run</em>' operation.
+	 * The operation id for the '<em>Run It</em>' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int ROTATE___RUN = PHYSICAL_ACTION___RUN;
+	int ROTATE___RUN_IT = PHYSICAL_ACTION___RUN_IT;
 
 	/**
 	 * The number of operations of the '<em>Rotate</em>' class.
@@ -445,13 +445,13 @@ public interface PolycreatePackage extends EPackage {
 	int MOVE_FORWARD_FEATURE_COUNT = PHYSICAL_ACTION_FEATURE_COUNT + 1;
 
 	/**
-	 * The operation id for the '<em>Run</em>' operation.
+	 * The operation id for the '<em>Run It</em>' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int MOVE_FORWARD___RUN = PHYSICAL_ACTION___RUN;
+	int MOVE_FORWARD___RUN_IT = PHYSICAL_ACTION___RUN_IT;
 
 	/**
 	 * The number of operations of the '<em>Move Forward</em>' class.
@@ -491,13 +491,13 @@ public interface PolycreatePackage extends EPackage {
 	int ROTATE_LEFT_FEATURE_COUNT = ROTATE_FEATURE_COUNT + 0;
 
 	/**
-	 * The operation id for the '<em>Run</em>' operation.
+	 * The operation id for the '<em>Run It</em>' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int ROTATE_LEFT___RUN = ROTATE___RUN;
+	int ROTATE_LEFT___RUN_IT = ROTATE___RUN_IT;
 
 	/**
 	 * The number of operations of the '<em>Rotate Left</em>' class.
@@ -537,13 +537,13 @@ public interface PolycreatePackage extends EPackage {
 	int ROTATE_RIGHT_FEATURE_COUNT = ROTATE_FEATURE_COUNT + 0;
 
 	/**
-	 * The operation id for the '<em>Run</em>' operation.
+	 * The operation id for the '<em>Run It</em>' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int ROTATE_RIGHT___RUN = ROTATE___RUN;
+	int ROTATE_RIGHT___RUN_IT = ROTATE___RUN_IT;
 
 	/**
 	 * The number of operations of the '<em>Rotate Right</em>' class.
@@ -574,13 +574,13 @@ public interface PolycreatePackage extends EPackage {
 	int GRAB_FEATURE_COUNT = PHYSICAL_ACTION_FEATURE_COUNT + 0;
 
 	/**
-	 * The operation id for the '<em>Run</em>' operation.
+	 * The operation id for the '<em>Run It</em>' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int GRAB___RUN = PHYSICAL_ACTION___RUN;
+	int GRAB___RUN_IT = PHYSICAL_ACTION___RUN_IT;
 
 	/**
 	 * The number of operations of the '<em>Grab</em>' class.
@@ -611,13 +611,13 @@ public interface PolycreatePackage extends EPackage {
 	int RELEASE_FEATURE_COUNT = PHYSICAL_ACTION_FEATURE_COUNT + 0;
 
 	/**
-	 * The operation id for the '<em>Run</em>' operation.
+	 * The operation id for the '<em>Run It</em>' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int RELEASE___RUN = PHYSICAL_ACTION___RUN;
+	int RELEASE___RUN_IT = PHYSICAL_ACTION___RUN_IT;
 
 	/**
 	 * The number of operations of the '<em>Release</em>' class.
@@ -671,14 +671,14 @@ public interface PolycreatePackage extends EPackage {
 	EReference getSequence_Actions();
 
 	/**
-	 * Returns the meta object for the '{@link fr.univcotedazur.webots.polycreate.Sequence#run() <em>Run</em>}' operation.
+	 * Returns the meta object for the '{@link fr.univcotedazur.webots.polycreate.Sequence#runIt() <em>Run It</em>}' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Run</em>' operation.
-	 * @see fr.univcotedazur.webots.polycreate.Sequence#run()
+	 * @return the meta object for the '<em>Run It</em>' operation.
+	 * @see fr.univcotedazur.webots.polycreate.Sequence#runIt()
 	 * @generated
 	 */
-	EOperation getSequence__Run();
+	EOperation getSequence__RunIt();
 
 	/**
 	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.Action <em>Action</em>}'.
@@ -691,14 +691,14 @@ public interface PolycreatePackage extends EPackage {
 	EClass getAction();
 
 	/**
-	 * Returns the meta object for the '{@link fr.univcotedazur.webots.polycreate.Action#run() <em>Run</em>}' operation.
+	 * Returns the meta object for the '{@link fr.univcotedazur.webots.polycreate.Action#runIt() <em>Run It</em>}' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Run</em>' operation.
-	 * @see fr.univcotedazur.webots.polycreate.Action#run()
+	 * @return the meta object for the '<em>Run It</em>' operation.
+	 * @see fr.univcotedazur.webots.polycreate.Action#runIt()
 	 * @generated
 	 */
-	EOperation getAction__Run();
+	EOperation getAction__RunIt();
 
 	/**
 	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.PhysicalAction <em>Physical Action</em>}'.
@@ -763,14 +763,14 @@ public interface PolycreatePackage extends EPackage {
 	EOperation getCondition__IsValid();
 
 	/**
-	 * Returns the meta object for the '{@link fr.univcotedazur.webots.polycreate.Condition#run() <em>Run</em>}' operation.
+	 * Returns the meta object for the '{@link fr.univcotedazur.webots.polycreate.Condition#runIt() <em>Run It</em>}' operation.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Run</em>' operation.
-	 * @see fr.univcotedazur.webots.polycreate.Condition#run()
+	 * @return the meta object for the '<em>Run It</em>' operation.
+	 * @see fr.univcotedazur.webots.polycreate.Condition#runIt()
 	 * @generated
 	 */
-	EOperation getCondition__Run();
+	EOperation getCondition__RunIt();
 
 	/**
 	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.AlternativeSequence <em>Alternative Sequence</em>}'.
@@ -935,12 +935,12 @@ public interface PolycreatePackage extends EPackage {
 		EReference SEQUENCE__ACTIONS = eINSTANCE.getSequence_Actions();
 
 		/**
-		 * The meta object literal for the '<em><b>Run</b></em>' operation.
+		 * The meta object literal for the '<em><b>Run It</b></em>' operation.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EOperation SEQUENCE___RUN = eINSTANCE.getSequence__Run();
+		EOperation SEQUENCE___RUN_IT = eINSTANCE.getSequence__RunIt();
 
 		/**
 		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.ActionImpl <em>Action</em>}' class.
@@ -953,12 +953,12 @@ public interface PolycreatePackage extends EPackage {
 		EClass ACTION = eINSTANCE.getAction();
 
 		/**
-		 * The meta object literal for the '<em><b>Run</b></em>' operation.
+		 * The meta object literal for the '<em><b>Run It</b></em>' operation.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EOperation ACTION___RUN = eINSTANCE.getAction__Run();
+		EOperation ACTION___RUN_IT = eINSTANCE.getAction__RunIt();
 
 		/**
 		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.PhysicalActionImpl <em>Physical Action</em>}' class.
@@ -1015,12 +1015,12 @@ public interface PolycreatePackage extends EPackage {
 		EOperation CONDITION___IS_VALID = eINSTANCE.getCondition__IsValid();
 
 		/**
-		 * The meta object literal for the '<em><b>Run</b></em>' operation.
+		 * The meta object literal for the '<em><b>Run It</b></em>' operation.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EOperation CONDITION___RUN = eINSTANCE.getCondition__Run();
+		EOperation CONDITION___RUN_IT = eINSTANCE.getCondition__RunIt();
 
 		/**
 		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.AlternativeSequenceImpl <em>Alternative Sequence</em>}' class.

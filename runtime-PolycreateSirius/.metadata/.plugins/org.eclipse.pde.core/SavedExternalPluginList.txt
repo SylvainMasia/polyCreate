@@ -1,4 +1,4 @@
-# List of external plug-in models previously loaded. Timestamp: 1613338675280
+# List of external plug-in models previously loaded. Timestamp: 1613395814296
 file:/C:/dev/courses/gemoc/plugins/ch.qos.logback.classic_1.0.7.v20121108-1250.jar
 file:/C:/dev/courses/gemoc/plugins/ch.qos.logback.core_1.0.7.v20121108-1250.jar
 file:/C:/dev/courses/gemoc/plugins/ch.qos.logback.slf4j_1.0.7.v201505121915.jar
@@ -100,6 +100,8 @@ file:/C:/dev/courses/polyCreate/fr.univcotedazur.kairos.webots.polycreate.contro
 file:/C:/dev/courses/polyCreate/fr.univcotedazur.webots.polycreate/
 file:/C:/dev/courses/polyCreate/fr.univcotedazur.webots.polycreate.edit/
 file:/C:/dev/courses/polyCreate/fr.univcotedazur.webots.polycreate.editor/
+file:/C:/dev/courses/polyCreate/fr.univcotedazur.webots.polycreate.rewritingrules/
+file:/C:/dev/courses/polyCreate/fr.univcotedazur.webots.polycreate.xdsml/
 file:/C:/dev/courses/gemoc/plugins/javaewah_1.1.6.v20160919-1400.jar
 file:/C:/dev/courses/gemoc/plugins/javax.annotation_1.2.0.v201602091430.jar
 file:/C:/dev/courses/gemoc/plugins/javax.el_2.2.0.v201303151357.jar

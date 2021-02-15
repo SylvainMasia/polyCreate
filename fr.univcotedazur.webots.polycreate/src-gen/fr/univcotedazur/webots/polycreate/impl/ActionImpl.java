@@ -45,7 +45,7 @@ public abstract class ActionImpl extends MinimalEObjectImpl.Container implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void run() {
+	public void runIt() {
 		// TODO: implement this method
 		// Ensure that you remove @generated or mark it @generated NOT
 		throw new UnsupportedOperationException();
@@ -59,8 +59,8 @@ public abstract class ActionImpl extends MinimalEObjectImpl.Container implements
 	@Override
 	public Object eInvoke(int operationID, EList<?> arguments) throws InvocationTargetException {
 		switch (operationID) {
-		case PolycreatePackage.ACTION___RUN:
-			run();
+		case PolycreatePackage.ACTION___RUN_IT:
+			runIt();
 			return null;
 		}
 		return super.eInvoke(operationID, arguments);

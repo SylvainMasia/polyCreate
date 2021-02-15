@@ -82,7 +82,7 @@ public class SequenceImpl extends MinimalEObjectImpl.Container implements Sequen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void run() {
+	public void runIt() {
 		// TODO: implement this method
 		// Ensure that you remove @generated or mark it @generated NOT
 		throw new UnsupportedOperationException();
@@ -170,8 +170,8 @@ public class SequenceImpl extends MinimalEObjectImpl.Container implements Sequen
 	@Override
 	public Object eInvoke(int operationID, EList<?> arguments) throws InvocationTargetException {
 		switch (operationID) {
-		case PolycreatePackage.SEQUENCE___RUN:
-			run();
+		case PolycreatePackage.SEQUENCE___RUN_IT:
+			runIt();
 			return null;
 		}
 		return super.eInvoke(operationID, arguments);

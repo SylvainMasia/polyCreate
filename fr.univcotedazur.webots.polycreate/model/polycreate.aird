@@ -504,9 +504,9 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="__nD4Em8IEeuSIeQRYTtl5w" iconPath="/fr.univcotedazur.webots.polycreate.edit/icons/full/obj16/Sequence.gif" description="__nD4EG8IEeuSIeQRYTtl5w" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216"/>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_NHvO0GonEeuVmfnhFEa7EQ" name="run()" tooltipText="run()">
-        <target xmi:type="ecore:EOperation" href="polycreate.ecore#//Sequence/run"/>
-        <semanticElements xmi:type="ecore:EOperation" href="polycreate.ecore#//Sequence/run"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_NHvO0GonEeuVmfnhFEa7EQ" name="runIt()" tooltipText="runIt()">
+        <target xmi:type="ecore:EOperation" href="polycreate.ecore#//Sequence/runIt"/>
+        <semanticElements xmi:type="ecore:EOperation" href="polycreate.ecore#//Sequence/runIt"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_NHv14GonEeuVmfnhFEa7EQ" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
         </ownedStyle>
@@ -523,9 +523,9 @@
         <labelFormat>italic</labelFormat>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_FZ9q0GonEeuVmfnhFEa7EQ" name="run()" tooltipText="run()">
-        <target xmi:type="ecore:EOperation" href="polycreate.ecore#//Action/run"/>
-        <semanticElements xmi:type="ecore:EOperation" href="polycreate.ecore#//Action/run"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_FZ9q0GonEeuVmfnhFEa7EQ" name="runIt()" tooltipText="runIt()">
+        <target xmi:type="ecore:EOperation" href="polycreate.ecore#//Action/runIt"/>
+        <semanticElements xmi:type="ecore:EOperation" href="polycreate.ecore#//Action/runIt"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_FZ9q0WonEeuVmfnhFEa7EQ" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
         </ownedStyle>
@@ -614,9 +614,9 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_PJS24GonEeuVmfnhFEa7EQ" name="run()" tooltipText="run()">
-        <target xmi:type="ecore:EOperation" href="polycreate.ecore#//Condition/run"/>
-        <semanticElements xmi:type="ecore:EOperation" href="polycreate.ecore#//Condition/run"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_PJS24GonEeuVmfnhFEa7EQ" name="runIt()" tooltipText="runIt()">
+        <target xmi:type="ecore:EOperation" href="polycreate.ecore#//Condition/runIt"/>
+        <semanticElements xmi:type="ecore:EOperation" href="polycreate.ecore#//Condition/runIt"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_PJS24WonEeuVmfnhFEa7EQ" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
         </ownedStyle>

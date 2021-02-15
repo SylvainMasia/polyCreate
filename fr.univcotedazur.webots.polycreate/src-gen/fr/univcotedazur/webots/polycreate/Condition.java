@@ -61,6 +61,6 @@ public interface Condition extends EObject {
 	 * @model
 	 * @generated
 	 */
-	void run();
+	void runIt();
 
 } // Condition

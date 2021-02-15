@@ -45,6 +45,6 @@ public interface Sequence extends EObject {
 	 * @model
 	 * @generated
 	 */
-	void run();
+	void runIt();
 
 } // Sequence

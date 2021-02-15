@@ -15,10 +15,10 @@
     </genClasses>
     <genClasses ecoreClass="polycreate.ecore#//Sequence">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//Sequence/actions"/>
-      <genOperations ecoreOperation="polycreate.ecore#//Sequence/run"/>
+      <genOperations ecoreOperation="polycreate.ecore#//Sequence/runIt"/>
     </genClasses>
     <genClasses ecoreClass="polycreate.ecore#//Action">
-      <genOperations ecoreOperation="polycreate.ecore#//Action/run"/>
+      <genOperations ecoreOperation="polycreate.ecore#//Action/runIt"/>
     </genClasses>
     <genClasses ecoreClass="polycreate.ecore#//PhysicalAction"/>
     <genClasses ecoreClass="polycreate.ecore#//LogicalAction">
@@ -27,7 +27,7 @@
     <genClasses ecoreClass="polycreate.ecore#//Condition">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//Condition/alternativeSequence"/>
       <genOperations ecoreOperation="polycreate.ecore#//Condition/isValid"/>
-      <genOperations ecoreOperation="polycreate.ecore#//Condition/run"/>
+      <genOperations ecoreOperation="polycreate.ecore#//Condition/runIt"/>
     </genClasses>
     <genClasses ecoreClass="polycreate.ecore#//AlternativeSequence">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference polycreate.ecore#//AlternativeSequence/nextSequence"/>
