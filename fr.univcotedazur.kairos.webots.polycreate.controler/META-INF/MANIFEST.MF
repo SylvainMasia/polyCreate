@@ -6,7 +6,8 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: UCA/I3S/INRIA Kairos
 Automatic-Module-Name: fr.univcotedazur.kairos.webots.testcontroler
 Bundle-ClassPath: .,
- webotsLibs/
+ webotsLibs/Controller.jar
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: com.cyberbotics.webots.controller,
  fr.univcotedazur.kairos.webots.polycreate.controler
+Bundle-ActivationPolicy: lazy

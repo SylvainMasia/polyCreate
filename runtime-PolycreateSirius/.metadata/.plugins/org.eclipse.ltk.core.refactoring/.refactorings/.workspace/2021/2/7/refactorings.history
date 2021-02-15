@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <session version="1.0">
-<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/fr.univcotedazur.webots.polycreate.modelisation/gemoc-gen/execution/execution-20210215_141148" element2="/fr.univcotedazur.webots.polycreate.modelisation/gemoc-gen/execution/execution-20210215_141348" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1613395101032"/>
+<refactoring comment="Delete resource &apos;fr.univcotedazur.webots.polycreate.modelisation/gemoc-gen&apos;" deleteContents="false" description="Delete resource &apos;fr.univcotedazur.webots.polycreate.modelisation/gemoc-gen&apos;" element1="/fr.univcotedazur.webots.polycreate.modelisation/gemoc-gen" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1613407835081"/>
 </session>

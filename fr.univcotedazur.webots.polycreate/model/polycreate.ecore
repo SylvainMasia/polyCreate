@@ -6,13 +6,10 @@
         upperBound="-1" eType="#//Sequence" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Sequence">
-    <eOperations name="runIt"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="actions" lowerBound="1"
         upperBound="-1" eType="#//Action" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Action" abstract="true">
-    <eOperations name="runIt"/>
-  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Action" abstract="true"/>
   <eClassifiers xsi:type="ecore:EClass" name="PhysicalAction" abstract="true" eSuperTypes="#//Action"/>
   <eClassifiers xsi:type="ecore:EClass" name="LogicalAction" eSuperTypes="#//Action">
     <eStructuralFeatures xsi:type="ecore:EReference" name="conditions" lowerBound="1"
@@ -20,7 +17,6 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Condition">
     <eOperations name="isValid"/>
-    <eOperations name="runIt"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="alternativeSequence" lowerBound="1"
         eType="#//AlternativeSequence" containment="true"/>
   </eClassifiers>

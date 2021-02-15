@@ -6,10 +6,11 @@ IRobot Create Behavioural Language Engineering
 
 [IRobot's Create](https://cyberbotics.com/doc/guide/create)
 
-# File extention
-.pcsd
+# How to run gemoc with webots
 
-# Steps
+
+
+# Installation
 
 - add to path :
 	- C:\Users\damin\AppData\Local\Programs\Webots\lib\controller

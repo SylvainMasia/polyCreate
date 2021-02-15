@@ -41,6 +41,11 @@ public class PolyCreateControler extends Robot {
 	 */
 	public Pen pen = null;
 
+	public Pen getPen() {
+		return pen;
+	}
+
+
 	public Motor[] gripMotors = new Motor[2];
 	public DistanceSensor gripperSensor = null;
 
@@ -155,7 +160,7 @@ public class PolyCreateControler extends Robot {
 	 * give the obstacle distance from the gripper sensor. max distance (i.e., no obstacle detected) is 1500
 	 * @return
 	 */
-	double getObjectDistanceToGripper() {
+	public double getObjectDistanceToGripper() {
 		return gripperSensor.getValue();
 	}
 
@@ -167,7 +172,7 @@ public class PolyCreateControler extends Robot {
 		return (rightBumper.getValue() != 0.0);
 	}
 
-	void flushIRReceiver() {
+	public void flushIRReceiver() {
 		while (receiver.getQueueLength() > 0)
 			receiver.nextPacket();
 	}
@@ -210,7 +215,7 @@ public class PolyCreateControler extends Robot {
 		} while (start_time + sec > getTime());
 	}
 
-	double randdouble() {
+	public double randdouble() {
 		return  random.nextDouble();
 	}
 
@@ -243,7 +248,7 @@ public class PolyCreateControler extends Robot {
 	 * the reference point of the GPS. The wb_gps_get_speed function returns the current GPS speed in meters per second.
 	 * @return
 	 */
-	double[] getPosition() {
+	public double[] getPosition() {
 		return gps.getValues();
 	}
 
@@ -268,7 +273,7 @@ public class PolyCreateControler extends Robot {
 					double[] backObjPos = obj.getPosition();
 					System.out.println("I saw an object on back Camera at : "+backObjPos[0]+","+backObjPos[1]);
 				}
-				CameraRecognitionObject[] frontObjs = controler.backCamera.getCameraRecognitionObjects();
+				CameraRecognitionObject[] frontObjs = controler.frontCamera.getCameraRecognitionObjects();
 				if (frontObjs.length > 0) {
 					CameraRecognitionObject obj = frontObjs[0];
 					double[] frontObjPos = obj.getPosition();
