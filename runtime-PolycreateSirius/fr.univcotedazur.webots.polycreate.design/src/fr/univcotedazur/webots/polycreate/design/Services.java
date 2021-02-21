@@ -1,6 +1,7 @@
 package fr.univcotedazur.webots.polycreate.design;
 
 import fr.univcotedazur.webots.polycreate.Action;
+import fr.univcotedazur.webots.polycreate.Condition;
 import fr.univcotedazur.webots.polycreate.Sequence;
 
 /**
@@ -16,5 +17,9 @@ public class Services {
     	} else {
     		return parentSequence.getActions().get(actionPosition + 1);
     	}
+    }
+    
+    public Sequence getAlternativeSequence(Condition condition) {
+    	return condition.getAlternativeSequence();
     }
 }

@@ -142,29 +142,6 @@ public class PolycreateItemProviderAdapterFactory extends PolycreateAdapterFacto
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.Condition} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected ConditionItemProvider conditionItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.Condition}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createConditionAdapter() {
-		if (conditionItemProvider == null) {
-			conditionItemProvider = new ConditionItemProvider(this);
-		}
-
-		return conditionItemProvider;
-	}
-
-	/**
 	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.AlternativeSequence} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -280,6 +257,98 @@ public class PolycreateItemProviderAdapterFactory extends PolycreateAdapterFacto
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.ObjectInFront} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected ObjectInFrontItemProvider objectInFrontItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.ObjectInFront}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createObjectInFrontAdapter() {
+		if (objectInFrontItemProvider == null) {
+			objectInFrontItemProvider = new ObjectInFrontItemProvider(this);
+		}
+
+		return objectInFrontItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.WallLeft} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected WallLeftItemProvider wallLeftItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.WallLeft}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createWallLeftAdapter() {
+		if (wallLeftItemProvider == null) {
+			wallLeftItemProvider = new WallLeftItemProvider(this);
+		}
+
+		return wallLeftItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.WallRight} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected WallRightItemProvider wallRightItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.WallRight}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createWallRightAdapter() {
+		if (wallRightItemProvider == null) {
+			wallRightItemProvider = new WallRightItemProvider(this);
+		}
+
+		return wallRightItemProvider;
+	}
+
+	/**
+	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.WallFront} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected WallFrontItemProvider wallFrontItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.WallFront}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createWallFrontAdapter() {
+		if (wallFrontItemProvider == null) {
+			wallFrontItemProvider = new WallFrontItemProvider(this);
+		}
+
+		return wallFrontItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -384,8 +453,6 @@ public class PolycreateItemProviderAdapterFactory extends PolycreateAdapterFacto
 			sequenceItemProvider.dispose();
 		if (logicalActionItemProvider != null)
 			logicalActionItemProvider.dispose();
-		if (conditionItemProvider != null)
-			conditionItemProvider.dispose();
 		if (alternativeSequenceItemProvider != null)
 			alternativeSequenceItemProvider.dispose();
 		if (rotateItemProvider != null)
@@ -396,6 +463,14 @@ public class PolycreateItemProviderAdapterFactory extends PolycreateAdapterFacto
 			grabItemProvider.dispose();
 		if (releaseItemProvider != null)
 			releaseItemProvider.dispose();
+		if (objectInFrontItemProvider != null)
+			objectInFrontItemProvider.dispose();
+		if (wallLeftItemProvider != null)
+			wallLeftItemProvider.dispose();
+		if (wallRightItemProvider != null)
+			wallRightItemProvider.dispose();
+		if (wallFrontItemProvider != null)
+			wallFrontItemProvider.dispose();
 	}
 
 }

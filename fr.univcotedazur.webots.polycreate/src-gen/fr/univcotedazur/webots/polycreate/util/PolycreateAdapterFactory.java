@@ -122,6 +122,31 @@ public class PolycreateAdapterFactory extends AdapterFactoryImpl {
 		}
 
 		@Override
+		public Adapter caseWall(Wall object) {
+			return createWallAdapter();
+		}
+
+		@Override
+		public Adapter caseObjectInFront(ObjectInFront object) {
+			return createObjectInFrontAdapter();
+		}
+
+		@Override
+		public Adapter caseWallLeft(WallLeft object) {
+			return createWallLeftAdapter();
+		}
+
+		@Override
+		public Adapter caseWallRight(WallRight object) {
+			return createWallRightAdapter();
+		}
+
+		@Override
+		public Adapter caseWallFront(WallFront object) {
+			return createWallFrontAdapter();
+		}
+
+		@Override
 		public Adapter defaultCase(EObject object) {
 			return createEObjectAdapter();
 		}
@@ -291,6 +316,76 @@ public class PolycreateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createReleaseAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.Wall <em>Wall</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see fr.univcotedazur.webots.polycreate.Wall
+	 * @generated
+	 */
+	public Adapter createWallAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.ObjectInFront <em>Object In Front</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see fr.univcotedazur.webots.polycreate.ObjectInFront
+	 * @generated
+	 */
+	public Adapter createObjectInFrontAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.WallLeft <em>Wall Left</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see fr.univcotedazur.webots.polycreate.WallLeft
+	 * @generated
+	 */
+	public Adapter createWallLeftAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.WallRight <em>Wall Right</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see fr.univcotedazur.webots.polycreate.WallRight
+	 * @generated
+	 */
+	public Adapter createWallRightAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.WallFront <em>Wall Front</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see fr.univcotedazur.webots.polycreate.WallFront
+	 * @generated
+	 */
+	public Adapter createWallFrontAdapter() {
 		return null;
 	}
 

@@ -19,7 +19,6 @@ package fr.univcotedazur.webots.polycreate;
  * @generated
  */
 public interface MoveForward extends PhysicalAction {
-
 	/**
 	 * Returns the value of the '<em><b>Distance</b></em>' attribute.
 	 * The default value is <code>"5"</code>.
@@ -46,4 +45,5 @@ public interface MoveForward extends PhysicalAction {
 	 * @generated
 	 */
 	void setDistance(int value);
+
 } // MoveForward

@@ -17,10 +17,11 @@ import org.eclipse.emf.ecore.EObject;
  * </ul>
  *
  * @see fr.univcotedazur.webots.polycreate.PolycreatePackage#getCondition()
- * @model
+ * @model abstract="true"
  * @generated
  */
 public interface Condition extends EObject {
+
 	/**
 	 * Returns the value of the '<em><b>Alternative Sequence</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
@@ -46,21 +47,4 @@ public interface Condition extends EObject {
 	 * @generated
 	 */
 	void setAlternativeSequence(AlternativeSequence value);
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @model kind="operation"
-	 * @generated
-	 */
-	void isValid();
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @model
-	 * @generated
-	 */
-	void runIt();
-
 } // Condition

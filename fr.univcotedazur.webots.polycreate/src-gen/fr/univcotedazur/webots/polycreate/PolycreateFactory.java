@@ -49,15 +49,6 @@ public interface PolycreateFactory extends EFactory {
 	LogicalAction createLogicalAction();
 
 	/**
-	 * Returns a new object of class '<em>Condition</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Condition</em>'.
-	 * @generated
-	 */
-	Condition createCondition();
-
-	/**
 	 * Returns a new object of class '<em>Alternative Sequence</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -101,6 +92,42 @@ public interface PolycreateFactory extends EFactory {
 	 * @generated
 	 */
 	Release createRelease();
+
+	/**
+	 * Returns a new object of class '<em>Object In Front</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Object In Front</em>'.
+	 * @generated
+	 */
+	ObjectInFront createObjectInFront();
+
+	/**
+	 * Returns a new object of class '<em>Wall Left</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Wall Left</em>'.
+	 * @generated
+	 */
+	WallLeft createWallLeft();
+
+	/**
+	 * Returns a new object of class '<em>Wall Right</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Wall Right</em>'.
+	 * @generated
+	 */
+	WallRight createWallRight();
+
+	/**
+	 * Returns a new object of class '<em>Wall Front</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Wall Front</em>'.
+	 * @generated
+	 */
+	WallFront createWallFront();
 
 	/**
 	 * Returns the package supported by this factory.

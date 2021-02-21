@@ -39,12 +39,4 @@ public interface Sequence extends EObject {
 	 */
 	EList<Action> getActions();
 
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @model
-	 * @generated
-	 */
-	void runIt();
-
 } // Sequence

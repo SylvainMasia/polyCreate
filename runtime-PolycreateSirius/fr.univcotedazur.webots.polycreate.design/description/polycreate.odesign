@@ -12,20 +12,28 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
+        <edgeMappings name="CD_alternative_sequence" sourceMapping="//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subContainerMappings[name='LogicalAction']/@subNodeMappings[name='ObjectInFront'] //@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subContainerMappings[name='LogicalAction']/@subNodeMappings[name='WallAtLeft'] //@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subContainerMappings[name='LogicalAction']/@subNodeMappings[name='WallAtRight'] //@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subContainerMappings[name='LogicalAction']/@subNodeMappings[name='WallInFront']" targetMapping="//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']" targetFinderExpression="service:getAlternativeSequence()" domainClass="polycreate::Condition" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
         <containerMappings name="Sequence" semanticCandidatesExpression="feature:sequences" domainClass="polycreate::Sequence">
-          <subNodeMappings name="MoveForward" domainClass="polycreate::MoveForward">
+          <subNodeMappings name="MoveForward" semanticCandidatesExpression="feature:actions" domainClass="polycreate::MoveForward">
             <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.distance+'cm'" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/MoveForward.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="Grab" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::Grab">
+          <subNodeMappings name="Grab" semanticCandidatesExpression="feature:actions" domainClass="polycreate::Grab">
             <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="Grab" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/Grab.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subNodeMappings>
-          <subNodeMappings name="Release" semanticCandidatesExpression="feature:eAllContents" domainClass="polycreate::Release">
+          <subNodeMappings name="Release" semanticCandidatesExpression="feature:actions" domainClass="polycreate::Release">
             <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="Release" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/Release.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -38,6 +46,30 @@
             </style>
           </subNodeMappings>
           <subContainerMappings name="LogicalAction" semanticCandidatesExpression="feature:actions" domainClass="polycreate::LogicalAction">
+            <subNodeMappings name="WallAtLeft" semanticCandidatesExpression="feature:conditions" domainClass="polycreate::WallLeft">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="WallAtLeft" hideLabelByDefault="true" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/WallLeft.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="WallAtRight" semanticCandidatesExpression="feature:conditions" domainClass="polycreate::WallRight">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="WallAtRight" hideLabelByDefault="true" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/WallRight.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="WallInFront" semanticCandidatesExpression="feature:conditions" domainClass="polycreate::WallFront">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="WallInFront" hideLabelByDefault="true" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/WallFront.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="ObjectInFront" semanticCandidatesExpression="feature:conditions" domainClass="polycreate::ObjectInFront">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="WallInFront" hideLabelByDefault="true" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/ObjectInFront.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </subNodeMappings>
             <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="LogicalAction">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -51,7 +83,7 @@
           </style>
         </containerMappings>
         <customization>
-          <vsmElementCustomizations xsi:type="description:VSMElementCustomization" predicateExpression="aql:self.degrees>0">
+          <vsmElementCustomizations xsi:type="description:VSMElementCustomization" predicateExpression="aql:self.degrees&lt;0">
             <featureCustomizations xsi:type="description:EAttributeCustomization" appliedOn="//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subNodeMappings[name='Rotate']/@style" attributeName="workspacePath" value="/fr.univcotedazur.webots.polycreate.design/icons/RotateRight.png"/>
           </vsmElementCustomizations>
         </customization>

@@ -15,12 +15,4 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface Action extends EObject {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @model
-	 * @generated
-	 */
-	void runIt();
-
 } // Action

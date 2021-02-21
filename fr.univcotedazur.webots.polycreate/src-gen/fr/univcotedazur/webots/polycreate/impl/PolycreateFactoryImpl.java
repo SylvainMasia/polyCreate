@@ -62,8 +62,6 @@ public class PolycreateFactoryImpl extends EFactoryImpl implements PolycreateFac
 			return createSequence();
 		case PolycreatePackage.LOGICAL_ACTION:
 			return createLogicalAction();
-		case PolycreatePackage.CONDITION:
-			return createCondition();
 		case PolycreatePackage.ALTERNATIVE_SEQUENCE:
 			return createAlternativeSequence();
 		case PolycreatePackage.ROTATE:
@@ -74,6 +72,14 @@ public class PolycreateFactoryImpl extends EFactoryImpl implements PolycreateFac
 			return createGrab();
 		case PolycreatePackage.RELEASE:
 			return createRelease();
+		case PolycreatePackage.OBJECT_IN_FRONT:
+			return createObjectInFront();
+		case PolycreatePackage.WALL_LEFT:
+			return createWallLeft();
+		case PolycreatePackage.WALL_RIGHT:
+			return createWallRight();
+		case PolycreatePackage.WALL_FRONT:
+			return createWallFront();
 		default:
 			throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -107,16 +113,6 @@ public class PolycreateFactoryImpl extends EFactoryImpl implements PolycreateFac
 	public LogicalAction createLogicalAction() {
 		LogicalActionImpl logicalAction = new LogicalActionImpl();
 		return logicalAction;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Condition createCondition() {
-		ConditionImpl condition = new ConditionImpl();
-		return condition;
 	}
 
 	/**
@@ -167,6 +163,46 @@ public class PolycreateFactoryImpl extends EFactoryImpl implements PolycreateFac
 	public Release createRelease() {
 		ReleaseImpl release = new ReleaseImpl();
 		return release;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public ObjectInFront createObjectInFront() {
+		ObjectInFrontImpl objectInFront = new ObjectInFrontImpl();
+		return objectInFront;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public WallLeft createWallLeft() {
+		WallLeftImpl wallLeft = new WallLeftImpl();
+		return wallLeft;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public WallRight createWallRight() {
+		WallRightImpl wallRight = new WallRightImpl();
+		return wallRight;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public WallFront createWallFront() {
+		WallFrontImpl wallFront = new WallFrontImpl();
+		return wallFront;
 	}
 
 	/**

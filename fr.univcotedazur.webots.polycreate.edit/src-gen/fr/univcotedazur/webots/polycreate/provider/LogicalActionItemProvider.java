@@ -142,7 +142,16 @@ public class LogicalActionItemProvider extends ActionItemProvider {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
 		newChildDescriptors.add(createChildParameter(PolycreatePackage.Literals.LOGICAL_ACTION__CONDITIONS,
-				PolycreateFactory.eINSTANCE.createCondition()));
+				PolycreateFactory.eINSTANCE.createObjectInFront()));
+
+		newChildDescriptors.add(createChildParameter(PolycreatePackage.Literals.LOGICAL_ACTION__CONDITIONS,
+				PolycreateFactory.eINSTANCE.createWallLeft()));
+
+		newChildDescriptors.add(createChildParameter(PolycreatePackage.Literals.LOGICAL_ACTION__CONDITIONS,
+				PolycreateFactory.eINSTANCE.createWallRight()));
+
+		newChildDescriptors.add(createChildParameter(PolycreatePackage.Literals.LOGICAL_ACTION__CONDITIONS,
+				PolycreateFactory.eINSTANCE.createWallFront()));
 	}
 
 }

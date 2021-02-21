@@ -42,6 +42,7 @@ public class MissionAspect {
   protected static void _privk3_entryPoint(final MissionAspectMissionAspectProperties _self_, final Mission _self) {
     PolyCreateControler _polyCreateControler = new PolyCreateControler();
     MissionAspect.controler(_self, _polyCreateControler);
+    MissionAspect.controler(_self).openGripper();
     EList<Sequence> _sequences = _self.getSequences();
     for (final Sequence s : _sequences) {
       SequenceAspect.runIt(s, MissionAspect.controler(_self));

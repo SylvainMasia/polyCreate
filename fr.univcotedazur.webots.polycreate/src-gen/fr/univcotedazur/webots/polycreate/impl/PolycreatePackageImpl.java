@@ -9,16 +9,20 @@ import fr.univcotedazur.webots.polycreate.Grab;
 import fr.univcotedazur.webots.polycreate.LogicalAction;
 import fr.univcotedazur.webots.polycreate.Mission;
 import fr.univcotedazur.webots.polycreate.MoveForward;
+import fr.univcotedazur.webots.polycreate.ObjectInFront;
 import fr.univcotedazur.webots.polycreate.PhysicalAction;
 import fr.univcotedazur.webots.polycreate.PolycreateFactory;
 import fr.univcotedazur.webots.polycreate.PolycreatePackage;
 import fr.univcotedazur.webots.polycreate.Release;
 import fr.univcotedazur.webots.polycreate.Rotate;
 import fr.univcotedazur.webots.polycreate.Sequence;
+import fr.univcotedazur.webots.polycreate.Wall;
+import fr.univcotedazur.webots.polycreate.WallFront;
+import fr.univcotedazur.webots.polycreate.WallLeft;
+import fr.univcotedazur.webots.polycreate.WallRight;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
-import org.eclipse.emf.ecore.EOperation;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.EReference;
 
@@ -107,6 +111,41 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * @generated
 	 */
 	private EClass releaseEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass wallEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass objectInFrontEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass wallLeftEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass wallRightEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass wallFrontEClass = null;
 
 	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
@@ -213,26 +252,8 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EOperation getSequence__RunIt() {
-		return sequenceEClass.getEOperations().get(0);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public EClass getAction() {
 		return actionEClass;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getAction__RunIt() {
-		return actionEClass.getEOperations().get(0);
 	}
 
 	/**
@@ -285,35 +306,8 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EOperation getCondition__IsValid() {
-		return conditionEClass.getEOperations().get(0);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getCondition__RunIt() {
-		return conditionEClass.getEOperations().get(1);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public EClass getAlternativeSequence() {
 		return alternativeSequenceEClass;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EReference getAlternativeSequence_NextSequence() {
-		return (EReference) alternativeSequenceEClass.getEStructuralFeatures().get(0);
 	}
 
 	/**
@@ -375,6 +369,51 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EClass getWall() {
+		return wallEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getObjectInFront() {
+		return objectInFrontEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getWallLeft() {
+		return wallLeftEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getWallRight() {
+		return wallRightEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EClass getWallFront() {
+		return wallFrontEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public PolycreateFactory getPolycreateFactory() {
 		return (PolycreateFactory) getEFactoryInstance();
 	}
@@ -404,10 +443,8 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 
 		sequenceEClass = createEClass(SEQUENCE);
 		createEReference(sequenceEClass, SEQUENCE__ACTIONS);
-		createEOperation(sequenceEClass, SEQUENCE___RUN_IT);
 
 		actionEClass = createEClass(ACTION);
-		createEOperation(actionEClass, ACTION___RUN_IT);
 
 		physicalActionEClass = createEClass(PHYSICAL_ACTION);
 
@@ -416,11 +453,8 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 
 		conditionEClass = createEClass(CONDITION);
 		createEReference(conditionEClass, CONDITION__ALTERNATIVE_SEQUENCE);
-		createEOperation(conditionEClass, CONDITION___IS_VALID);
-		createEOperation(conditionEClass, CONDITION___RUN_IT);
 
 		alternativeSequenceEClass = createEClass(ALTERNATIVE_SEQUENCE);
-		createEReference(alternativeSequenceEClass, ALTERNATIVE_SEQUENCE__NEXT_SEQUENCE);
 
 		rotateEClass = createEClass(ROTATE);
 		createEAttribute(rotateEClass, ROTATE__DEGREES);
@@ -431,6 +465,16 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 		grabEClass = createEClass(GRAB);
 
 		releaseEClass = createEClass(RELEASE);
+
+		wallEClass = createEClass(WALL);
+
+		objectInFrontEClass = createEClass(OBJECT_IN_FRONT);
+
+		wallLeftEClass = createEClass(WALL_LEFT);
+
+		wallRightEClass = createEClass(WALL_RIGHT);
+
+		wallFrontEClass = createEClass(WALL_FRONT);
 	}
 
 	/**
@@ -469,6 +513,11 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 		moveForwardEClass.getESuperTypes().add(this.getPhysicalAction());
 		grabEClass.getESuperTypes().add(this.getPhysicalAction());
 		releaseEClass.getESuperTypes().add(this.getPhysicalAction());
+		wallEClass.getESuperTypes().add(this.getCondition());
+		objectInFrontEClass.getESuperTypes().add(this.getCondition());
+		wallLeftEClass.getESuperTypes().add(this.getWall());
+		wallRightEClass.getESuperTypes().add(this.getWall());
+		wallFrontEClass.getESuperTypes().add(this.getWall());
 
 		// Initialize classes, features, and operations; add parameters
 		initEClass(missionEClass, Mission.class, "Mission", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
@@ -482,11 +531,7 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE,
 				IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
-		initEOperation(getSequence__RunIt(), null, "runIt", 0, 1, IS_UNIQUE, IS_ORDERED);
-
 		initEClass(actionEClass, Action.class, "Action", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-
-		initEOperation(getAction__RunIt(), null, "runIt", 0, 1, IS_UNIQUE, IS_ORDERED);
 
 		initEClass(physicalActionEClass, PhysicalAction.class, "PhysicalAction", IS_ABSTRACT, !IS_INTERFACE,
 				IS_GENERATED_INSTANCE_CLASS);
@@ -497,21 +542,14 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 				LogicalAction.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
-		initEClass(conditionEClass, Condition.class, "Condition", !IS_ABSTRACT, !IS_INTERFACE,
+		initEClass(conditionEClass, Condition.class, "Condition", IS_ABSTRACT, !IS_INTERFACE,
 				IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getCondition_AlternativeSequence(), this.getAlternativeSequence(), null, "alternativeSequence",
 				null, 1, 1, Condition.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE,
 				!IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
-		initEOperation(getCondition__IsValid(), null, "isValid", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		initEOperation(getCondition__RunIt(), null, "runIt", 0, 1, IS_UNIQUE, IS_ORDERED);
-
 		initEClass(alternativeSequenceEClass, AlternativeSequence.class, "AlternativeSequence", !IS_ABSTRACT,
 				!IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getAlternativeSequence_NextSequence(), this.getSequence(), null, "nextSequence", null, 1, 1,
-				AlternativeSequence.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE,
-				IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(rotateEClass, Rotate.class, "Rotate", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getRotate_Degrees(), ecorePackage.getEInt(), "degrees", "90", 0, 1, Rotate.class, !IS_TRANSIENT,
@@ -525,6 +563,20 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 		initEClass(grabEClass, Grab.class, "Grab", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
 		initEClass(releaseEClass, Release.class, "Release", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+
+		initEClass(wallEClass, Wall.class, "Wall", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+
+		initEClass(objectInFrontEClass, ObjectInFront.class, "ObjectInFront", !IS_ABSTRACT, !IS_INTERFACE,
+				IS_GENERATED_INSTANCE_CLASS);
+
+		initEClass(wallLeftEClass, WallLeft.class, "WallLeft", !IS_ABSTRACT, !IS_INTERFACE,
+				IS_GENERATED_INSTANCE_CLASS);
+
+		initEClass(wallRightEClass, WallRight.class, "WallRight", !IS_ABSTRACT, !IS_INTERFACE,
+				IS_GENERATED_INSTANCE_CLASS);
+
+		initEClass(wallFrontEClass, WallFront.class, "WallFront", !IS_ABSTRACT, !IS_INTERFACE,
+				IS_GENERATED_INSTANCE_CLASS);
 
 		// Create resource
 		createResource(eNS_URI);

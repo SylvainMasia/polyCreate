@@ -6,10 +6,11 @@ import fr.inria.diverse.k3.al.annotationprocessor.Step;
 import fr.univcotedazur.kairos.webots.polycreate.controler.PolyCreateControler;
 import fr.univcotedazur.webots.polycreate.MoveForward;
 import fr.univcotedazur.webots.polycreate.rewritingrules.MoveForwardAspectMoveForwardAspectProperties;
+import fr.univcotedazur.webots.polycreate.rewritingrules.PhysicalActionAspect;
 
 @Aspect(className = MoveForward.class)
 @SuppressWarnings("all")
-public class MoveForwardAspect {
+public class MoveForwardAspect extends PhysicalActionAspect {
   @Step
   @ReplaceAspectMethod
   public static void runIt(final MoveForward _self, final PolyCreateControler controler) {
@@ -33,8 +34,13 @@ public class MoveForwardAspect {
   }
   
   protected static void _privk3_runIt(final MoveForwardAspectMoveForwardAspectProperties _self_, final MoveForward _self, final PolyCreateControler controler) {
+    int _distance = _self.getDistance();
+    String _plus = ("Going forward " + Integer.valueOf(_distance));
+    String _plus_1 = (_plus + "cm");
+    System.out.println(_plus_1);
     controler.goForward();
-    controler.passiveWait(_self.getDistance());
-    controler.stop();
+    int _distance_1 = _self.getDistance();
+    double _multiply = (_distance_1 * 0.05);
+    controler.passiveWait(_multiply);
   }
 }

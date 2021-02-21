@@ -165,6 +165,57 @@ public class PolycreateSwitch<T> extends Switch<T> {
 				result = defaultCase(theEObject);
 			return result;
 		}
+		case PolycreatePackage.WALL: {
+			Wall wall = (Wall) theEObject;
+			T result = caseWall(wall);
+			if (result == null)
+				result = caseCondition(wall);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
+		case PolycreatePackage.OBJECT_IN_FRONT: {
+			ObjectInFront objectInFront = (ObjectInFront) theEObject;
+			T result = caseObjectInFront(objectInFront);
+			if (result == null)
+				result = caseCondition(objectInFront);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
+		case PolycreatePackage.WALL_LEFT: {
+			WallLeft wallLeft = (WallLeft) theEObject;
+			T result = caseWallLeft(wallLeft);
+			if (result == null)
+				result = caseWall(wallLeft);
+			if (result == null)
+				result = caseCondition(wallLeft);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
+		case PolycreatePackage.WALL_RIGHT: {
+			WallRight wallRight = (WallRight) theEObject;
+			T result = caseWallRight(wallRight);
+			if (result == null)
+				result = caseWall(wallRight);
+			if (result == null)
+				result = caseCondition(wallRight);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
+		case PolycreatePackage.WALL_FRONT: {
+			WallFront wallFront = (WallFront) theEObject;
+			T result = caseWallFront(wallFront);
+			if (result == null)
+				result = caseWall(wallFront);
+			if (result == null)
+				result = caseCondition(wallFront);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
 		default:
 			return defaultCase(theEObject);
 		}
@@ -332,6 +383,81 @@ public class PolycreateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseRelease(Release object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Wall</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Wall</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseWall(Wall object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Object In Front</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Object In Front</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseObjectInFront(ObjectInFront object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Wall Left</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Wall Left</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseWallLeft(WallLeft object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Wall Right</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Wall Right</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseWallRight(WallRight object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Wall Front</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Wall Front</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseWallFront(WallFront object) {
 		return null;
 	}
 

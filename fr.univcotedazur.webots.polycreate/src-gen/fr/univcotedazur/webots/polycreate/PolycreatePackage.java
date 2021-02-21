@@ -4,7 +4,6 @@ package fr.univcotedazur.webots.polycreate;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
-import org.eclipse.emf.ecore.EOperation;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.EReference;
 
@@ -123,22 +122,13 @@ public interface PolycreatePackage extends EPackage {
 	int SEQUENCE_FEATURE_COUNT = 1;
 
 	/**
-	 * The operation id for the '<em>Run It</em>' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int SEQUENCE___RUN_IT = 0;
-
-	/**
 	 * The number of operations of the '<em>Sequence</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int SEQUENCE_OPERATION_COUNT = 1;
+	int SEQUENCE_OPERATION_COUNT = 0;
 
 	/**
 	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.ActionImpl <em>Action</em>}' class.
@@ -160,22 +150,13 @@ public interface PolycreatePackage extends EPackage {
 	int ACTION_FEATURE_COUNT = 0;
 
 	/**
-	 * The operation id for the '<em>Run It</em>' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ACTION___RUN_IT = 0;
-
-	/**
 	 * The number of operations of the '<em>Action</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int ACTION_OPERATION_COUNT = 1;
+	int ACTION_OPERATION_COUNT = 0;
 
 	/**
 	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.PhysicalActionImpl <em>Physical Action</em>}' class.
@@ -195,15 +176,6 @@ public interface PolycreatePackage extends EPackage {
 	 * @ordered
 	 */
 	int PHYSICAL_ACTION_FEATURE_COUNT = ACTION_FEATURE_COUNT + 0;
-
-	/**
-	 * The operation id for the '<em>Run It</em>' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int PHYSICAL_ACTION___RUN_IT = ACTION___RUN_IT;
 
 	/**
 	 * The number of operations of the '<em>Physical Action</em>' class.
@@ -243,15 +215,6 @@ public interface PolycreatePackage extends EPackage {
 	int LOGICAL_ACTION_FEATURE_COUNT = ACTION_FEATURE_COUNT + 1;
 
 	/**
-	 * The operation id for the '<em>Run It</em>' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int LOGICAL_ACTION___RUN_IT = ACTION___RUN_IT;
-
-	/**
 	 * The number of operations of the '<em>Logical Action</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -289,31 +252,13 @@ public interface PolycreatePackage extends EPackage {
 	int CONDITION_FEATURE_COUNT = 1;
 
 	/**
-	 * The operation id for the '<em>Is Valid</em>' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int CONDITION___IS_VALID = 0;
-
-	/**
-	 * The operation id for the '<em>Run It</em>' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int CONDITION___RUN_IT = 1;
-
-	/**
 	 * The number of operations of the '<em>Condition</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int CONDITION_OPERATION_COUNT = 2;
+	int CONDITION_OPERATION_COUNT = 0;
 
 	/**
 	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.AlternativeSequenceImpl <em>Alternative Sequence</em>}' class.
@@ -335,31 +280,13 @@ public interface PolycreatePackage extends EPackage {
 	int ALTERNATIVE_SEQUENCE__ACTIONS = SEQUENCE__ACTIONS;
 
 	/**
-	 * The feature id for the '<em><b>Next Sequence</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ALTERNATIVE_SEQUENCE__NEXT_SEQUENCE = SEQUENCE_FEATURE_COUNT + 0;
-
-	/**
 	 * The number of structural features of the '<em>Alternative Sequence</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int ALTERNATIVE_SEQUENCE_FEATURE_COUNT = SEQUENCE_FEATURE_COUNT + 1;
-
-	/**
-	 * The operation id for the '<em>Run It</em>' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ALTERNATIVE_SEQUENCE___RUN_IT = SEQUENCE___RUN_IT;
+	int ALTERNATIVE_SEQUENCE_FEATURE_COUNT = SEQUENCE_FEATURE_COUNT + 0;
 
 	/**
 	 * The number of operations of the '<em>Alternative Sequence</em>' class.
@@ -399,15 +326,6 @@ public interface PolycreatePackage extends EPackage {
 	int ROTATE_FEATURE_COUNT = PHYSICAL_ACTION_FEATURE_COUNT + 1;
 
 	/**
-	 * The operation id for the '<em>Run It</em>' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ROTATE___RUN_IT = PHYSICAL_ACTION___RUN_IT;
-
-	/**
 	 * The number of operations of the '<em>Rotate</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -445,15 +363,6 @@ public interface PolycreatePackage extends EPackage {
 	int MOVE_FORWARD_FEATURE_COUNT = PHYSICAL_ACTION_FEATURE_COUNT + 1;
 
 	/**
-	 * The operation id for the '<em>Run It</em>' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int MOVE_FORWARD___RUN_IT = PHYSICAL_ACTION___RUN_IT;
-
-	/**
 	 * The number of operations of the '<em>Move Forward</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -480,15 +389,6 @@ public interface PolycreatePackage extends EPackage {
 	 * @ordered
 	 */
 	int GRAB_FEATURE_COUNT = PHYSICAL_ACTION_FEATURE_COUNT + 0;
-
-	/**
-	 * The operation id for the '<em>Run It</em>' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int GRAB___RUN_IT = PHYSICAL_ACTION___RUN_IT;
 
 	/**
 	 * The number of operations of the '<em>Grab</em>' class.
@@ -519,15 +419,6 @@ public interface PolycreatePackage extends EPackage {
 	int RELEASE_FEATURE_COUNT = PHYSICAL_ACTION_FEATURE_COUNT + 0;
 
 	/**
-	 * The operation id for the '<em>Run It</em>' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELEASE___RUN_IT = PHYSICAL_ACTION___RUN_IT;
-
-	/**
 	 * The number of operations of the '<em>Release</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -535,6 +426,191 @@ public interface PolycreatePackage extends EPackage {
 	 * @ordered
 	 */
 	int RELEASE_OPERATION_COUNT = PHYSICAL_ACTION_OPERATION_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.WallImpl <em>Wall</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see fr.univcotedazur.webots.polycreate.impl.WallImpl
+	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getWall()
+	 * @generated
+	 */
+	int WALL = 11;
+
+	/**
+	 * The feature id for the '<em><b>Alternative Sequence</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WALL__ALTERNATIVE_SEQUENCE = CONDITION__ALTERNATIVE_SEQUENCE;
+
+	/**
+	 * The number of structural features of the '<em>Wall</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WALL_FEATURE_COUNT = CONDITION_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of operations of the '<em>Wall</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WALL_OPERATION_COUNT = CONDITION_OPERATION_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.ObjectInFrontImpl <em>Object In Front</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see fr.univcotedazur.webots.polycreate.impl.ObjectInFrontImpl
+	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getObjectInFront()
+	 * @generated
+	 */
+	int OBJECT_IN_FRONT = 12;
+
+	/**
+	 * The feature id for the '<em><b>Alternative Sequence</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OBJECT_IN_FRONT__ALTERNATIVE_SEQUENCE = CONDITION__ALTERNATIVE_SEQUENCE;
+
+	/**
+	 * The number of structural features of the '<em>Object In Front</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OBJECT_IN_FRONT_FEATURE_COUNT = CONDITION_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of operations of the '<em>Object In Front</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OBJECT_IN_FRONT_OPERATION_COUNT = CONDITION_OPERATION_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.WallLeftImpl <em>Wall Left</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see fr.univcotedazur.webots.polycreate.impl.WallLeftImpl
+	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getWallLeft()
+	 * @generated
+	 */
+	int WALL_LEFT = 13;
+
+	/**
+	 * The feature id for the '<em><b>Alternative Sequence</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WALL_LEFT__ALTERNATIVE_SEQUENCE = WALL__ALTERNATIVE_SEQUENCE;
+
+	/**
+	 * The number of structural features of the '<em>Wall Left</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WALL_LEFT_FEATURE_COUNT = WALL_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of operations of the '<em>Wall Left</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WALL_LEFT_OPERATION_COUNT = WALL_OPERATION_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.WallRightImpl <em>Wall Right</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see fr.univcotedazur.webots.polycreate.impl.WallRightImpl
+	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getWallRight()
+	 * @generated
+	 */
+	int WALL_RIGHT = 14;
+
+	/**
+	 * The feature id for the '<em><b>Alternative Sequence</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WALL_RIGHT__ALTERNATIVE_SEQUENCE = WALL__ALTERNATIVE_SEQUENCE;
+
+	/**
+	 * The number of structural features of the '<em>Wall Right</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WALL_RIGHT_FEATURE_COUNT = WALL_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of operations of the '<em>Wall Right</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WALL_RIGHT_OPERATION_COUNT = WALL_OPERATION_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.WallFrontImpl <em>Wall Front</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see fr.univcotedazur.webots.polycreate.impl.WallFrontImpl
+	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getWallFront()
+	 * @generated
+	 */
+	int WALL_FRONT = 15;
+
+	/**
+	 * The feature id for the '<em><b>Alternative Sequence</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WALL_FRONT__ALTERNATIVE_SEQUENCE = WALL__ALTERNATIVE_SEQUENCE;
+
+	/**
+	 * The number of structural features of the '<em>Wall Front</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WALL_FRONT_FEATURE_COUNT = WALL_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of operations of the '<em>Wall Front</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WALL_FRONT_OPERATION_COUNT = WALL_OPERATION_COUNT + 0;
 
 	/**
 	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.Mission <em>Mission</em>}'.
@@ -579,16 +655,6 @@ public interface PolycreatePackage extends EPackage {
 	EReference getSequence_Actions();
 
 	/**
-	 * Returns the meta object for the '{@link fr.univcotedazur.webots.polycreate.Sequence#runIt() <em>Run It</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Run It</em>' operation.
-	 * @see fr.univcotedazur.webots.polycreate.Sequence#runIt()
-	 * @generated
-	 */
-	EOperation getSequence__RunIt();
-
-	/**
 	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.Action <em>Action</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -597,16 +663,6 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 */
 	EClass getAction();
-
-	/**
-	 * Returns the meta object for the '{@link fr.univcotedazur.webots.polycreate.Action#runIt() <em>Run It</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Run It</em>' operation.
-	 * @see fr.univcotedazur.webots.polycreate.Action#runIt()
-	 * @generated
-	 */
-	EOperation getAction__RunIt();
 
 	/**
 	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.PhysicalAction <em>Physical Action</em>}'.
@@ -661,26 +717,6 @@ public interface PolycreatePackage extends EPackage {
 	EReference getCondition_AlternativeSequence();
 
 	/**
-	 * Returns the meta object for the '{@link fr.univcotedazur.webots.polycreate.Condition#isValid() <em>Is Valid</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Is Valid</em>' operation.
-	 * @see fr.univcotedazur.webots.polycreate.Condition#isValid()
-	 * @generated
-	 */
-	EOperation getCondition__IsValid();
-
-	/**
-	 * Returns the meta object for the '{@link fr.univcotedazur.webots.polycreate.Condition#runIt() <em>Run It</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the '<em>Run It</em>' operation.
-	 * @see fr.univcotedazur.webots.polycreate.Condition#runIt()
-	 * @generated
-	 */
-	EOperation getCondition__RunIt();
-
-	/**
 	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.AlternativeSequence <em>Alternative Sequence</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -689,17 +725,6 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 */
 	EClass getAlternativeSequence();
-
-	/**
-	 * Returns the meta object for the reference '{@link fr.univcotedazur.webots.polycreate.AlternativeSequence#getNextSequence <em>Next Sequence</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Next Sequence</em>'.
-	 * @see fr.univcotedazur.webots.polycreate.AlternativeSequence#getNextSequence()
-	 * @see #getAlternativeSequence()
-	 * @generated
-	 */
-	EReference getAlternativeSequence_NextSequence();
 
 	/**
 	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.Rotate <em>Rotate</em>}'.
@@ -764,6 +789,56 @@ public interface PolycreatePackage extends EPackage {
 	EClass getRelease();
 
 	/**
+	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.Wall <em>Wall</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Wall</em>'.
+	 * @see fr.univcotedazur.webots.polycreate.Wall
+	 * @generated
+	 */
+	EClass getWall();
+
+	/**
+	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.ObjectInFront <em>Object In Front</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Object In Front</em>'.
+	 * @see fr.univcotedazur.webots.polycreate.ObjectInFront
+	 * @generated
+	 */
+	EClass getObjectInFront();
+
+	/**
+	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.WallLeft <em>Wall Left</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Wall Left</em>'.
+	 * @see fr.univcotedazur.webots.polycreate.WallLeft
+	 * @generated
+	 */
+	EClass getWallLeft();
+
+	/**
+	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.WallRight <em>Wall Right</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Wall Right</em>'.
+	 * @see fr.univcotedazur.webots.polycreate.WallRight
+	 * @generated
+	 */
+	EClass getWallRight();
+
+	/**
+	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.WallFront <em>Wall Front</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Wall Front</em>'.
+	 * @see fr.univcotedazur.webots.polycreate.WallFront
+	 * @generated
+	 */
+	EClass getWallFront();
+
+	/**
 	 * Returns the factory that creates the instances of the model.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -823,14 +898,6 @@ public interface PolycreatePackage extends EPackage {
 		EReference SEQUENCE__ACTIONS = eINSTANCE.getSequence_Actions();
 
 		/**
-		 * The meta object literal for the '<em><b>Run It</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation SEQUENCE___RUN_IT = eINSTANCE.getSequence__RunIt();
-
-		/**
 		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.ActionImpl <em>Action</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -839,14 +906,6 @@ public interface PolycreatePackage extends EPackage {
 		 * @generated
 		 */
 		EClass ACTION = eINSTANCE.getAction();
-
-		/**
-		 * The meta object literal for the '<em><b>Run It</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation ACTION___RUN_IT = eINSTANCE.getAction__RunIt();
 
 		/**
 		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.PhysicalActionImpl <em>Physical Action</em>}' class.
@@ -895,22 +954,6 @@ public interface PolycreatePackage extends EPackage {
 		EReference CONDITION__ALTERNATIVE_SEQUENCE = eINSTANCE.getCondition_AlternativeSequence();
 
 		/**
-		 * The meta object literal for the '<em><b>Is Valid</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation CONDITION___IS_VALID = eINSTANCE.getCondition__IsValid();
-
-		/**
-		 * The meta object literal for the '<em><b>Run It</b></em>' operation.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EOperation CONDITION___RUN_IT = eINSTANCE.getCondition__RunIt();
-
-		/**
 		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.AlternativeSequenceImpl <em>Alternative Sequence</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -919,14 +962,6 @@ public interface PolycreatePackage extends EPackage {
 		 * @generated
 		 */
 		EClass ALTERNATIVE_SEQUENCE = eINSTANCE.getAlternativeSequence();
-
-		/**
-		 * The meta object literal for the '<em><b>Next Sequence</b></em>' reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference ALTERNATIVE_SEQUENCE__NEXT_SEQUENCE = eINSTANCE.getAlternativeSequence_NextSequence();
 
 		/**
 		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.RotateImpl <em>Rotate</em>}' class.
@@ -983,6 +1018,56 @@ public interface PolycreatePackage extends EPackage {
 		 * @generated
 		 */
 		EClass RELEASE = eINSTANCE.getRelease();
+
+		/**
+		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.WallImpl <em>Wall</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see fr.univcotedazur.webots.polycreate.impl.WallImpl
+		 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getWall()
+		 * @generated
+		 */
+		EClass WALL = eINSTANCE.getWall();
+
+		/**
+		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.ObjectInFrontImpl <em>Object In Front</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see fr.univcotedazur.webots.polycreate.impl.ObjectInFrontImpl
+		 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getObjectInFront()
+		 * @generated
+		 */
+		EClass OBJECT_IN_FRONT = eINSTANCE.getObjectInFront();
+
+		/**
+		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.WallLeftImpl <em>Wall Left</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see fr.univcotedazur.webots.polycreate.impl.WallLeftImpl
+		 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getWallLeft()
+		 * @generated
+		 */
+		EClass WALL_LEFT = eINSTANCE.getWallLeft();
+
+		/**
+		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.WallRightImpl <em>Wall Right</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see fr.univcotedazur.webots.polycreate.impl.WallRightImpl
+		 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getWallRight()
+		 * @generated
+		 */
+		EClass WALL_RIGHT = eINSTANCE.getWallRight();
+
+		/**
+		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.WallFrontImpl <em>Wall Front</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see fr.univcotedazur.webots.polycreate.impl.WallFrontImpl
+		 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getWallFront()
+		 * @generated
+		 */
+		EClass WALL_FRONT = eINSTANCE.getWallFront();
 
 	}
 

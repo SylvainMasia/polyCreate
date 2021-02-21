@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="ASCII"?>
 <polycreate:Mission xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:polycreate="http://www.example.org/polycreate">
   <sequences>
-    <actions xsi:type="polycreate:MoveForward"/>
+    <actions xsi:type="polycreate:MoveForward" distance="20"/>
     <actions xsi:type="polycreate:Rotate"/>
-    <actions xsi:type="polycreate:MoveForward" distance="10"/>
+    <actions xsi:type="polycreate:MoveForward" distance="25"/>
     <actions xsi:type="polycreate:Rotate" degrees="-90"/>
+    <actions xsi:type="polycreate:MoveForward" distance="30"/>
+    <actions xsi:type="polycreate:LogicalAction">
+      <conditions xsi:type="polycreate:WallLeft"/>
+      <conditions xsi:type="polycreate:WallRight"/>
+      <conditions xsi:type="polycreate:WallFront"/>
+      <conditions xsi:type="polycreate:ObjectInFront">
+        <alternativeSequence>
+          <actions xsi:type="polycreate:Grab"/>
+        </alternativeSequence>
+      </conditions>
+    </actions>
   </sequences>
 </polycreate:Mission>

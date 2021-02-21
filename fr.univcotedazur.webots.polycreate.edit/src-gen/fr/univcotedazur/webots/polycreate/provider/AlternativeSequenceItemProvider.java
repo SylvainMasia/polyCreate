@@ -2,15 +2,12 @@
  */
 package fr.univcotedazur.webots.polycreate.provider;
 
-import fr.univcotedazur.webots.polycreate.PolycreatePackage;
-
 import java.util.Collection;
 import java.util.List;
 
 import org.eclipse.emf.common.notify.AdapterFactory;
 import org.eclipse.emf.common.notify.Notification;
 
-import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
 
 /**
@@ -41,24 +38,8 @@ public class AlternativeSequenceItemProvider extends SequenceItemProvider {
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
-			addNextSequencePropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
-	}
-
-	/**
-	 * This adds a property descriptor for the Next Sequence feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addNextSequencePropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add(createItemPropertyDescriptor(
-				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
-				getString("_UI_AlternativeSequence_nextSequence_feature"),
-				getString("_UI_PropertyDescriptor_description", "_UI_AlternativeSequence_nextSequence_feature",
-						"_UI_AlternativeSequence_type"),
-				PolycreatePackage.Literals.ALTERNATIVE_SEQUENCE__NEXT_SEQUENCE, true, false, true, null, null, null));
 	}
 
 	/**

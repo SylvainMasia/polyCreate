@@ -6,7 +6,9 @@ import fr.univcotedazur.webots.polycreate.MoveForward;
 import fr.univcotedazur.webots.polycreate.PolycreatePackage;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 
 /**
@@ -32,6 +34,7 @@ public class MoveForwardImpl extends PhysicalActionImpl implements MoveForward {
 	 * @ordered
 	 */
 	protected static final int DISTANCE_EDEFAULT = 5;
+
 	/**
 	 * The cached value of the '{@link #getDistance() <em>Distance</em>}' attribute.
 	 * <!-- begin-user-doc -->

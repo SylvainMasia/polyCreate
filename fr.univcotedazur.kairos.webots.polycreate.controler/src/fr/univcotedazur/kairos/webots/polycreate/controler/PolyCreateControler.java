@@ -16,7 +16,7 @@ import java.util.Random;
 import com.cyberbotics.webots.controller.Camera;
 import com.cyberbotics.webots.controller.CameraRecognitionObject;
 import com.cyberbotics.webots.controller.DistanceSensor;
-import com.cyberbotics.webots.controller.GPS;
+//import com.cyberbotics.webots.controller.GPS;
 import com.cyberbotics.webots.controller.LED;
 import com.cyberbotics.webots.controller.Motor;
 import com.cyberbotics.webots.controller.Pen;
@@ -72,7 +72,7 @@ public class PolyCreateControler extends Robot {
 
 	public Receiver receiver = null;
 
-	public GPS gps = null;
+//	public GPS gps = null;
 	
 	public 	int timestep = Integer.MAX_VALUE;
 	public 	Random random = new Random();
@@ -130,8 +130,8 @@ public class PolyCreateControler extends Robot {
 		receiver = createReceiver("receiver");
 		receiver.enable(timestep);
 
-		gps = createGPS("gps");
-		gps.enable(timestep);
+//		gps = createGPS("gps");
+//		gps.enable(timestep);
 		
 		PolyCreateControler ctrl = this;
 		Runtime.getRuntime().addShutdownHook(new Thread()
@@ -240,17 +240,17 @@ public class PolyCreateControler extends Robot {
 		step(timestep);
 	}
 
-	/**
-	 * The values are returned as a 3D-vector, therefore only the indices 0, 1, and 2 are valid for accessing the vector.
-	 * The returned vector indicates the absolute position of the GPS device. This position can either be expressed in the 
-	 * cartesian coordinate system of Webots or using latitude-longitude-altitude, depending on the value of the 
-	 * gpsCoordinateSystem field of the WorldInfo node. The gpsReference field of the WorldInfo node can be used to define
-	 * the reference point of the GPS. The wb_gps_get_speed function returns the current GPS speed in meters per second.
-	 * @return
-	 */
-	public double[] getPosition() {
-		return gps.getValues();
-	}
+//	/**
+//	 * The values are returned as a 3D-vector, therefore only the indices 0, 1, and 2 are valid for accessing the vector.
+//	 * The returned vector indicates the absolute position of the GPS device. This position can either be expressed in the 
+//	 * cartesian coordinate system of Webots or using latitude-longitude-altitude, depending on the value of the 
+//	 * gpsCoordinateSystem field of the WorldInfo node. The gpsReference field of the WorldInfo node can be used to define
+//	 * the reference point of the GPS. The wb_gps_get_speed function returns the current GPS speed in meters per second.
+//	 * @return
+//	 */
+//	public double[] getPosition() {
+//		return gps.getValues();
+//	}
 
 
 	public static void main(String[] args) {

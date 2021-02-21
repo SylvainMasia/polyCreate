@@ -6,8 +6,6 @@ import fr.univcotedazur.webots.polycreate.Action;
 import fr.univcotedazur.webots.polycreate.PolycreatePackage;
 import fr.univcotedazur.webots.polycreate.Sequence;
 
-import java.lang.reflect.InvocationTargetException;
-
 import java.util.Collection;
 
 import org.eclipse.emf.common.notify.NotificationChain;
@@ -82,17 +80,6 @@ public class SequenceImpl extends MinimalEObjectImpl.Container implements Sequen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void runIt() {
-		// TODO: implement this method
-		// Ensure that you remove @generated or mark it @generated NOT
-		throw new UnsupportedOperationException();
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
@@ -160,21 +147,6 @@ public class SequenceImpl extends MinimalEObjectImpl.Container implements Sequen
 			return actions != null && !actions.isEmpty();
 		}
 		return super.eIsSet(featureID);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Object eInvoke(int operationID, EList<?> arguments) throws InvocationTargetException {
-		switch (operationID) {
-		case PolycreatePackage.SEQUENCE___RUN_IT:
-			runIt();
-			return null;
-		}
-		return super.eInvoke(operationID, arguments);
 	}
 
 } //SequenceImpl
