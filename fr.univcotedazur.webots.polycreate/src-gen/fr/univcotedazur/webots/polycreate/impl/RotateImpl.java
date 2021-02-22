@@ -24,7 +24,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  *
  * @generated
  */
-public class RotateImpl extends PhysicalActionImpl implements Rotate {
+public class RotateImpl extends ActionImpl implements Rotate {
 	/**
 	 * The default value of the '{@link #getDegrees() <em>Degrees</em>}' attribute.
 	 * <!-- begin-user-doc -->

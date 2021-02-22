@@ -9,7 +9,7 @@ import fr.univcotedazur.webots.polycreate.rewritingrules.WallLeftAspectWallLeftA
 
 @Aspect(className = WallLeft.class)
 @SuppressWarnings("all")
-public abstract class WallLeftAspect {
+public class WallLeftAspect {
   @Step
   @ReplaceAspectMethod
   public static boolean isValid(final WallLeft _self, final PolyCreateControler controler) {

@@ -4,35 +4,40 @@
   <eClassifiers xsi:type="ecore:EClass" name="Mission">
     <eStructuralFeatures xsi:type="ecore:EReference" name="sequences" lowerBound="1"
         upperBound="-1" eType="#//Sequence" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="time" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sensorChecker" lowerBound="1"
+        eType="#//SensorChecker" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Sequence">
     <eStructuralFeatures xsi:type="ecore:EReference" name="actions" lowerBound="1"
         upperBound="-1" eType="#//Action" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Action" abstract="true"/>
-  <eClassifiers xsi:type="ecore:EClass" name="PhysicalAction" abstract="true" eSuperTypes="#//Action"/>
-  <eClassifiers xsi:type="ecore:EClass" name="LogicalAction" eSuperTypes="#//Action">
+  <eClassifiers xsi:type="ecore:EClass" name="SensorChecker">
     <eStructuralFeatures xsi:type="ecore:EReference" name="conditions" lowerBound="1"
         upperBound="-1" eType="#//Condition" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Condition" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EReference" name="alternativeSequence" lowerBound="1"
-        eType="#//AlternativeSequence" containment="true"/>
+        eType="#//Sequence" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AlternativeSequence" eSuperTypes="#//Sequence"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Rotate" eSuperTypes="#//PhysicalAction">
+  <eClassifiers xsi:type="ecore:EClass" name="Rotate" eSuperTypes="#//Action">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="degrees" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
         defaultValueLiteral="90"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="MoveForward" eSuperTypes="#//PhysicalAction">
+  <eClassifiers xsi:type="ecore:EClass" name="MoveForward" eSuperTypes="#//Action">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="distance" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
         defaultValueLiteral="5"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Grab" eSuperTypes="#//PhysicalAction"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Release" eSuperTypes="#//PhysicalAction"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Grab" eSuperTypes="#//Action"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Release" eSuperTypes="#//Action"/>
   <eClassifiers xsi:type="ecore:EClass" name="Wall" abstract="true" eSuperTypes="#//Condition"/>
   <eClassifiers xsi:type="ecore:EClass" name="ObjectInFront" eSuperTypes="#//Condition"/>
   <eClassifiers xsi:type="ecore:EClass" name="WallLeft" eSuperTypes="#//Wall"/>
   <eClassifiers xsi:type="ecore:EClass" name="WallRight" eSuperTypes="#//Wall"/>
   <eClassifiers xsi:type="ecore:EClass" name="WallFront" eSuperTypes="#//Wall"/>
+  <eClassifiers xsi:type="ecore:EClass" name="MoveBackward" eSuperTypes="#//Action">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="distance" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="5"/>
+  </eClassifiers>
 </ecore:EPackage>

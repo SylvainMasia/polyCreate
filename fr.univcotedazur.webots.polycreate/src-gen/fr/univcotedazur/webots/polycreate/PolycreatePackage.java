@@ -76,13 +76,31 @@ public interface PolycreatePackage extends EPackage {
 	int MISSION__SEQUENCES = 0;
 
 	/**
+	 * The feature id for the '<em><b>Time</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MISSION__TIME = 1;
+
+	/**
+	 * The feature id for the '<em><b>Sensor Checker</b></em>' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MISSION__SENSOR_CHECKER = 2;
+
+	/**
 	 * The number of structural features of the '<em>Mission</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int MISSION_FEATURE_COUNT = 1;
+	int MISSION_FEATURE_COUNT = 3;
 
 	/**
 	 * The number of operations of the '<em>Mission</em>' class.
@@ -159,42 +177,14 @@ public interface PolycreatePackage extends EPackage {
 	int ACTION_OPERATION_COUNT = 0;
 
 	/**
-	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.PhysicalActionImpl <em>Physical Action</em>}' class.
+	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.SensorCheckerImpl <em>Sensor Checker</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see fr.univcotedazur.webots.polycreate.impl.PhysicalActionImpl
-	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getPhysicalAction()
+	 * @see fr.univcotedazur.webots.polycreate.impl.SensorCheckerImpl
+	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getSensorChecker()
 	 * @generated
 	 */
-	int PHYSICAL_ACTION = 3;
-
-	/**
-	 * The number of structural features of the '<em>Physical Action</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int PHYSICAL_ACTION_FEATURE_COUNT = ACTION_FEATURE_COUNT + 0;
-
-	/**
-	 * The number of operations of the '<em>Physical Action</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int PHYSICAL_ACTION_OPERATION_COUNT = ACTION_OPERATION_COUNT + 0;
-
-	/**
-	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.LogicalActionImpl <em>Logical Action</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see fr.univcotedazur.webots.polycreate.impl.LogicalActionImpl
-	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getLogicalAction()
-	 * @generated
-	 */
-	int LOGICAL_ACTION = 4;
+	int SENSOR_CHECKER = 3;
 
 	/**
 	 * The feature id for the '<em><b>Conditions</b></em>' containment reference list.
@@ -203,25 +193,25 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int LOGICAL_ACTION__CONDITIONS = ACTION_FEATURE_COUNT + 0;
+	int SENSOR_CHECKER__CONDITIONS = 0;
 
 	/**
-	 * The number of structural features of the '<em>Logical Action</em>' class.
+	 * The number of structural features of the '<em>Sensor Checker</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int LOGICAL_ACTION_FEATURE_COUNT = ACTION_FEATURE_COUNT + 1;
+	int SENSOR_CHECKER_FEATURE_COUNT = 1;
 
 	/**
-	 * The number of operations of the '<em>Logical Action</em>' class.
+	 * The number of operations of the '<em>Sensor Checker</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int LOGICAL_ACTION_OPERATION_COUNT = ACTION_OPERATION_COUNT + 0;
+	int SENSOR_CHECKER_OPERATION_COUNT = 0;
 
 	/**
 	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.ConditionImpl <em>Condition</em>}' class.
@@ -231,7 +221,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getCondition()
 	 * @generated
 	 */
-	int CONDITION = 5;
+	int CONDITION = 4;
 
 	/**
 	 * The feature id for the '<em><b>Alternative Sequence</b></em>' containment reference.
@@ -261,43 +251,6 @@ public interface PolycreatePackage extends EPackage {
 	int CONDITION_OPERATION_COUNT = 0;
 
 	/**
-	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.AlternativeSequenceImpl <em>Alternative Sequence</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see fr.univcotedazur.webots.polycreate.impl.AlternativeSequenceImpl
-	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getAlternativeSequence()
-	 * @generated
-	 */
-	int ALTERNATIVE_SEQUENCE = 6;
-
-	/**
-	 * The feature id for the '<em><b>Actions</b></em>' containment reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ALTERNATIVE_SEQUENCE__ACTIONS = SEQUENCE__ACTIONS;
-
-	/**
-	 * The number of structural features of the '<em>Alternative Sequence</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ALTERNATIVE_SEQUENCE_FEATURE_COUNT = SEQUENCE_FEATURE_COUNT + 0;
-
-	/**
-	 * The number of operations of the '<em>Alternative Sequence</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int ALTERNATIVE_SEQUENCE_OPERATION_COUNT = SEQUENCE_OPERATION_COUNT + 0;
-
-	/**
 	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.RotateImpl <em>Rotate</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -305,7 +258,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getRotate()
 	 * @generated
 	 */
-	int ROTATE = 7;
+	int ROTATE = 5;
 
 	/**
 	 * The feature id for the '<em><b>Degrees</b></em>' attribute.
@@ -314,7 +267,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int ROTATE__DEGREES = PHYSICAL_ACTION_FEATURE_COUNT + 0;
+	int ROTATE__DEGREES = ACTION_FEATURE_COUNT + 0;
 
 	/**
 	 * The number of structural features of the '<em>Rotate</em>' class.
@@ -323,7 +276,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int ROTATE_FEATURE_COUNT = PHYSICAL_ACTION_FEATURE_COUNT + 1;
+	int ROTATE_FEATURE_COUNT = ACTION_FEATURE_COUNT + 1;
 
 	/**
 	 * The number of operations of the '<em>Rotate</em>' class.
@@ -332,7 +285,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int ROTATE_OPERATION_COUNT = PHYSICAL_ACTION_OPERATION_COUNT + 0;
+	int ROTATE_OPERATION_COUNT = ACTION_OPERATION_COUNT + 0;
 
 	/**
 	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.MoveForwardImpl <em>Move Forward</em>}' class.
@@ -342,7 +295,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getMoveForward()
 	 * @generated
 	 */
-	int MOVE_FORWARD = 8;
+	int MOVE_FORWARD = 6;
 
 	/**
 	 * The feature id for the '<em><b>Distance</b></em>' attribute.
@@ -351,7 +304,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int MOVE_FORWARD__DISTANCE = PHYSICAL_ACTION_FEATURE_COUNT + 0;
+	int MOVE_FORWARD__DISTANCE = ACTION_FEATURE_COUNT + 0;
 
 	/**
 	 * The number of structural features of the '<em>Move Forward</em>' class.
@@ -360,7 +313,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int MOVE_FORWARD_FEATURE_COUNT = PHYSICAL_ACTION_FEATURE_COUNT + 1;
+	int MOVE_FORWARD_FEATURE_COUNT = ACTION_FEATURE_COUNT + 1;
 
 	/**
 	 * The number of operations of the '<em>Move Forward</em>' class.
@@ -369,7 +322,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int MOVE_FORWARD_OPERATION_COUNT = PHYSICAL_ACTION_OPERATION_COUNT + 0;
+	int MOVE_FORWARD_OPERATION_COUNT = ACTION_OPERATION_COUNT + 0;
 
 	/**
 	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.GrabImpl <em>Grab</em>}' class.
@@ -379,7 +332,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getGrab()
 	 * @generated
 	 */
-	int GRAB = 9;
+	int GRAB = 7;
 
 	/**
 	 * The number of structural features of the '<em>Grab</em>' class.
@@ -388,7 +341,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int GRAB_FEATURE_COUNT = PHYSICAL_ACTION_FEATURE_COUNT + 0;
+	int GRAB_FEATURE_COUNT = ACTION_FEATURE_COUNT + 0;
 
 	/**
 	 * The number of operations of the '<em>Grab</em>' class.
@@ -397,7 +350,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int GRAB_OPERATION_COUNT = PHYSICAL_ACTION_OPERATION_COUNT + 0;
+	int GRAB_OPERATION_COUNT = ACTION_OPERATION_COUNT + 0;
 
 	/**
 	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.ReleaseImpl <em>Release</em>}' class.
@@ -407,7 +360,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getRelease()
 	 * @generated
 	 */
-	int RELEASE = 10;
+	int RELEASE = 8;
 
 	/**
 	 * The number of structural features of the '<em>Release</em>' class.
@@ -416,7 +369,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int RELEASE_FEATURE_COUNT = PHYSICAL_ACTION_FEATURE_COUNT + 0;
+	int RELEASE_FEATURE_COUNT = ACTION_FEATURE_COUNT + 0;
 
 	/**
 	 * The number of operations of the '<em>Release</em>' class.
@@ -425,7 +378,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int RELEASE_OPERATION_COUNT = PHYSICAL_ACTION_OPERATION_COUNT + 0;
+	int RELEASE_OPERATION_COUNT = ACTION_OPERATION_COUNT + 0;
 
 	/**
 	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.WallImpl <em>Wall</em>}' class.
@@ -435,7 +388,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getWall()
 	 * @generated
 	 */
-	int WALL = 11;
+	int WALL = 9;
 
 	/**
 	 * The feature id for the '<em><b>Alternative Sequence</b></em>' containment reference.
@@ -472,7 +425,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getObjectInFront()
 	 * @generated
 	 */
-	int OBJECT_IN_FRONT = 12;
+	int OBJECT_IN_FRONT = 10;
 
 	/**
 	 * The feature id for the '<em><b>Alternative Sequence</b></em>' containment reference.
@@ -509,7 +462,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getWallLeft()
 	 * @generated
 	 */
-	int WALL_LEFT = 13;
+	int WALL_LEFT = 11;
 
 	/**
 	 * The feature id for the '<em><b>Alternative Sequence</b></em>' containment reference.
@@ -546,7 +499,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getWallRight()
 	 * @generated
 	 */
-	int WALL_RIGHT = 14;
+	int WALL_RIGHT = 12;
 
 	/**
 	 * The feature id for the '<em><b>Alternative Sequence</b></em>' containment reference.
@@ -583,7 +536,7 @@ public interface PolycreatePackage extends EPackage {
 	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getWallFront()
 	 * @generated
 	 */
-	int WALL_FRONT = 15;
+	int WALL_FRONT = 13;
 
 	/**
 	 * The feature id for the '<em><b>Alternative Sequence</b></em>' containment reference.
@@ -613,6 +566,43 @@ public interface PolycreatePackage extends EPackage {
 	int WALL_FRONT_OPERATION_COUNT = WALL_OPERATION_COUNT + 0;
 
 	/**
+	 * The meta object id for the '{@link fr.univcotedazur.webots.polycreate.impl.MoveBackwardImpl <em>Move Backward</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see fr.univcotedazur.webots.polycreate.impl.MoveBackwardImpl
+	 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getMoveBackward()
+	 * @generated
+	 */
+	int MOVE_BACKWARD = 14;
+
+	/**
+	 * The feature id for the '<em><b>Distance</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MOVE_BACKWARD__DISTANCE = ACTION_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of structural features of the '<em>Move Backward</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MOVE_BACKWARD_FEATURE_COUNT = ACTION_FEATURE_COUNT + 1;
+
+	/**
+	 * The number of operations of the '<em>Move Backward</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MOVE_BACKWARD_OPERATION_COUNT = ACTION_OPERATION_COUNT + 0;
+
+	/**
 	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.Mission <em>Mission</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -632,6 +622,28 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 */
 	EReference getMission_Sequences();
+
+	/**
+	 * Returns the meta object for the attribute '{@link fr.univcotedazur.webots.polycreate.Mission#getTime <em>Time</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Time</em>'.
+	 * @see fr.univcotedazur.webots.polycreate.Mission#getTime()
+	 * @see #getMission()
+	 * @generated
+	 */
+	EAttribute getMission_Time();
+
+	/**
+	 * Returns the meta object for the containment reference '{@link fr.univcotedazur.webots.polycreate.Mission#getSensorChecker <em>Sensor Checker</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference '<em>Sensor Checker</em>'.
+	 * @see fr.univcotedazur.webots.polycreate.Mission#getSensorChecker()
+	 * @see #getMission()
+	 * @generated
+	 */
+	EReference getMission_SensorChecker();
 
 	/**
 	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.Sequence <em>Sequence</em>}'.
@@ -665,35 +677,25 @@ public interface PolycreatePackage extends EPackage {
 	EClass getAction();
 
 	/**
-	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.PhysicalAction <em>Physical Action</em>}'.
+	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.SensorChecker <em>Sensor Checker</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Physical Action</em>'.
-	 * @see fr.univcotedazur.webots.polycreate.PhysicalAction
+	 * @return the meta object for class '<em>Sensor Checker</em>'.
+	 * @see fr.univcotedazur.webots.polycreate.SensorChecker
 	 * @generated
 	 */
-	EClass getPhysicalAction();
+	EClass getSensorChecker();
 
 	/**
-	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.LogicalAction <em>Logical Action</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Logical Action</em>'.
-	 * @see fr.univcotedazur.webots.polycreate.LogicalAction
-	 * @generated
-	 */
-	EClass getLogicalAction();
-
-	/**
-	 * Returns the meta object for the containment reference list '{@link fr.univcotedazur.webots.polycreate.LogicalAction#getConditions <em>Conditions</em>}'.
+	 * Returns the meta object for the containment reference list '{@link fr.univcotedazur.webots.polycreate.SensorChecker#getConditions <em>Conditions</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the containment reference list '<em>Conditions</em>'.
-	 * @see fr.univcotedazur.webots.polycreate.LogicalAction#getConditions()
-	 * @see #getLogicalAction()
+	 * @see fr.univcotedazur.webots.polycreate.SensorChecker#getConditions()
+	 * @see #getSensorChecker()
 	 * @generated
 	 */
-	EReference getLogicalAction_Conditions();
+	EReference getSensorChecker_Conditions();
 
 	/**
 	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.Condition <em>Condition</em>}'.
@@ -715,16 +717,6 @@ public interface PolycreatePackage extends EPackage {
 	 * @generated
 	 */
 	EReference getCondition_AlternativeSequence();
-
-	/**
-	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.AlternativeSequence <em>Alternative Sequence</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Alternative Sequence</em>'.
-	 * @see fr.univcotedazur.webots.polycreate.AlternativeSequence
-	 * @generated
-	 */
-	EClass getAlternativeSequence();
 
 	/**
 	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.Rotate <em>Rotate</em>}'.
@@ -839,6 +831,27 @@ public interface PolycreatePackage extends EPackage {
 	EClass getWallFront();
 
 	/**
+	 * Returns the meta object for class '{@link fr.univcotedazur.webots.polycreate.MoveBackward <em>Move Backward</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Move Backward</em>'.
+	 * @see fr.univcotedazur.webots.polycreate.MoveBackward
+	 * @generated
+	 */
+	EClass getMoveBackward();
+
+	/**
+	 * Returns the meta object for the attribute '{@link fr.univcotedazur.webots.polycreate.MoveBackward#getDistance <em>Distance</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Distance</em>'.
+	 * @see fr.univcotedazur.webots.polycreate.MoveBackward#getDistance()
+	 * @see #getMoveBackward()
+	 * @generated
+	 */
+	EAttribute getMoveBackward_Distance();
+
+	/**
 	 * Returns the factory that creates the instances of the model.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -880,6 +893,22 @@ public interface PolycreatePackage extends EPackage {
 		EReference MISSION__SEQUENCES = eINSTANCE.getMission_Sequences();
 
 		/**
+		 * The meta object literal for the '<em><b>Time</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute MISSION__TIME = eINSTANCE.getMission_Time();
+
+		/**
+		 * The meta object literal for the '<em><b>Sensor Checker</b></em>' containment reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference MISSION__SENSOR_CHECKER = eINSTANCE.getMission_SensorChecker();
+
+		/**
 		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.SequenceImpl <em>Sequence</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -908,24 +937,14 @@ public interface PolycreatePackage extends EPackage {
 		EClass ACTION = eINSTANCE.getAction();
 
 		/**
-		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.PhysicalActionImpl <em>Physical Action</em>}' class.
+		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.SensorCheckerImpl <em>Sensor Checker</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see fr.univcotedazur.webots.polycreate.impl.PhysicalActionImpl
-		 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getPhysicalAction()
+		 * @see fr.univcotedazur.webots.polycreate.impl.SensorCheckerImpl
+		 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getSensorChecker()
 		 * @generated
 		 */
-		EClass PHYSICAL_ACTION = eINSTANCE.getPhysicalAction();
-
-		/**
-		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.LogicalActionImpl <em>Logical Action</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see fr.univcotedazur.webots.polycreate.impl.LogicalActionImpl
-		 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getLogicalAction()
-		 * @generated
-		 */
-		EClass LOGICAL_ACTION = eINSTANCE.getLogicalAction();
+		EClass SENSOR_CHECKER = eINSTANCE.getSensorChecker();
 
 		/**
 		 * The meta object literal for the '<em><b>Conditions</b></em>' containment reference list feature.
@@ -933,7 +952,7 @@ public interface PolycreatePackage extends EPackage {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference LOGICAL_ACTION__CONDITIONS = eINSTANCE.getLogicalAction_Conditions();
+		EReference SENSOR_CHECKER__CONDITIONS = eINSTANCE.getSensorChecker_Conditions();
 
 		/**
 		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.ConditionImpl <em>Condition</em>}' class.
@@ -952,16 +971,6 @@ public interface PolycreatePackage extends EPackage {
 		 * @generated
 		 */
 		EReference CONDITION__ALTERNATIVE_SEQUENCE = eINSTANCE.getCondition_AlternativeSequence();
-
-		/**
-		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.AlternativeSequenceImpl <em>Alternative Sequence</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see fr.univcotedazur.webots.polycreate.impl.AlternativeSequenceImpl
-		 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getAlternativeSequence()
-		 * @generated
-		 */
-		EClass ALTERNATIVE_SEQUENCE = eINSTANCE.getAlternativeSequence();
 
 		/**
 		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.RotateImpl <em>Rotate</em>}' class.
@@ -1068,6 +1077,24 @@ public interface PolycreatePackage extends EPackage {
 		 * @generated
 		 */
 		EClass WALL_FRONT = eINSTANCE.getWallFront();
+
+		/**
+		 * The meta object literal for the '{@link fr.univcotedazur.webots.polycreate.impl.MoveBackwardImpl <em>Move Backward</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see fr.univcotedazur.webots.polycreate.impl.MoveBackwardImpl
+		 * @see fr.univcotedazur.webots.polycreate.impl.PolycreatePackageImpl#getMoveBackward()
+		 * @generated
+		 */
+		EClass MOVE_BACKWARD = eINSTANCE.getMoveBackward();
+
+		/**
+		 * The meta object literal for the '<em><b>Distance</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute MOVE_BACKWARD__DISTANCE = eINSTANCE.getMoveBackward_Distance();
 
 	}
 

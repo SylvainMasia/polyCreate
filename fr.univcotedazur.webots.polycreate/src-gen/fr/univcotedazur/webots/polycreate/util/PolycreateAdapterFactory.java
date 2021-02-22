@@ -82,23 +82,13 @@ public class PolycreateAdapterFactory extends AdapterFactoryImpl {
 		}
 
 		@Override
-		public Adapter casePhysicalAction(PhysicalAction object) {
-			return createPhysicalActionAdapter();
-		}
-
-		@Override
-		public Adapter caseLogicalAction(LogicalAction object) {
-			return createLogicalActionAdapter();
+		public Adapter caseSensorChecker(SensorChecker object) {
+			return createSensorCheckerAdapter();
 		}
 
 		@Override
 		public Adapter caseCondition(Condition object) {
 			return createConditionAdapter();
-		}
-
-		@Override
-		public Adapter caseAlternativeSequence(AlternativeSequence object) {
-			return createAlternativeSequenceAdapter();
 		}
 
 		@Override
@@ -144,6 +134,11 @@ public class PolycreateAdapterFactory extends AdapterFactoryImpl {
 		@Override
 		public Adapter caseWallFront(WallFront object) {
 			return createWallFrontAdapter();
+		}
+
+		@Override
+		public Adapter caseMoveBackward(MoveBackward object) {
+			return createMoveBackwardAdapter();
 		}
 
 		@Override
@@ -208,30 +203,16 @@ public class PolycreateAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.PhysicalAction <em>Physical Action</em>}'.
+	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.SensorChecker <em>Sensor Checker</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see fr.univcotedazur.webots.polycreate.PhysicalAction
+	 * @see fr.univcotedazur.webots.polycreate.SensorChecker
 	 * @generated
 	 */
-	public Adapter createPhysicalActionAdapter() {
-		return null;
-	}
-
-	/**
-	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.LogicalAction <em>Logical Action</em>}'.
-	 * <!-- begin-user-doc -->
-	 * This default implementation returns null so that we can easily ignore cases;
-	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
-	 * <!-- end-user-doc -->
-	 * @return the new adapter.
-	 * @see fr.univcotedazur.webots.polycreate.LogicalAction
-	 * @generated
-	 */
-	public Adapter createLogicalActionAdapter() {
+	public Adapter createSensorCheckerAdapter() {
 		return null;
 	}
 
@@ -246,20 +227,6 @@ public class PolycreateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createConditionAdapter() {
-		return null;
-	}
-
-	/**
-	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.AlternativeSequence <em>Alternative Sequence</em>}'.
-	 * <!-- begin-user-doc -->
-	 * This default implementation returns null so that we can easily ignore cases;
-	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
-	 * <!-- end-user-doc -->
-	 * @return the new adapter.
-	 * @see fr.univcotedazur.webots.polycreate.AlternativeSequence
-	 * @generated
-	 */
-	public Adapter createAlternativeSequenceAdapter() {
 		return null;
 	}
 
@@ -386,6 +353,20 @@ public class PolycreateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createWallFrontAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link fr.univcotedazur.webots.polycreate.MoveBackward <em>Move Backward</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see fr.univcotedazur.webots.polycreate.MoveBackward
+	 * @generated
+	 */
+	public Adapter createMoveBackwardAdapter() {
 		return null;
 	}
 

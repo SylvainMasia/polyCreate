@@ -45,7 +45,7 @@ public class MissionAspect {
     MissionAspect.controler(_self).openGripper();
     EList<Sequence> _sequences = _self.getSequences();
     for (final Sequence s : _sequences) {
-      SequenceAspect.runIt(s, MissionAspect.controler(_self));
+      SequenceAspect.runIt(s, MissionAspect.controler(_self), _self.getSensorChecker());
     }
   }
   

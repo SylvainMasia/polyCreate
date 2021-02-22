@@ -9,7 +9,7 @@ import fr.univcotedazur.webots.polycreate.rewritingrules.ObjectInFrontAspectObje
 
 @Aspect(className = ObjectInFront.class)
 @SuppressWarnings("all")
-public abstract class ObjectInFrontAspect {
+public class ObjectInFrontAspect {
   @Step
   @ReplaceAspectMethod
   public static boolean isValid(final ObjectInFront _self, final PolyCreateControler controler) {
@@ -36,6 +36,7 @@ public abstract class ObjectInFrontAspect {
   }
   
   protected static boolean _privk3_isValid(final ObjectInFrontAspectObjectInFrontAspectProperties _self_, final ObjectInFront _self, final PolyCreateControler controler) {
-    return controler.isThereVirtualwall();
+    double _objectDistanceToGripper = controler.getObjectDistanceToGripper();
+    return (_objectDistanceToGripper < 2);
   }
 }

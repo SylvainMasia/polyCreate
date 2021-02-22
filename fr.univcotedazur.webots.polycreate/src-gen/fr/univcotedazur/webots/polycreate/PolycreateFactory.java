@@ -40,22 +40,13 @@ public interface PolycreateFactory extends EFactory {
 	Sequence createSequence();
 
 	/**
-	 * Returns a new object of class '<em>Logical Action</em>'.
+	 * Returns a new object of class '<em>Sensor Checker</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Logical Action</em>'.
+	 * @return a new object of class '<em>Sensor Checker</em>'.
 	 * @generated
 	 */
-	LogicalAction createLogicalAction();
-
-	/**
-	 * Returns a new object of class '<em>Alternative Sequence</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Alternative Sequence</em>'.
-	 * @generated
-	 */
-	AlternativeSequence createAlternativeSequence();
+	SensorChecker createSensorChecker();
 
 	/**
 	 * Returns a new object of class '<em>Rotate</em>'.
@@ -128,6 +119,15 @@ public interface PolycreateFactory extends EFactory {
 	 * @generated
 	 */
 	WallFront createWallFront();
+
+	/**
+	 * Returns a new object of class '<em>Move Backward</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Move Backward</em>'.
+	 * @generated
+	 */
+	MoveBackward createMoveBackward();
 
 	/**
 	 * Returns the package supported by this factory.

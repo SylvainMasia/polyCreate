@@ -2,15 +2,16 @@
  */
 package fr.univcotedazur.webots.polycreate.impl;
 
-import fr.univcotedazur.webots.polycreate.AlternativeSequence;
 import fr.univcotedazur.webots.polycreate.Condition;
 import fr.univcotedazur.webots.polycreate.PolycreatePackage;
+import fr.univcotedazur.webots.polycreate.Sequence;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
-import org.eclipse.emf.ecore.EClass;
 
+import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
+
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
@@ -36,7 +37,7 @@ public abstract class ConditionImpl extends MinimalEObjectImpl.Container impleme
 	 * @generated
 	 * @ordered
 	 */
-	protected AlternativeSequence alternativeSequence;
+	protected Sequence alternativeSequence;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -62,7 +63,7 @@ public abstract class ConditionImpl extends MinimalEObjectImpl.Container impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public AlternativeSequence getAlternativeSequence() {
+	public Sequence getAlternativeSequence() {
 		return alternativeSequence;
 	}
 
@@ -71,9 +72,8 @@ public abstract class ConditionImpl extends MinimalEObjectImpl.Container impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetAlternativeSequence(AlternativeSequence newAlternativeSequence,
-			NotificationChain msgs) {
-		AlternativeSequence oldAlternativeSequence = alternativeSequence;
+	public NotificationChain basicSetAlternativeSequence(Sequence newAlternativeSequence, NotificationChain msgs) {
+		Sequence oldAlternativeSequence = alternativeSequence;
 		alternativeSequence = newAlternativeSequence;
 		if (eNotificationRequired()) {
 			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET,
@@ -91,7 +91,7 @@ public abstract class ConditionImpl extends MinimalEObjectImpl.Container impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setAlternativeSequence(AlternativeSequence newAlternativeSequence) {
+	public void setAlternativeSequence(Sequence newAlternativeSequence) {
 		if (newAlternativeSequence != alternativeSequence) {
 			NotificationChain msgs = null;
 			if (alternativeSequence != null)
@@ -145,7 +145,7 @@ public abstract class ConditionImpl extends MinimalEObjectImpl.Container impleme
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 		case PolycreatePackage.CONDITION__ALTERNATIVE_SEQUENCE:
-			setAlternativeSequence((AlternativeSequence) newValue);
+			setAlternativeSequence((Sequence) newValue);
 			return;
 		}
 		super.eSet(featureID, newValue);
@@ -160,7 +160,7 @@ public abstract class ConditionImpl extends MinimalEObjectImpl.Container impleme
 	public void eUnset(int featureID) {
 		switch (featureID) {
 		case PolycreatePackage.CONDITION__ALTERNATIVE_SEQUENCE:
-			setAlternativeSequence((AlternativeSequence) null);
+			setAlternativeSequence((Sequence) null);
 			return;
 		}
 		super.eUnset(featureID);

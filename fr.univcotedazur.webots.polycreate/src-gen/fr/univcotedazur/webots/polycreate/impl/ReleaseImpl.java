@@ -14,7 +14,7 @@ import org.eclipse.emf.ecore.EClass;
  *
  * @generated
  */
-public class ReleaseImpl extends PhysicalActionImpl implements Release {
+public class ReleaseImpl extends ActionImpl implements Release {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

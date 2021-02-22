@@ -151,9 +151,6 @@ public class SequenceItemProvider extends ItemProviderAdapter implements IEditin
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
 		newChildDescriptors.add(createChildParameter(PolycreatePackage.Literals.SEQUENCE__ACTIONS,
-				PolycreateFactory.eINSTANCE.createLogicalAction()));
-
-		newChildDescriptors.add(createChildParameter(PolycreatePackage.Literals.SEQUENCE__ACTIONS,
 				PolycreateFactory.eINSTANCE.createRotate()));
 
 		newChildDescriptors.add(createChildParameter(PolycreatePackage.Literals.SEQUENCE__ACTIONS,
@@ -164,6 +161,9 @@ public class SequenceItemProvider extends ItemProviderAdapter implements IEditin
 
 		newChildDescriptors.add(createChildParameter(PolycreatePackage.Literals.SEQUENCE__ACTIONS,
 				PolycreateFactory.eINSTANCE.createRelease()));
+
+		newChildDescriptors.add(createChildParameter(PolycreatePackage.Literals.SEQUENCE__ACTIONS,
+				PolycreateFactory.eINSTANCE.createMoveBackward()));
 	}
 
 	/**

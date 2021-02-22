@@ -14,7 +14,7 @@ import org.eclipse.emf.ecore.EClass;
  *
  * @generated
  */
-public class GrabImpl extends PhysicalActionImpl implements Grab {
+public class GrabImpl extends ActionImpl implements Grab {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

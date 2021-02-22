@@ -18,7 +18,7 @@ package fr.univcotedazur.webots.polycreate;
  * @model
  * @generated
  */
-public interface MoveForward extends PhysicalAction {
+public interface MoveForward extends Action {
 	/**
 	 * Returns the value of the '<em><b>Distance</b></em>' attribute.
 	 * The default value is <code>"5"</code>.

@@ -119,49 +119,26 @@ public class PolycreateItemProviderAdapterFactory extends PolycreateAdapterFacto
 	}
 
 	/**
-	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.LogicalAction} instances.
+	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.SensorChecker} instances.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected LogicalActionItemProvider logicalActionItemProvider;
+	protected SensorCheckerItemProvider sensorCheckerItemProvider;
 
 	/**
-	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.LogicalAction}.
+	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.SensorChecker}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
 	@Override
-	public Adapter createLogicalActionAdapter() {
-		if (logicalActionItemProvider == null) {
-			logicalActionItemProvider = new LogicalActionItemProvider(this);
+	public Adapter createSensorCheckerAdapter() {
+		if (sensorCheckerItemProvider == null) {
+			sensorCheckerItemProvider = new SensorCheckerItemProvider(this);
 		}
 
-		return logicalActionItemProvider;
-	}
-
-	/**
-	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.AlternativeSequence} instances.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected AlternativeSequenceItemProvider alternativeSequenceItemProvider;
-
-	/**
-	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.AlternativeSequence}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Adapter createAlternativeSequenceAdapter() {
-		if (alternativeSequenceItemProvider == null) {
-			alternativeSequenceItemProvider = new AlternativeSequenceItemProvider(this);
-		}
-
-		return alternativeSequenceItemProvider;
+		return sensorCheckerItemProvider;
 	}
 
 	/**
@@ -349,6 +326,29 @@ public class PolycreateItemProviderAdapterFactory extends PolycreateAdapterFacto
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link fr.univcotedazur.webots.polycreate.MoveBackward} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected MoveBackwardItemProvider moveBackwardItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link fr.univcotedazur.webots.polycreate.MoveBackward}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createMoveBackwardAdapter() {
+		if (moveBackwardItemProvider == null) {
+			moveBackwardItemProvider = new MoveBackwardItemProvider(this);
+		}
+
+		return moveBackwardItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -451,10 +451,8 @@ public class PolycreateItemProviderAdapterFactory extends PolycreateAdapterFacto
 			missionItemProvider.dispose();
 		if (sequenceItemProvider != null)
 			sequenceItemProvider.dispose();
-		if (logicalActionItemProvider != null)
-			logicalActionItemProvider.dispose();
-		if (alternativeSequenceItemProvider != null)
-			alternativeSequenceItemProvider.dispose();
+		if (sensorCheckerItemProvider != null)
+			sensorCheckerItemProvider.dispose();
 		if (rotateItemProvider != null)
 			rotateItemProvider.dispose();
 		if (moveForwardItemProvider != null)
@@ -471,6 +469,8 @@ public class PolycreateItemProviderAdapterFactory extends PolycreateAdapterFacto
 			wallRightItemProvider.dispose();
 		if (wallFrontItemProvider != null)
 			wallFrontItemProvider.dispose();
+		if (moveBackwardItemProvider != null)
+			moveBackwardItemProvider.dispose();
 	}
 
 }

@@ -12,5 +12,5 @@ package fr.univcotedazur.webots.polycreate;
  * @model
  * @generated
  */
-public interface Grab extends PhysicalAction {
+public interface Grab extends Action {
 } // Grab

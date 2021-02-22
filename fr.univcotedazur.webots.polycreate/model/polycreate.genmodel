@@ -12,19 +12,19 @@
       ecorePackage="polycreate.ecore#/">
     <genClasses ecoreClass="polycreate.ecore#//Mission">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//Mission/sequences"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute polycreate.ecore#//Mission/time"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//Mission/sensorChecker"/>
     </genClasses>
     <genClasses ecoreClass="polycreate.ecore#//Sequence">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//Sequence/actions"/>
     </genClasses>
     <genClasses ecoreClass="polycreate.ecore#//Action"/>
-    <genClasses ecoreClass="polycreate.ecore#//PhysicalAction"/>
-    <genClasses ecoreClass="polycreate.ecore#//LogicalAction">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//LogicalAction/conditions"/>
+    <genClasses ecoreClass="polycreate.ecore#//SensorChecker">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//SensorChecker/conditions"/>
     </genClasses>
     <genClasses ecoreClass="polycreate.ecore#//Condition">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference polycreate.ecore#//Condition/alternativeSequence"/>
     </genClasses>
-    <genClasses ecoreClass="polycreate.ecore#//AlternativeSequence"/>
     <genClasses ecoreClass="polycreate.ecore#//Rotate">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute polycreate.ecore#//Rotate/degrees"/>
     </genClasses>
@@ -38,5 +38,8 @@
     <genClasses ecoreClass="polycreate.ecore#//WallLeft"/>
     <genClasses ecoreClass="polycreate.ecore#//WallRight"/>
     <genClasses ecoreClass="polycreate.ecore#//WallFront"/>
+    <genClasses ecoreClass="polycreate.ecore#//MoveBackward">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute polycreate.ecore#//MoveBackward/distance"/>
+    </genClasses>
   </genPackages>
 </genmodel:GenModel>

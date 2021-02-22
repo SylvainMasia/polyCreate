@@ -87,20 +87,9 @@ public class PolycreateSwitch<T> extends Switch<T> {
 				result = defaultCase(theEObject);
 			return result;
 		}
-		case PolycreatePackage.PHYSICAL_ACTION: {
-			PhysicalAction physicalAction = (PhysicalAction) theEObject;
-			T result = casePhysicalAction(physicalAction);
-			if (result == null)
-				result = caseAction(physicalAction);
-			if (result == null)
-				result = defaultCase(theEObject);
-			return result;
-		}
-		case PolycreatePackage.LOGICAL_ACTION: {
-			LogicalAction logicalAction = (LogicalAction) theEObject;
-			T result = caseLogicalAction(logicalAction);
-			if (result == null)
-				result = caseAction(logicalAction);
+		case PolycreatePackage.SENSOR_CHECKER: {
+			SensorChecker sensorChecker = (SensorChecker) theEObject;
+			T result = caseSensorChecker(sensorChecker);
 			if (result == null)
 				result = defaultCase(theEObject);
 			return result;
@@ -112,20 +101,9 @@ public class PolycreateSwitch<T> extends Switch<T> {
 				result = defaultCase(theEObject);
 			return result;
 		}
-		case PolycreatePackage.ALTERNATIVE_SEQUENCE: {
-			AlternativeSequence alternativeSequence = (AlternativeSequence) theEObject;
-			T result = caseAlternativeSequence(alternativeSequence);
-			if (result == null)
-				result = caseSequence(alternativeSequence);
-			if (result == null)
-				result = defaultCase(theEObject);
-			return result;
-		}
 		case PolycreatePackage.ROTATE: {
 			Rotate rotate = (Rotate) theEObject;
 			T result = caseRotate(rotate);
-			if (result == null)
-				result = casePhysicalAction(rotate);
 			if (result == null)
 				result = caseAction(rotate);
 			if (result == null)
@@ -136,8 +114,6 @@ public class PolycreateSwitch<T> extends Switch<T> {
 			MoveForward moveForward = (MoveForward) theEObject;
 			T result = caseMoveForward(moveForward);
 			if (result == null)
-				result = casePhysicalAction(moveForward);
-			if (result == null)
 				result = caseAction(moveForward);
 			if (result == null)
 				result = defaultCase(theEObject);
@@ -147,8 +123,6 @@ public class PolycreateSwitch<T> extends Switch<T> {
 			Grab grab = (Grab) theEObject;
 			T result = caseGrab(grab);
 			if (result == null)
-				result = casePhysicalAction(grab);
-			if (result == null)
 				result = caseAction(grab);
 			if (result == null)
 				result = defaultCase(theEObject);
@@ -157,8 +131,6 @@ public class PolycreateSwitch<T> extends Switch<T> {
 		case PolycreatePackage.RELEASE: {
 			Release release = (Release) theEObject;
 			T result = caseRelease(release);
-			if (result == null)
-				result = casePhysicalAction(release);
 			if (result == null)
 				result = caseAction(release);
 			if (result == null)
@@ -216,6 +188,15 @@ public class PolycreateSwitch<T> extends Switch<T> {
 				result = defaultCase(theEObject);
 			return result;
 		}
+		case PolycreatePackage.MOVE_BACKWARD: {
+			MoveBackward moveBackward = (MoveBackward) theEObject;
+			T result = caseMoveBackward(moveBackward);
+			if (result == null)
+				result = caseAction(moveBackward);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
 		default:
 			return defaultCase(theEObject);
 		}
@@ -267,32 +248,17 @@ public class PolycreateSwitch<T> extends Switch<T> {
 	}
 
 	/**
-	 * Returns the result of interpreting the object as an instance of '<em>Physical Action</em>'.
+	 * Returns the result of interpreting the object as an instance of '<em>Sensor Checker</em>'.
 	 * <!-- begin-user-doc -->
 	 * This implementation returns null;
 	 * returning a non-null result will terminate the switch.
 	 * <!-- end-user-doc -->
 	 * @param object the target of the switch.
-	 * @return the result of interpreting the object as an instance of '<em>Physical Action</em>'.
+	 * @return the result of interpreting the object as an instance of '<em>Sensor Checker</em>'.
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T casePhysicalAction(PhysicalAction object) {
-		return null;
-	}
-
-	/**
-	 * Returns the result of interpreting the object as an instance of '<em>Logical Action</em>'.
-	 * <!-- begin-user-doc -->
-	 * This implementation returns null;
-	 * returning a non-null result will terminate the switch.
-	 * <!-- end-user-doc -->
-	 * @param object the target of the switch.
-	 * @return the result of interpreting the object as an instance of '<em>Logical Action</em>'.
-	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
-	 * @generated
-	 */
-	public T caseLogicalAction(LogicalAction object) {
+	public T caseSensorChecker(SensorChecker object) {
 		return null;
 	}
 
@@ -308,21 +274,6 @@ public class PolycreateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseCondition(Condition object) {
-		return null;
-	}
-
-	/**
-	 * Returns the result of interpreting the object as an instance of '<em>Alternative Sequence</em>'.
-	 * <!-- begin-user-doc -->
-	 * This implementation returns null;
-	 * returning a non-null result will terminate the switch.
-	 * <!-- end-user-doc -->
-	 * @param object the target of the switch.
-	 * @return the result of interpreting the object as an instance of '<em>Alternative Sequence</em>'.
-	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
-	 * @generated
-	 */
-	public T caseAlternativeSequence(AlternativeSequence object) {
 		return null;
 	}
 
@@ -458,6 +409,21 @@ public class PolycreateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseWallFront(WallFront object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Move Backward</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Move Backward</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseMoveBackward(MoveBackward object) {
 		return null;
 	}
 

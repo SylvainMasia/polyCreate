@@ -24,7 +24,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  *
  * @generated
  */
-public class MoveForwardImpl extends PhysicalActionImpl implements MoveForward {
+public class MoveForwardImpl extends ActionImpl implements MoveForward {
 	/**
 	 * The default value of the '{@link #getDistance() <em>Distance</em>}' attribute.
 	 * <!-- begin-user-doc -->

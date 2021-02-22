@@ -18,7 +18,7 @@ package fr.univcotedazur.webots.polycreate;
  * @model
  * @generated
  */
-public interface Rotate extends PhysicalAction {
+public interface Rotate extends Action {
 	/**
 	 * Returns the value of the '<em><b>Degrees</b></em>' attribute.
 	 * The default value is <code>"90"</code>.

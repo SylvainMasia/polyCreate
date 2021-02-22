@@ -1,25 +1,25 @@
-	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.ReleaseAspect
+	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker) from fr.univcotedazur.webots.polycreate.rewritingrules.ReleaseAspect
 		if (_self instanceof fr.univcotedazur.webots.polycreate.Release){
-			fr.univcotedazur.webots.polycreate.rewritingrules.ReleaseAspect.runIt((fr.univcotedazur.webots.polycreate.Release)_self,controler);
+			fr.univcotedazur.webots.polycreate.rewritingrules.ReleaseAspect.runIt((fr.univcotedazur.webots.polycreate.Release)_self,controler,logicalVerifications);
 		} else
-		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.ReleaseAspect
-	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.RotateAspect
+		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker) from fr.univcotedazur.webots.polycreate.rewritingrules.ReleaseAspect
+	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker) from fr.univcotedazur.webots.polycreate.rewritingrules.MoveBackwardAspect
+		if (_self instanceof fr.univcotedazur.webots.polycreate.MoveBackward){
+			fr.univcotedazur.webots.polycreate.rewritingrules.MoveBackwardAspect.runIt((fr.univcotedazur.webots.polycreate.MoveBackward)_self,controler,logicalVerifications);
+		} else
+		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker) from fr.univcotedazur.webots.polycreate.rewritingrules.MoveBackwardAspect
+	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker) from fr.univcotedazur.webots.polycreate.rewritingrules.RotateAspect
 		if (_self instanceof fr.univcotedazur.webots.polycreate.Rotate){
-			fr.univcotedazur.webots.polycreate.rewritingrules.RotateAspect.runIt((fr.univcotedazur.webots.polycreate.Rotate)_self,controler);
+			fr.univcotedazur.webots.polycreate.rewritingrules.RotateAspect.runIt((fr.univcotedazur.webots.polycreate.Rotate)_self,controler,logicalVerifications);
 		} else
-		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.RotateAspect
-	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.LogicalActionAspect
-		if (_self instanceof fr.univcotedazur.webots.polycreate.LogicalAction){
-			fr.univcotedazur.webots.polycreate.rewritingrules.LogicalActionAspect.runIt((fr.univcotedazur.webots.polycreate.LogicalAction)_self,controler);
-		} else
-		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.LogicalActionAspect
-	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.GrabAspect
-		if (_self instanceof fr.univcotedazur.webots.polycreate.Grab){
-			fr.univcotedazur.webots.polycreate.rewritingrules.GrabAspect.runIt((fr.univcotedazur.webots.polycreate.Grab)_self,controler);
-		} else
-		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.GrabAspect
-	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.MoveForwardAspect
+		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker) from fr.univcotedazur.webots.polycreate.rewritingrules.RotateAspect
+	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker) from fr.univcotedazur.webots.polycreate.rewritingrules.MoveForwardAspect
 		if (_self instanceof fr.univcotedazur.webots.polycreate.MoveForward){
-			fr.univcotedazur.webots.polycreate.rewritingrules.MoveForwardAspect.runIt((fr.univcotedazur.webots.polycreate.MoveForward)_self,controler);
+			fr.univcotedazur.webots.polycreate.rewritingrules.MoveForwardAspect.runIt((fr.univcotedazur.webots.polycreate.MoveForward)_self,controler,logicalVerifications);
 		} else
-		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.MoveForwardAspect
+		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker) from fr.univcotedazur.webots.polycreate.rewritingrules.MoveForwardAspect
+	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker) from fr.univcotedazur.webots.polycreate.rewritingrules.GrabAspect
+		if (_self instanceof fr.univcotedazur.webots.polycreate.Grab){
+			fr.univcotedazur.webots.polycreate.rewritingrules.GrabAspect.runIt((fr.univcotedazur.webots.polycreate.Grab)_self,controler,logicalVerifications);
+		} else
+		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker) from fr.univcotedazur.webots.polycreate.rewritingrules.GrabAspect

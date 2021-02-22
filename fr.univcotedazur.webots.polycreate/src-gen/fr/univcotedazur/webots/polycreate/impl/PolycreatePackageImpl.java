@@ -3,18 +3,17 @@
 package fr.univcotedazur.webots.polycreate.impl;
 
 import fr.univcotedazur.webots.polycreate.Action;
-import fr.univcotedazur.webots.polycreate.AlternativeSequence;
 import fr.univcotedazur.webots.polycreate.Condition;
 import fr.univcotedazur.webots.polycreate.Grab;
-import fr.univcotedazur.webots.polycreate.LogicalAction;
 import fr.univcotedazur.webots.polycreate.Mission;
+import fr.univcotedazur.webots.polycreate.MoveBackward;
 import fr.univcotedazur.webots.polycreate.MoveForward;
 import fr.univcotedazur.webots.polycreate.ObjectInFront;
-import fr.univcotedazur.webots.polycreate.PhysicalAction;
 import fr.univcotedazur.webots.polycreate.PolycreateFactory;
 import fr.univcotedazur.webots.polycreate.PolycreatePackage;
 import fr.univcotedazur.webots.polycreate.Release;
 import fr.univcotedazur.webots.polycreate.Rotate;
+import fr.univcotedazur.webots.polycreate.SensorChecker;
 import fr.univcotedazur.webots.polycreate.Sequence;
 import fr.univcotedazur.webots.polycreate.Wall;
 import fr.univcotedazur.webots.polycreate.WallFront;
@@ -61,14 +60,7 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	private EClass physicalActionEClass = null;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private EClass logicalActionEClass = null;
+	private EClass sensorCheckerEClass = null;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -76,13 +68,6 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * @generated
 	 */
 	private EClass conditionEClass = null;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private EClass alternativeSequenceEClass = null;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -146,6 +131,13 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * @generated
 	 */
 	private EClass wallFrontEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass moveBackwardEClass = null;
 
 	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
@@ -234,6 +226,24 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EAttribute getMission_Time() {
+		return (EAttribute) missionEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getMission_SensorChecker() {
+		return (EReference) missionEClass.getEStructuralFeatures().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EClass getSequence() {
 		return sequenceEClass;
 	}
@@ -261,8 +271,8 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getPhysicalAction() {
-		return physicalActionEClass;
+	public EClass getSensorChecker() {
+		return sensorCheckerEClass;
 	}
 
 	/**
@@ -270,17 +280,8 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getLogicalAction() {
-		return logicalActionEClass;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EReference getLogicalAction_Conditions() {
-		return (EReference) logicalActionEClass.getEStructuralFeatures().get(0);
+	public EReference getSensorChecker_Conditions() {
+		return (EReference) sensorCheckerEClass.getEStructuralFeatures().get(0);
 	}
 
 	/**
@@ -299,15 +300,6 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 */
 	public EReference getCondition_AlternativeSequence() {
 		return (EReference) conditionEClass.getEStructuralFeatures().get(0);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EClass getAlternativeSequence() {
-		return alternativeSequenceEClass;
 	}
 
 	/**
@@ -414,6 +406,24 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EClass getMoveBackward() {
+		return moveBackwardEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getMoveBackward_Distance() {
+		return (EAttribute) moveBackwardEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public PolycreateFactory getPolycreateFactory() {
 		return (PolycreateFactory) getEFactoryInstance();
 	}
@@ -440,21 +450,19 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 		// Create classes and their features
 		missionEClass = createEClass(MISSION);
 		createEReference(missionEClass, MISSION__SEQUENCES);
+		createEAttribute(missionEClass, MISSION__TIME);
+		createEReference(missionEClass, MISSION__SENSOR_CHECKER);
 
 		sequenceEClass = createEClass(SEQUENCE);
 		createEReference(sequenceEClass, SEQUENCE__ACTIONS);
 
 		actionEClass = createEClass(ACTION);
 
-		physicalActionEClass = createEClass(PHYSICAL_ACTION);
-
-		logicalActionEClass = createEClass(LOGICAL_ACTION);
-		createEReference(logicalActionEClass, LOGICAL_ACTION__CONDITIONS);
+		sensorCheckerEClass = createEClass(SENSOR_CHECKER);
+		createEReference(sensorCheckerEClass, SENSOR_CHECKER__CONDITIONS);
 
 		conditionEClass = createEClass(CONDITION);
 		createEReference(conditionEClass, CONDITION__ALTERNATIVE_SEQUENCE);
-
-		alternativeSequenceEClass = createEClass(ALTERNATIVE_SEQUENCE);
 
 		rotateEClass = createEClass(ROTATE);
 		createEAttribute(rotateEClass, ROTATE__DEGREES);
@@ -475,6 +483,9 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 		wallRightEClass = createEClass(WALL_RIGHT);
 
 		wallFrontEClass = createEClass(WALL_FRONT);
+
+		moveBackwardEClass = createEClass(MOVE_BACKWARD);
+		createEAttribute(moveBackwardEClass, MOVE_BACKWARD__DISTANCE);
 	}
 
 	/**
@@ -506,24 +517,27 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 		// Set bounds for type parameters
 
 		// Add supertypes to classes
-		physicalActionEClass.getESuperTypes().add(this.getAction());
-		logicalActionEClass.getESuperTypes().add(this.getAction());
-		alternativeSequenceEClass.getESuperTypes().add(this.getSequence());
-		rotateEClass.getESuperTypes().add(this.getPhysicalAction());
-		moveForwardEClass.getESuperTypes().add(this.getPhysicalAction());
-		grabEClass.getESuperTypes().add(this.getPhysicalAction());
-		releaseEClass.getESuperTypes().add(this.getPhysicalAction());
+		rotateEClass.getESuperTypes().add(this.getAction());
+		moveForwardEClass.getESuperTypes().add(this.getAction());
+		grabEClass.getESuperTypes().add(this.getAction());
+		releaseEClass.getESuperTypes().add(this.getAction());
 		wallEClass.getESuperTypes().add(this.getCondition());
 		objectInFrontEClass.getESuperTypes().add(this.getCondition());
 		wallLeftEClass.getESuperTypes().add(this.getWall());
 		wallRightEClass.getESuperTypes().add(this.getWall());
 		wallFrontEClass.getESuperTypes().add(this.getWall());
+		moveBackwardEClass.getESuperTypes().add(this.getAction());
 
 		// Initialize classes, features, and operations; add parameters
 		initEClass(missionEClass, Mission.class, "Mission", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getMission_Sequences(), this.getSequence(), null, "sequences", null, 1, -1, Mission.class,
 				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE,
 				IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getMission_Time(), ecorePackage.getEInt(), "time", null, 0, 1, Mission.class, !IS_TRANSIENT,
+				!IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getMission_SensorChecker(), this.getSensorChecker(), null, "sensorChecker", null, 1, 1,
+				Mission.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
+				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(sequenceEClass, Sequence.class, "Sequence", !IS_ABSTRACT, !IS_INTERFACE,
 				IS_GENERATED_INSTANCE_CLASS);
@@ -533,23 +547,17 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 
 		initEClass(actionEClass, Action.class, "Action", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
-		initEClass(physicalActionEClass, PhysicalAction.class, "PhysicalAction", IS_ABSTRACT, !IS_INTERFACE,
+		initEClass(sensorCheckerEClass, SensorChecker.class, "SensorChecker", !IS_ABSTRACT, !IS_INTERFACE,
 				IS_GENERATED_INSTANCE_CLASS);
-
-		initEClass(logicalActionEClass, LogicalAction.class, "LogicalAction", !IS_ABSTRACT, !IS_INTERFACE,
-				IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getLogicalAction_Conditions(), this.getCondition(), null, "conditions", null, 1, -1,
-				LogicalAction.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
+		initEReference(getSensorChecker_Conditions(), this.getCondition(), null, "conditions", null, 1, -1,
+				SensorChecker.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(conditionEClass, Condition.class, "Condition", IS_ABSTRACT, !IS_INTERFACE,
 				IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getCondition_AlternativeSequence(), this.getAlternativeSequence(), null, "alternativeSequence",
-				null, 1, 1, Condition.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE,
-				!IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-
-		initEClass(alternativeSequenceEClass, AlternativeSequence.class, "AlternativeSequence", !IS_ABSTRACT,
-				!IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEReference(getCondition_AlternativeSequence(), this.getSequence(), null, "alternativeSequence", null, 1, 1,
+				Condition.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
+				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(rotateEClass, Rotate.class, "Rotate", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getRotate_Degrees(), ecorePackage.getEInt(), "degrees", "90", 0, 1, Rotate.class, !IS_TRANSIENT,
@@ -577,6 +585,11 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 
 		initEClass(wallFrontEClass, WallFront.class, "WallFront", !IS_ABSTRACT, !IS_INTERFACE,
 				IS_GENERATED_INSTANCE_CLASS);
+
+		initEClass(moveBackwardEClass, MoveBackward.class, "MoveBackward", !IS_ABSTRACT, !IS_INTERFACE,
+				IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getMoveBackward_Distance(), ecorePackage.getEInt(), "distance", "5", 0, 1, MoveBackward.class,
+				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);

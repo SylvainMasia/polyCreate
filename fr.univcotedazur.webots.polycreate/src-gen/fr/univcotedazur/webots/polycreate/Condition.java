@@ -21,7 +21,6 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface Condition extends EObject {
-
 	/**
 	 * Returns the value of the '<em><b>Alternative Sequence</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
@@ -31,12 +30,12 @@ public interface Condition extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Alternative Sequence</em>' containment reference.
-	 * @see #setAlternativeSequence(AlternativeSequence)
+	 * @see #setAlternativeSequence(Sequence)
 	 * @see fr.univcotedazur.webots.polycreate.PolycreatePackage#getCondition_AlternativeSequence()
 	 * @model containment="true" required="true"
 	 * @generated
 	 */
-	AlternativeSequence getAlternativeSequence();
+	Sequence getAlternativeSequence();
 
 	/**
 	 * Sets the value of the '{@link fr.univcotedazur.webots.polycreate.Condition#getAlternativeSequence <em>Alternative Sequence</em>}' containment reference.
@@ -46,5 +45,6 @@ public interface Condition extends EObject {
 	 * @see #getAlternativeSequence()
 	 * @generated
 	 */
-	void setAlternativeSequence(AlternativeSequence value);
+	void setAlternativeSequence(Sequence value);
+
 } // Condition

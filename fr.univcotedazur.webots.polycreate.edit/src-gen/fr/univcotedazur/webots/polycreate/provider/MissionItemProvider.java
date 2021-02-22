@@ -16,12 +16,14 @@ import org.eclipse.emf.common.util.ResourceLocator;
 
 import org.eclipse.emf.ecore.EStructuralFeature;
 
+import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
 import org.eclipse.emf.edit.provider.IEditingDomainItemProvider;
 import org.eclipse.emf.edit.provider.IItemLabelProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.IItemPropertySource;
 import org.eclipse.emf.edit.provider.IStructuredItemContentProvider;
 import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
+import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ItemProviderAdapter;
 import org.eclipse.emf.edit.provider.ViewerNotification;
 
@@ -54,8 +56,24 @@ public class MissionItemProvider extends ItemProviderAdapter implements IEditing
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
+			addTimePropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
+	}
+
+	/**
+	 * This adds a property descriptor for the Time feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addTimePropertyDescriptor(Object object) {
+		itemPropertyDescriptors
+				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
+						getResourceLocator(), getString("_UI_Mission_time_feature"),
+						getString("_UI_PropertyDescriptor_description", "_UI_Mission_time_feature", "_UI_Mission_type"),
+						PolycreatePackage.Literals.MISSION__TIME, true, false, false,
+						ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -71,6 +89,7 @@ public class MissionItemProvider extends ItemProviderAdapter implements IEditing
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
 			childrenFeatures.add(PolycreatePackage.Literals.MISSION__SEQUENCES);
+			childrenFeatures.add(PolycreatePackage.Literals.MISSION__SENSOR_CHECKER);
 		}
 		return childrenFeatures;
 	}
@@ -117,7 +136,8 @@ public class MissionItemProvider extends ItemProviderAdapter implements IEditing
 	 */
 	@Override
 	public String getText(Object object) {
-		return getString("_UI_Mission_type");
+		Mission mission = (Mission) object;
+		return getString("_UI_Mission_type") + " " + mission.getTime();
 	}
 
 	/**
@@ -132,7 +152,11 @@ public class MissionItemProvider extends ItemProviderAdapter implements IEditing
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(Mission.class)) {
+		case PolycreatePackage.MISSION__TIME:
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
+			return;
 		case PolycreatePackage.MISSION__SEQUENCES:
+		case PolycreatePackage.MISSION__SENSOR_CHECKER:
 			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 			return;
 		}
@@ -153,8 +177,8 @@ public class MissionItemProvider extends ItemProviderAdapter implements IEditing
 		newChildDescriptors.add(createChildParameter(PolycreatePackage.Literals.MISSION__SEQUENCES,
 				PolycreateFactory.eINSTANCE.createSequence()));
 
-		newChildDescriptors.add(createChildParameter(PolycreatePackage.Literals.MISSION__SEQUENCES,
-				PolycreateFactory.eINSTANCE.createAlternativeSequence()));
+		newChildDescriptors.add(createChildParameter(PolycreatePackage.Literals.MISSION__SENSOR_CHECKER,
+				PolycreateFactory.eINSTANCE.createSensorChecker()));
 	}
 
 	/**

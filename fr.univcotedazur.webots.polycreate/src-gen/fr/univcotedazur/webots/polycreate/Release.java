@@ -12,5 +12,5 @@ package fr.univcotedazur.webots.polycreate;
  * @model
  * @generated
  */
-public interface Release extends PhysicalAction {
+public interface Release extends Action {
 } // Release

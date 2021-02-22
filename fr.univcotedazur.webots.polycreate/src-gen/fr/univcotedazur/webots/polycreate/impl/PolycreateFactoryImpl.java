@@ -60,10 +60,8 @@ public class PolycreateFactoryImpl extends EFactoryImpl implements PolycreateFac
 			return createMission();
 		case PolycreatePackage.SEQUENCE:
 			return createSequence();
-		case PolycreatePackage.LOGICAL_ACTION:
-			return createLogicalAction();
-		case PolycreatePackage.ALTERNATIVE_SEQUENCE:
-			return createAlternativeSequence();
+		case PolycreatePackage.SENSOR_CHECKER:
+			return createSensorChecker();
 		case PolycreatePackage.ROTATE:
 			return createRotate();
 		case PolycreatePackage.MOVE_FORWARD:
@@ -80,6 +78,8 @@ public class PolycreateFactoryImpl extends EFactoryImpl implements PolycreateFac
 			return createWallRight();
 		case PolycreatePackage.WALL_FRONT:
 			return createWallFront();
+		case PolycreatePackage.MOVE_BACKWARD:
+			return createMoveBackward();
 		default:
 			throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -110,19 +110,9 @@ public class PolycreateFactoryImpl extends EFactoryImpl implements PolycreateFac
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public LogicalAction createLogicalAction() {
-		LogicalActionImpl logicalAction = new LogicalActionImpl();
-		return logicalAction;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public AlternativeSequence createAlternativeSequence() {
-		AlternativeSequenceImpl alternativeSequence = new AlternativeSequenceImpl();
-		return alternativeSequence;
+	public SensorChecker createSensorChecker() {
+		SensorCheckerImpl sensorChecker = new SensorCheckerImpl();
+		return sensorChecker;
 	}
 
 	/**
@@ -203,6 +193,16 @@ public class PolycreateFactoryImpl extends EFactoryImpl implements PolycreateFac
 	public WallFront createWallFront() {
 		WallFrontImpl wallFront = new WallFrontImpl();
 		return wallFront;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public MoveBackward createMoveBackward() {
+		MoveBackwardImpl moveBackward = new MoveBackwardImpl();
+		return moveBackward;
 	}
 
 	/**
