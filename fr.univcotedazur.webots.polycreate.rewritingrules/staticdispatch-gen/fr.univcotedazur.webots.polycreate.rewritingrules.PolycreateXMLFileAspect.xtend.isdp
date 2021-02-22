@@ -8,11 +8,6 @@
 			result = fr.univcotedazur.webots.polycreate.rewritingrules.WallLeftAspect.isValid((fr.univcotedazur.webots.polycreate.WallLeft)_self,controler);
 		} else
 		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallLeftAspect
-	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker,boolean) from fr.univcotedazur.webots.polycreate.rewritingrules.GrabAspect
-		if (_self instanceof fr.univcotedazur.webots.polycreate.Grab){
-			fr.univcotedazur.webots.polycreate.rewritingrules.GrabAspect.runIt((fr.univcotedazur.webots.polycreate.Grab)_self,controler,logicalVerifications,isAlternative);
-		} else
-		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker,boolean) from fr.univcotedazur.webots.polycreate.rewritingrules.GrabAspect
 	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker,boolean) from fr.univcotedazur.webots.polycreate.rewritingrules.MoveForwardAspect
 		if (_self instanceof fr.univcotedazur.webots.polycreate.MoveForward){
 			fr.univcotedazur.webots.polycreate.rewritingrules.MoveForwardAspect.runIt((fr.univcotedazur.webots.polycreate.MoveForward)_self,controler,logicalVerifications,isAlternative);
@@ -23,16 +18,31 @@
 			fr.univcotedazur.webots.polycreate.rewritingrules.ReleaseAspect.runIt((fr.univcotedazur.webots.polycreate.Release)_self,controler,logicalVerifications,isAlternative);
 		} else
 		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker,boolean) from fr.univcotedazur.webots.polycreate.rewritingrules.ReleaseAspect
-	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker,boolean) from fr.univcotedazur.webots.polycreate.rewritingrules.RotateAspect
-		if (_self instanceof fr.univcotedazur.webots.polycreate.Rotate){
-			fr.univcotedazur.webots.polycreate.rewritingrules.RotateAspect.runIt((fr.univcotedazur.webots.polycreate.Rotate)_self,controler,logicalVerifications,isAlternative);
+	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallLeftAspect
+		if (_self instanceof fr.univcotedazur.webots.polycreate.WallLeft){
+			result = fr.univcotedazur.webots.polycreate.rewritingrules.WallLeftAspect.isValid((fr.univcotedazur.webots.polycreate.WallLeft)_self,controler);
 		} else
-		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker,boolean) from fr.univcotedazur.webots.polycreate.rewritingrules.RotateAspect
+		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallLeftAspect
+	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallRightAspect
+		if (_self instanceof fr.univcotedazur.webots.polycreate.WallRight){
+			result = fr.univcotedazur.webots.polycreate.rewritingrules.WallRightAspect.isValid((fr.univcotedazur.webots.polycreate.WallRight)_self,controler);
+		} else
+		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallRightAspect
+	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect
+		if (_self instanceof fr.univcotedazur.webots.polycreate.Wall){
+			result = fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect.isValid((fr.univcotedazur.webots.polycreate.Wall)_self,controler);
+		} else
+		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect
 	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.ObjectInFrontAspect
 		if (_self instanceof fr.univcotedazur.webots.polycreate.ObjectInFront){
 			result = fr.univcotedazur.webots.polycreate.rewritingrules.ObjectInFrontAspect.isValid((fr.univcotedazur.webots.polycreate.ObjectInFront)_self,controler);
 		} else
 		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.ObjectInFrontAspect
+	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallFrontAspect
+		if (_self instanceof fr.univcotedazur.webots.polycreate.WallFront){
+			result = fr.univcotedazur.webots.polycreate.rewritingrules.WallFrontAspect.isValid((fr.univcotedazur.webots.polycreate.WallFront)_self,controler);
+		} else
+		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallFrontAspect
 	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallRightAspect
 		if (_self instanceof fr.univcotedazur.webots.polycreate.WallRight){
 			result = fr.univcotedazur.webots.polycreate.rewritingrules.WallRightAspect.isValid((fr.univcotedazur.webots.polycreate.WallRight)_self,controler);
@@ -43,3 +53,13 @@
 			result = fr.univcotedazur.webots.polycreate.rewritingrules.WallFrontAspect.isValid((fr.univcotedazur.webots.polycreate.WallFront)_self,controler);
 		} else
 		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallFrontAspect
+	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker,boolean) from fr.univcotedazur.webots.polycreate.rewritingrules.GrabAspect
+		if (_self instanceof fr.univcotedazur.webots.polycreate.Grab){
+			fr.univcotedazur.webots.polycreate.rewritingrules.GrabAspect.runIt((fr.univcotedazur.webots.polycreate.Grab)_self,controler,logicalVerifications,isAlternative);
+		} else
+		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker,boolean) from fr.univcotedazur.webots.polycreate.rewritingrules.GrabAspect
+	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker,boolean) from fr.univcotedazur.webots.polycreate.rewritingrules.RotateAspect
+		if (_self instanceof fr.univcotedazur.webots.polycreate.Rotate){
+			fr.univcotedazur.webots.polycreate.rewritingrules.RotateAspect.runIt((fr.univcotedazur.webots.polycreate.Rotate)_self,controler,logicalVerifications,isAlternative);
+		} else
+		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ActionAspect#void runIt(PolyCreateControler,SensorChecker,boolean) from fr.univcotedazur.webots.polycreate.rewritingrules.RotateAspect

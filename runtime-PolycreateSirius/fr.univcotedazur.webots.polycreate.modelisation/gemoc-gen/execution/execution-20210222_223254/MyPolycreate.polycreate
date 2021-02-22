@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ASCII"?>
+<polycreate:Mission xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:polycreate="http://www.example.org/polycreate">
+  <sequences>
+    <actions xsi:type="polycreate:MoveForward" distance="15"/>
+    <actions xsi:type="polycreate:Rotate"/>
+    <actions xsi:type="polycreate:MoveForward" distance="150"/>
+    <actions xsi:type="polycreate:Rotate" degrees="180"/>
+    <actions xsi:type="polycreate:MoveForward" distance="120"/>
+    <actions xsi:type="polycreate:Rotate"/>
+  </sequences>
+  <sensorChecker>
+    <conditions xsi:type="polycreate:ObjectInFront">
+      <alternativeSequence>
+        <actions xsi:type="polycreate:Rotate" degrees="180"/>
+        <actions xsi:type="polycreate:MoveBackward"/>
+        <actions xsi:type="polycreate:Grab"/>
+        <actions xsi:type="polycreate:Rotate"/>
+        <actions xsi:type="polycreate:MoveBackward" distance="10"/>
+        <actions xsi:type="polycreate:Release"/>
+        <actions xsi:type="polycreate:MoveForward" distance="10"/>
+        <actions xsi:type="polycreate:Rotate"/>
+      </alternativeSequence>
+    </conditions>
+    <conditions xsi:type="polycreate:WallFront">
+      <alternativeSequence>
+        <actions xsi:type="polycreate:Rotate"/>
+      </alternativeSequence>
+    </conditions>
+    <conditions xsi:type="polycreate:WallRight">
+      <alternativeSequence>
+        <actions xsi:type="polycreate:Rotate"/>
+      </alternativeSequence>
+    </conditions>
+    <conditions xsi:type="polycreate:WallLeft">
+      <alternativeSequence>
+        <actions xsi:type="polycreate:Rotate" degrees="-90"/>
+      </alternativeSequence>
+    </conditions>
+  </sensorChecker>
+</polycreate:Mission>

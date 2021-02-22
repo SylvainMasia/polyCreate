@@ -35,10 +35,10 @@ public class RotateAspect extends ActionAspect {
   }
   
   protected static void _privk3_runIt(final RotateAspectRotateAspectProperties _self_, final Rotate _self, final PolyCreateControler controler, final SensorChecker logicalVerifications, final boolean isAlternative) {
-    int finalDegrees = _self.getDegrees();
+    double finalDegrees = _self.getDegrees();
     if ((finalDegrees >= 180)) {
-      int _finalDegrees = finalDegrees;
-      finalDegrees = (_finalDegrees + (finalDegrees / 20));
+      double _finalDegrees = finalDegrees;
+      finalDegrees = (_finalDegrees + (finalDegrees / 16.8));
     }
     final double robotDegrees = ((((float) finalDegrees) / 100) * 2.14);
     System.out.println((("Turning " + Double.valueOf(robotDegrees)) + " degrees"));

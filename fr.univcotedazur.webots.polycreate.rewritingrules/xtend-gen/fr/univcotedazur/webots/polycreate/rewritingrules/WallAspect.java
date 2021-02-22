@@ -6,11 +6,12 @@ import fr.inria.diverse.k3.al.annotationprocessor.ReplaceAspectMethod;
 import fr.inria.diverse.k3.al.annotationprocessor.Step;
 import fr.univcotedazur.kairos.webots.polycreate.controler.PolyCreateControler;
 import fr.univcotedazur.webots.polycreate.Wall;
+import fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect;
 import fr.univcotedazur.webots.polycreate.rewritingrules.WallAspectWallAspectProperties;
 
 @Aspect(className = Wall.class)
 @SuppressWarnings("all")
-public abstract class WallAspect {
+public abstract class WallAspect extends ConditionAspect {
   @Step
   @ReplaceAspectMethod
   @Abstract

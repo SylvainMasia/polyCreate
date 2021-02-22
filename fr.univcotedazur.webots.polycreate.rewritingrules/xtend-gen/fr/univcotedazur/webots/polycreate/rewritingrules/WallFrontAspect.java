@@ -37,6 +37,10 @@ public class WallFrontAspect extends WallAspect {
   }
   
   protected static boolean _privk3_isValid(final WallFrontAspectWallFrontAspectProperties _self_, final WallFront _self, final PolyCreateControler controler) {
+    boolean _isThereVirtualwall = controler.isThereVirtualwall();
+    if (_isThereVirtualwall) {
+      System.out.println("Un mur est juste devant");
+    }
     return controler.isThereVirtualwall();
   }
 }

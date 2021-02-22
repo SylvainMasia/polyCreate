@@ -37,6 +37,10 @@ public class WallLeftAspect extends WallAspect {
   }
   
   protected static boolean _privk3_isValid(final WallLeftAspectWallLeftAspectProperties _self_, final WallLeft _self, final PolyCreateControler controler) {
+    boolean _isThereCollisionAtLeft = controler.isThereCollisionAtLeft();
+    if (_isThereCollisionAtLeft) {
+      System.out.println("Une collision se fait à gauche");
+    }
     return controler.isThereCollisionAtLeft();
   }
 }

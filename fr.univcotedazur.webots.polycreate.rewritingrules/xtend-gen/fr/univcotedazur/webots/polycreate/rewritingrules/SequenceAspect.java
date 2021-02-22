@@ -58,7 +58,6 @@ public class SequenceAspect {
     for (int i = 0; (i < _self.getActions().size()); i++) {
       {
         final Action action = _self.getActions().get(i);
-        System.out.println();
         ActionAspect.runIt(action, controler, logicalVerifications, SequenceAspect.isAlternative(_self));
       }
     }

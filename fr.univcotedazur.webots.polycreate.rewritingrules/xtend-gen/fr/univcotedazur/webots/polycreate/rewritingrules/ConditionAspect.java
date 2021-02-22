@@ -17,11 +17,31 @@ public abstract class ConditionAspect {
   public static boolean isValid(final Condition _self, final PolyCreateControler controler) {
     final fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspectConditionAspectProperties _self_ = fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspectConditionAspectContext.getSelf(_self);
     Object result = null;
+    	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallLeftAspect
+    		if (_self instanceof fr.univcotedazur.webots.polycreate.WallLeft){
+    			result = fr.univcotedazur.webots.polycreate.rewritingrules.WallLeftAspect.isValid((fr.univcotedazur.webots.polycreate.WallLeft)_self,controler);
+    		} else
+    		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallLeftAspect
+    	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallRightAspect
+    		if (_self instanceof fr.univcotedazur.webots.polycreate.WallRight){
+    			result = fr.univcotedazur.webots.polycreate.rewritingrules.WallRightAspect.isValid((fr.univcotedazur.webots.polycreate.WallRight)_self,controler);
+    		} else
+    		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallRightAspect
+    	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect
+    		if (_self instanceof fr.univcotedazur.webots.polycreate.Wall){
+    			result = fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect.isValid((fr.univcotedazur.webots.polycreate.Wall)_self,controler);
+    		} else
+    		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect
     	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.ObjectInFrontAspect
     		if (_self instanceof fr.univcotedazur.webots.polycreate.ObjectInFront){
     			result = fr.univcotedazur.webots.polycreate.rewritingrules.ObjectInFrontAspect.isValid((fr.univcotedazur.webots.polycreate.ObjectInFront)_self,controler);
     		} else
     		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.ObjectInFrontAspect
+    	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallFrontAspect
+    		if (_self instanceof fr.univcotedazur.webots.polycreate.WallFront){
+    			result = fr.univcotedazur.webots.polycreate.rewritingrules.WallFrontAspect.isValid((fr.univcotedazur.webots.polycreate.WallFront)_self,controler);
+    		} else
+    		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallFrontAspect
     // #DispatchPointCut_before# boolean isValid(PolyCreateControler)
     if (_self instanceof fr.univcotedazur.webots.polycreate.Condition){
     	fr.inria.diverse.k3.al.annotationprocessor.stepmanager.StepCommand command = new fr.inria.diverse.k3.al.annotationprocessor.stepmanager.StepCommand() {

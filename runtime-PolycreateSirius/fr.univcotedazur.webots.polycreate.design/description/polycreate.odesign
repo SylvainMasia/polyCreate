@@ -59,18 +59,129 @@
         </containerMappings>
         <containerMappings name="SensorChecker" semanticCandidatesExpression="feature:sensorChecker" domainClass="polycreate::SensorChecker">
           <subContainerMappings name="WallAtLeft" semanticCandidatesExpression="feature:conditions" domainClass="polycreate::WallLeft">
+            <subContainerMappings name="AlternativeSequence" semanticCandidatesExpression="feature:alternativeSequence" domainClass="polycreate::Sequence">
+              <subNodeMappings name="MoveForward" semanticCandidatesExpression="feature:actions" domainClass="polycreate::MoveForward">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.distance+'cm'" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/MoveForward.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <subNodeMappings name="Grab" semanticCandidatesExpression="feature:actions" domainClass="polycreate::Grab">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="Grab" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/Grab.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <subNodeMappings name="Release" semanticCandidatesExpression="feature:actions" domainClass="polycreate::Release">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="Release" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/Release.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <subNodeMappings name="Rotate" semanticCandidatesExpression="feature:actions" domainClass="polycreate::Rotate">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.degrees+'°'" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/RotateLeft.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <subNodeMappings name="MoveBackward" semanticCandidatesExpression="feature:actions" domainClass="polycreate::MoveBackward">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.distance+'cm'" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/MoveBackward.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="Sequence">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+              </style>
+            </subContainerMappings>
             <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="WallAtLeft" hideLabelByDefault="true" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/WallLeft.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subContainerMappings>
           <subContainerMappings name="WallAtRight" semanticCandidatesExpression="feature:conditions" domainClass="polycreate::WallRight">
+            <subContainerMappings name="AlternativeSequence" semanticCandidatesExpression="feature:alternativeSequence" domainClass="polycreate::Sequence">
+              <subNodeMappings name="MoveForward" semanticCandidatesExpression="feature:actions" domainClass="polycreate::MoveForward">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.distance+'cm'" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/MoveForward.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <subNodeMappings name="Grab" semanticCandidatesExpression="feature:actions" domainClass="polycreate::Grab">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="Grab" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/Grab.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <subNodeMappings name="Release" semanticCandidatesExpression="feature:actions" domainClass="polycreate::Release">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="Release" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/Release.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <subNodeMappings name="Rotate" semanticCandidatesExpression="feature:actions" domainClass="polycreate::Rotate">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.degrees+'°'" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/RotateLeft.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <subNodeMappings name="MoveBackward" semanticCandidatesExpression="feature:actions" domainClass="polycreate::MoveBackward">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.distance+'cm'" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/MoveBackward.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="Sequence">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+              </style>
+            </subContainerMappings>
             <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="WallAtRight" hideLabelByDefault="true" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/WallRight.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </subContainerMappings>
           <subContainerMappings name="WallInFront" semanticCandidatesExpression="feature:conditions" domainClass="polycreate::WallFront">
+            <subContainerMappings name="AlternativeSequence" semanticCandidatesExpression="feature:alternativeSequence" domainClass="polycreate::Sequence">
+              <subNodeMappings name="MoveForward" semanticCandidatesExpression="feature:actions" domainClass="polycreate::MoveForward">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.distance+'cm'" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/MoveForward.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <subNodeMappings name="Grab" semanticCandidatesExpression="feature:actions" domainClass="polycreate::Grab">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="Grab" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/Grab.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <subNodeMappings name="Release" semanticCandidatesExpression="feature:actions" domainClass="polycreate::Release">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="Release" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/Release.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <subNodeMappings name="Rotate" semanticCandidatesExpression="feature:actions" domainClass="polycreate::Rotate">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.degrees+'°'" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/RotateLeft.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <subNodeMappings name="MoveBackward" semanticCandidatesExpression="feature:actions" domainClass="polycreate::MoveBackward">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:self.distance+'cm'" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/MoveBackward.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="Sequence">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+              </style>
+            </subContainerMappings>
             <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="WallInFront" hideLabelByDefault="true" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/WallFront.png">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>

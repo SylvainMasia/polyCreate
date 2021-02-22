@@ -1,6 +1,5 @@
 package fr.univcotedazur.webots.polycreate.rewritingrules;
 
-import com.cyberbotics.webots.controller.CameraRecognitionObject;
 import fr.inria.diverse.k3.al.annotationprocessor.Aspect;
 import fr.inria.diverse.k3.al.annotationprocessor.ReplaceAspectMethod;
 import fr.inria.diverse.k3.al.annotationprocessor.Step;
@@ -38,19 +37,16 @@ public class ObjectInFrontAspect extends ConditionAspect {
   }
   
   protected static boolean _privk3_isValid(final ObjectInFrontAspectObjectInFrontAspectProperties _self_, final ObjectInFront _self, final PolyCreateControler controler) {
-    CameraRecognitionObject[] frontObjs = controler.frontCamera.getCameraRecognitionObjects();
-    int _length = frontObjs.length;
-    boolean _greaterThan = (_length > 0);
-    if (_greaterThan) {
-      final CameraRecognitionObject obj = frontObjs[0];
-      double[] frontObjPos = obj.getPosition();
-      double _get = frontObjPos[0];
-      double _get_1 = frontObjPos[1];
-      double calc = (_get + _get_1);
-      if (((calc < (-0.05)) && (calc > (-0.06)))) {
-        System.out.println("C\'est touché");
-        return true;
-      }
+    double _objectDistanceToGripper = controler.getObjectDistanceToGripper();
+    double _divide = (_objectDistanceToGripper / 100);
+    boolean _lessThan = (_divide < 2);
+    if (_lessThan) {
+      double _objectDistanceToGripper_1 = controler.getObjectDistanceToGripper();
+      double _divide_1 = (_objectDistanceToGripper_1 / 100);
+      String _plus = ("Il y a un objet à " + Double.valueOf(_divide_1));
+      String _plus_1 = (_plus + "cm");
+      System.out.println(_plus_1);
+      return true;
     }
     return false;
   }

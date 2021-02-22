@@ -10,5 +10,5 @@ orthographicViewHeight: 1
 textFiles: -1
 consoles: Console:All:All
 renderingDevicePerspectives: Create:backCamera;1;1.10938;0;0
-renderingDevicePerspectives: Create:frontCamera;1;1.01563;0;0.0774603
+renderingDevicePerspectives: Create:frontCamera;1;1.01563;0.00779896;0.318293
 renderingDevicePerspectives: robot:ground_display;0;0.554688;0;0
