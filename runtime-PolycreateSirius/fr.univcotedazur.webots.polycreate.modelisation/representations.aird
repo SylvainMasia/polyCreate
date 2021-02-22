@@ -2,7 +2,6 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:polycreate="http://www.example.org/polycreate" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
   <viewpoint:DAnalysis uid="_6rI5AG76Eeul2Kbquf7PeQ" selectedViews="_bVG00G77Eeul2Kbquf7PeQ" version="14.1.0.201810161215">
     <semanticResources>MyPolycreate.polycreate</semanticResources>
-    <semanticResources>gemoc-gen/execution/execution-20210222_182005/MyPolycreate.polycreate</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_bVG00G77Eeul2Kbquf7PeQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_JN4zcHUfEeuFfrTOS3wxZQ" name="Mission 1 Diagram" repPath="#_JNdVoHUfEeuFfrTOS3wxZQ">
@@ -448,7 +447,7 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Rotate']"/>
           </ownedDiagramElements>
-          <ownedDiagramElements xmi:type="diagram:DNode" uid="_LM141XUyEeutlZgzBBbmmQ" name="2cm" outgoingEdges="_rZDtYnVNEeuVTO6Jsk_dKQ" incomingEdges="_rZE7hHVNEeuVTO6Jsk_dKQ" width="-1" height="-1" resizeKind="NSEW">
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_LM141XUyEeutlZgzBBbmmQ" name="5cm" outgoingEdges="_rZDtYnVNEeuVTO6Jsk_dKQ" incomingEdges="_rZE7hHVNEeuVTO6Jsk_dKQ" width="-1" height="-1" resizeKind="NSEW">
             <target xmi:type="polycreate:MoveBackward" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.1"/>
             <semanticElements xmi:type="polycreate:MoveBackward" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.1"/>
             <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>

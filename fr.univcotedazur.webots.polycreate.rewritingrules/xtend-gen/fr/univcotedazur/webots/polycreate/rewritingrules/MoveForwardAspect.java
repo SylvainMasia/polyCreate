@@ -51,7 +51,21 @@ public class MoveForwardAspect extends ActionAspect {
             return;
           }
           controler.goForward();
-          controler.passiveWait((5 * 0.05));
+          int _distance_2 = _self.getDistance();
+          int _minus = (_distance_2 - i);
+          boolean _lessThan_1 = (_minus < 5);
+          if (_lessThan_1) {
+            int _distance_3 = _self.getDistance();
+            int _minus_1 = (_distance_3 - i);
+            String _plus_2 = ("On passe ici : " + Integer.valueOf(_minus_1));
+            System.out.println(_plus_2);
+            int _distance_4 = _self.getDistance();
+            int _minus_2 = (_distance_4 - i);
+            double _multiply = (_minus_2 * 0.05);
+            controler.passiveWait(_multiply);
+          } else {
+            controler.passiveWait((5 * 0.05));
+          }
         }
         int _i = i;
         i = (_i + 5);
@@ -60,5 +74,6 @@ public class MoveForwardAspect extends ActionAspect {
         _while = _lessThan_1;
       }
     }
+    controler.stop();
   }
 }

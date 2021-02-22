@@ -46,6 +46,7 @@ public class SensorCheckerAspect {
       boolean _isValid = ConditionAspect.isValid(condition, controler);
       if (_isValid) {
         System.out.println("C\'est valide");
+        controler.stop();
         System.out.println("Stop");
         Sequence _alternativeSequence = condition.getAlternativeSequence();
         SequenceAspect.isAlternative(_alternativeSequence, true);

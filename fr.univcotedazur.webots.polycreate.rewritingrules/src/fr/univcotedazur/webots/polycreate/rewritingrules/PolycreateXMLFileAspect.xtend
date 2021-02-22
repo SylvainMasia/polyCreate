@@ -137,7 +137,7 @@ class SensorCheckerAspect {
 		for (Condition condition : _self.conditions) {
 			if (condition.isValid(controler)) {
 				System.out.println("C'est valide");
-				//controler.stop();
+				controler.stop();
 				System.out.println("Stop");
 				condition.alternativeSequence.isAlternative = true;
 				condition.alternativeSequence.runIt(controler, _self);
@@ -209,8 +209,14 @@ class MoveForwardAspect extends ActionAspect {
 				return;
 			}
 			controler.goForward();
-			controler.passiveWait(5 * 0.05);
+			if (_self.distance - i < 5) {
+				System.out.println("On passe ici : " + (_self.distance - i));
+				controler.passiveWait((_self.distance - i) * 0.05);
+			} else {
+				controler.passiveWait(5 * 0.05);
+			}
 		}
+		controler.stop();
 	}
 }
 
@@ -226,8 +232,14 @@ class MoveBackwardAspect extends ActionAspect {
 				return;
 			}
 			controler.goBackward();
-			controler.passiveWait(5 * 0.1);
+			if (_self.distance - i < 5) {
+				System.out.println("On passe ici : " + (_self.distance - i));
+				controler.passiveWait((_self.distance - i) * 0.1);
+			} else {
+				controler.passiveWait(5 * 0.1);
+			}
 		}
+		controler.stop();
 	}
 }
 

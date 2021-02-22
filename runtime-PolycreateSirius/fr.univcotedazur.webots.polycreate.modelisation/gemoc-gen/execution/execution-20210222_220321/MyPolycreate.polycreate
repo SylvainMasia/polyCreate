@@ -9,7 +9,7 @@
     <conditions xsi:type="polycreate:ObjectInFront">
       <alternativeSequence>
         <actions xsi:type="polycreate:Rotate" degrees="180"/>
-        <actions xsi:type="polycreate:MoveBackward"/>
+        <actions xsi:type="polycreate:MoveBackward" distance="2"/>
         <actions xsi:type="polycreate:Grab"/>
         <actions xsi:type="polycreate:Rotate"/>
         <actions xsi:type="polycreate:MoveBackward" distance="10"/>
