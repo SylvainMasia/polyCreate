@@ -15,19 +15,19 @@ import fr.univcotedazur.webots.polycreate.rewritingrules.SensorCheckerAspect;
 public class MoveBackwardAspect extends ActionAspect {
   @Step
   @ReplaceAspectMethod
-  public static void runIt(final MoveBackward _self, final PolyCreateControler controler, final SensorChecker logicalVerifications) {
+  public static void runIt(final MoveBackward _self, final PolyCreateControler controler, final SensorChecker logicalVerifications, final boolean isAlternative) {
     final fr.univcotedazur.webots.polycreate.rewritingrules.MoveBackwardAspectMoveBackwardAspectProperties _self_ = fr.univcotedazur.webots.polycreate.rewritingrules.MoveBackwardAspectMoveBackwardAspectContext.getSelf(_self);
-    // #DispatchPointCut_before# void runIt(PolyCreateControler,SensorChecker)
+    // #DispatchPointCut_before# void runIt(PolyCreateControler,SensorChecker,boolean)
     if (_self instanceof fr.univcotedazur.webots.polycreate.MoveBackward){
     	fr.inria.diverse.k3.al.annotationprocessor.stepmanager.StepCommand command = new fr.inria.diverse.k3.al.annotationprocessor.stepmanager.StepCommand() {
     		@Override
     		public void execute() {
-    			fr.univcotedazur.webots.polycreate.rewritingrules.MoveBackwardAspect._privk3_runIt(_self_, (fr.univcotedazur.webots.polycreate.MoveBackward)_self,controler,logicalVerifications);
+    			fr.univcotedazur.webots.polycreate.rewritingrules.MoveBackwardAspect._privk3_runIt(_self_, (fr.univcotedazur.webots.polycreate.MoveBackward)_self,controler,logicalVerifications,isAlternative);
     		}
     	};
     	fr.inria.diverse.k3.al.annotationprocessor.stepmanager.IStepManager stepManager = fr.inria.diverse.k3.al.annotationprocessor.stepmanager.StepManagerRegistry.getInstance().findStepManager(_self);
     	if (stepManager != null) {
-    		stepManager.executeStep(_self, new Object[] {controler,logicalVerifications}, command, "MoveBackward", "runIt");
+    		stepManager.executeStep(_self, new Object[] {controler,logicalVerifications,isAlternative}, command, "MoveBackward", "runIt");
     	} else {
     		command.execute();
     	}
@@ -35,7 +35,7 @@ public class MoveBackwardAspect extends ActionAspect {
     };
   }
   
-  protected static void _privk3_runIt(final MoveBackwardAspectMoveBackwardAspectProperties _self_, final MoveBackward _self, final PolyCreateControler controler, final SensorChecker logicalVerifications) {
+  protected static void _privk3_runIt(final MoveBackwardAspectMoveBackwardAspectProperties _self_, final MoveBackward _self, final PolyCreateControler controler, final SensorChecker logicalVerifications, final boolean isAlternative) {
     int _distance = _self.getDistance();
     String _plus = ("Going backward " + Integer.valueOf(_distance));
     String _plus_1 = (_plus + "cm");
@@ -47,13 +47,11 @@ public class MoveBackwardAspect extends ActionAspect {
       boolean _while = _lessThan;
       while (_while) {
         {
-          boolean _runIt = SensorCheckerAspect.runIt(logicalVerifications, controler);
-          if (_runIt) {
-            controler.stop();
+          if (((!isAlternative) && SensorCheckerAspect.runIt(logicalVerifications, controler))) {
             return;
           }
           controler.goBackward();
-          controler.passiveWait((5 * 0.05));
+          controler.passiveWait((5 * 0.1));
         }
         int _i = i;
         i = (_i + 5);

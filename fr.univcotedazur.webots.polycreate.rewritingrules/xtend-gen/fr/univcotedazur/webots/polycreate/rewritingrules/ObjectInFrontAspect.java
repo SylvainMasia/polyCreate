@@ -1,15 +1,17 @@
 package fr.univcotedazur.webots.polycreate.rewritingrules;
 
+import com.cyberbotics.webots.controller.CameraRecognitionObject;
 import fr.inria.diverse.k3.al.annotationprocessor.Aspect;
 import fr.inria.diverse.k3.al.annotationprocessor.ReplaceAspectMethod;
 import fr.inria.diverse.k3.al.annotationprocessor.Step;
 import fr.univcotedazur.kairos.webots.polycreate.controler.PolyCreateControler;
 import fr.univcotedazur.webots.polycreate.ObjectInFront;
+import fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect;
 import fr.univcotedazur.webots.polycreate.rewritingrules.ObjectInFrontAspectObjectInFrontAspectProperties;
 
 @Aspect(className = ObjectInFront.class)
 @SuppressWarnings("all")
-public class ObjectInFrontAspect {
+public class ObjectInFrontAspect extends ConditionAspect {
   @Step
   @ReplaceAspectMethod
   public static boolean isValid(final ObjectInFront _self, final PolyCreateControler controler) {
@@ -36,7 +38,20 @@ public class ObjectInFrontAspect {
   }
   
   protected static boolean _privk3_isValid(final ObjectInFrontAspectObjectInFrontAspectProperties _self_, final ObjectInFront _self, final PolyCreateControler controler) {
-    double _objectDistanceToGripper = controler.getObjectDistanceToGripper();
-    return (_objectDistanceToGripper < 2);
+    CameraRecognitionObject[] frontObjs = controler.frontCamera.getCameraRecognitionObjects();
+    int _length = frontObjs.length;
+    boolean _greaterThan = (_length > 0);
+    if (_greaterThan) {
+      final CameraRecognitionObject obj = frontObjs[0];
+      double[] frontObjPos = obj.getPosition();
+      double _get = frontObjPos[0];
+      double _get_1 = frontObjPos[1];
+      double calc = (_get + _get_1);
+      if (((calc < (-0.05)) && (calc > (-0.06)))) {
+        System.out.println("C\'est touché");
+        return true;
+      }
+    }
+    return false;
   }
 }

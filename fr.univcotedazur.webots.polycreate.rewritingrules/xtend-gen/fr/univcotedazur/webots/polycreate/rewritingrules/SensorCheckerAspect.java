@@ -6,6 +6,7 @@ import fr.inria.diverse.k3.al.annotationprocessor.Step;
 import fr.univcotedazur.kairos.webots.polycreate.controler.PolyCreateControler;
 import fr.univcotedazur.webots.polycreate.Condition;
 import fr.univcotedazur.webots.polycreate.SensorChecker;
+import fr.univcotedazur.webots.polycreate.Sequence;
 import fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect;
 import fr.univcotedazur.webots.polycreate.rewritingrules.SensorCheckerAspectSensorCheckerAspectProperties;
 import fr.univcotedazur.webots.polycreate.rewritingrules.SequenceAspect;
@@ -44,6 +45,10 @@ public class SensorCheckerAspect {
     for (final Condition condition : _conditions) {
       boolean _isValid = ConditionAspect.isValid(condition, controler);
       if (_isValid) {
+        System.out.println("C\'est valide");
+        System.out.println("Stop");
+        Sequence _alternativeSequence = condition.getAlternativeSequence();
+        SequenceAspect.isAlternative(_alternativeSequence, true);
         SequenceAspect.runIt(condition.getAlternativeSequence(), controler, _self);
         return true;
       }

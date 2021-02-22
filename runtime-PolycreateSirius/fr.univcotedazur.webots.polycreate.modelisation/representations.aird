@@ -2,12 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:polycreate="http://www.example.org/polycreate" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
   <viewpoint:DAnalysis uid="_6rI5AG76Eeul2Kbquf7PeQ" selectedViews="_bVG00G77Eeul2Kbquf7PeQ" version="14.1.0.201810161215">
     <semanticResources>MyPolycreate.polycreate</semanticResources>
-    <semanticResources>gemoc-gen/execution/execution-20210222_162036/MyPolycreate.polycreate</semanticResources>
-    <semanticResources>gemoc-gen/execution/execution-20210222_162237/MyPolycreate.polycreate</semanticResources>
-    <semanticResources>gemoc-gen/execution/execution-20210222_162451/MyPolycreate.polycreate</semanticResources>
-    <semanticResources>gemoc-gen/execution/execution-20210222_162704/MyPolycreate.polycreate</semanticResources>
-    <semanticResources>gemoc-gen/execution/execution-20210222_162907/MyPolycreate.polycreate</semanticResources>
-    <semanticResources>gemoc-gen/execution/execution-20210222_170709/MyPolycreate.polycreate</semanticResources>
+    <semanticResources>gemoc-gen/execution/execution-20210222_182005/MyPolycreate.polycreate</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_bVG00G77Eeul2Kbquf7PeQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_JN4zcHUfEeuFfrTOS3wxZQ" name="Mission 1 Diagram" repPath="#_JNdVoHUfEeuFfrTOS3wxZQ">
@@ -40,23 +35,23 @@
               <children xmi:type="notation:Node" xmi:id="_WLMXYHUfEeuFfrTOS3wxZQ" type="5003">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_WLMXYXUfEeuFfrTOS3wxZQ" y="-21"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_WLM-cHUfEeuFfrTOS3wxZQ" type="3005" element="_WLDNcHUfEeuFfrTOS3wxZQ">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_WLM-cXUfEeuFfrTOS3wxZQ" fontName="Segoe UI"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLM-cnUfEeuFfrTOS3wxZQ"/>
+              <children xmi:type="notation:Node" xmi:id="_adAUYHUrEeurN7vlh1L5Tw" type="3005" element="_acmEsXUrEeurN7vlh1L5Tw">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_adAUYXUrEeurN7vlh1L5Tw" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_adAUYnUrEeurN7vlh1L5Tw"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_WLLwUXUfEeuFfrTOS3wxZQ" fontName="Segoe UI" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLLwUnUfEeuFfrTOS3wxZQ" x="225" y="39" width="106" height="104"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLLwUnUfEeuFfrTOS3wxZQ" x="220" y="29" width="121" height="121"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_XAFYAHUfEeuFfrTOS3wxZQ" type="3007" element="_XABtonUfEeuFfrTOS3wxZQ">
-              <children xmi:type="notation:Node" xmi:id="_XAFYA3UfEeuFfrTOS3wxZQ" type="5003">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_XAFYBHUfEeuFfrTOS3wxZQ" y="-21"/>
+            <children xmi:type="notation:Node" xmi:id="_ac0HIHUrEeurN7vlh1L5Tw" type="3007" element="_acjocnUrEeurN7vlh1L5Tw">
+              <children xmi:type="notation:Node" xmi:id="_ac3xgHUrEeurN7vlh1L5Tw" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ac3xgXUrEeurN7vlh1L5Tw" y="-21"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_XAF_EHUfEeuFfrTOS3wxZQ" type="3005" element="_XABto3UfEeuFfrTOS3wxZQ">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_XAF_EXUfEeuFfrTOS3wxZQ" fontName="Segoe UI"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAF_EnUfEeuFfrTOS3wxZQ"/>
+              <children xmi:type="notation:Node" xmi:id="_adAUY3UrEeurN7vlh1L5Tw" type="3005" element="_ackPgHUrEeurN7vlh1L5Tw">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_adAUZHUrEeurN7vlh1L5Tw" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_adAUZXUrEeurN7vlh1L5Tw"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_XAFYAXUfEeuFfrTOS3wxZQ" fontName="Segoe UI" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAFYAnUfEeuFfrTOS3wxZQ" x="380" y="39" width="106" height="104"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ac0HIXUrEeurN7vlh1L5Tw" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ac0HInUrEeurN7vlh1L5Tw" x="410" y="39" width="106" height="104"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_UJCSYXUfEeuFfrTOS3wxZQ"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_UJCSYnUfEeuFfrTOS3wxZQ"/>
@@ -73,100 +68,111 @@
                 <children xmi:type="notation:Node" xmi:id="_ISZh8HUnEeusho0q8JaQng" type="3008" element="_IR_5VHUnEeusho0q8JaQng">
                   <children xmi:type="notation:Node" xmi:id="_ISZh83UnEeusho0q8JaQng" type="5005"/>
                   <children xmi:type="notation:Node" xmi:id="_ISaJAHUnEeusho0q8JaQng" type="7002">
-                    <children xmi:type="notation:Node" xmi:id="_ISawEHUnEeusho0q8JaQng" type="3007" element="_ISBHcHUnEeusho0q8JaQng">
-                      <children xmi:type="notation:Node" xmi:id="_ISbXIHUnEeusho0q8JaQng" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_ISbXIXUnEeusho0q8JaQng" x="1" y="-21"/>
+                    <children xmi:type="notation:Node" xmi:id="_k4TcUHUwEeuvFNK0z1JxoQ" type="3007" element="_k36awXUwEeuvFNK0z1JxoQ">
+                      <children xmi:type="notation:Node" xmi:id="_k4TcU3UwEeuvFNK0z1JxoQ" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_k4TcVHUwEeuvFNK0z1JxoQ" y="-21"/>
                       </children>
-                      <children xmi:type="notation:Node" xmi:id="_ISgPoHUnEeusho0q8JaQng" type="3005" element="_ISBugHUnEeusho0q8JaQng">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_ISgPoXUnEeusho0q8JaQng" fontName="Segoe UI"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISgPonUnEeusho0q8JaQng"/>
+                      <children xmi:type="notation:Node" xmi:id="_k4YU1XUwEeuvFNK0z1JxoQ" type="3005" element="_k37B0HUwEeuvFNK0z1JxoQ">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_k4YU1nUwEeuvFNK0z1JxoQ" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k4YU13UwEeuvFNK0z1JxoQ"/>
                       </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_ISawEXUnEeusho0q8JaQng" fontName="Segoe UI" fontHeight="12"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISawEnUnEeusho0q8JaQng" x="141" y="42" width="46" height="47"/>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_k4TcUXUwEeuvFNK0z1JxoQ" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k4TcUnUwEeuvFNK0z1JxoQ" x="240" y="28" width="66" height="67"/>
                     </children>
-                    <children xmi:type="notation:Node" xmi:id="_ISclQHUnEeusho0q8JaQng" type="3007" element="_ISBugnUnEeusho0q8JaQng">
-                      <children xmi:type="notation:Node" xmi:id="_ISclQ3UnEeusho0q8JaQng" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_ISclRHUnEeusho0q8JaQng" x="1" y="-21"/>
+                    <children xmi:type="notation:Node" xmi:id="_k4V4kHUwEeuvFNK0z1JxoQ" type="3007" element="_k37o4HUwEeuvFNK0z1JxoQ">
+                      <children xmi:type="notation:Node" xmi:id="_k4V4k3UwEeuvFNK0z1JxoQ" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_k4V4lHUwEeuvFNK0z1JxoQ" y="-21"/>
                       </children>
-                      <children xmi:type="notation:Node" xmi:id="_ISgPo3UnEeusho0q8JaQng" type="3005" element="_ISCVkHUnEeusho0q8JaQng">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_ISgPpHUnEeusho0q8JaQng" fontName="Segoe UI"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISgPpXUnEeusho0q8JaQng"/>
+                      <children xmi:type="notation:Node" xmi:id="_k4Y743UwEeuvFNK0z1JxoQ" type="3005" element="_k37o4XUwEeuvFNK0z1JxoQ">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_k4Y75HUwEeuvFNK0z1JxoQ" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k4Y75XUwEeuvFNK0z1JxoQ"/>
                       </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_ISclQXUnEeusho0q8JaQng" fontName="Segoe UI" fontHeight="12"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISclQnUnEeusho0q8JaQng" x="199" y="40" width="46" height="47"/>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_k4V4kXUwEeuvFNK0z1JxoQ" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k4V4knUwEeuvFNK0z1JxoQ" x="130" y="28" width="66" height="67"/>
                     </children>
-                    <children xmi:type="notation:Node" xmi:id="_ISdMUHUnEeusho0q8JaQng" type="3007" element="_ISCVknUnEeusho0q8JaQng">
-                      <children xmi:type="notation:Node" xmi:id="_ISdMU3UnEeusho0q8JaQng" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_ISdMVHUnEeusho0q8JaQng" x="1" y="-21"/>
+                    <children xmi:type="notation:Node" xmi:id="_k4XGsHUwEeuvFNK0z1JxoQ" type="3007" element="_k38P8HUwEeuvFNK0z1JxoQ">
+                      <children xmi:type="notation:Node" xmi:id="_k4XtwHUwEeuvFNK0z1JxoQ" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_k4XtwXUwEeuvFNK0z1JxoQ" y="-21"/>
                       </children>
-                      <children xmi:type="notation:Node" xmi:id="_ISg2sHUnEeusho0q8JaQng" type="3005" element="_ISCVk3UnEeusho0q8JaQng">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_ISg2sXUnEeusho0q8JaQng" fontName="Segoe UI"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISg2snUnEeusho0q8JaQng"/>
+                      <children xmi:type="notation:Node" xmi:id="_k4Y75nUwEeuvFNK0z1JxoQ" type="3005" element="_k38P8XUwEeuvFNK0z1JxoQ">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_k4Y753UwEeuvFNK0z1JxoQ" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k4Y76HUwEeuvFNK0z1JxoQ"/>
                       </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_ISdMUXUnEeusho0q8JaQng" fontName="Segoe UI" fontHeight="12"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISdMUnUnEeusho0q8JaQng" x="309" y="40" width="46" height="47"/>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_k4XGsXUwEeuvFNK0z1JxoQ" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k4XGsnUwEeuvFNK0z1JxoQ" x="330" y="21" width="66" height="67"/>
                     </children>
-                    <children xmi:type="notation:Node" xmi:id="_ISdzYHUnEeusho0q8JaQng" type="3007" element="_ISC8oHUnEeusho0q8JaQng">
-                      <children xmi:type="notation:Node" xmi:id="_ISdzY3UnEeusho0q8JaQng" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_ISdzZHUnEeusho0q8JaQng" x="1" y="-21"/>
+                    <children xmi:type="notation:Node" xmi:id="_LNA38HUyEeutlZgzBBbmmQ" type="3007" element="_LM141XUyEeutlZgzBBbmmQ">
+                      <children xmi:type="notation:Node" xmi:id="_LNEiUHUyEeutlZgzBBbmmQ" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_LNEiUXUyEeutlZgzBBbmmQ" y="-21"/>
                       </children>
-                      <children xmi:type="notation:Node" xmi:id="_ISg2s3UnEeusho0q8JaQng" type="3005" element="_ISC8oXUnEeusho0q8JaQng">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_ISg2tHUnEeusho0q8JaQng" fontName="Segoe UI"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISg2tXUnEeusho0q8JaQng"/>
+                      <children xmi:type="notation:Node" xmi:id="_LNNFMHUyEeutlZgzBBbmmQ" type="3005" element="_LM2f4HUyEeutlZgzBBbmmQ">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_LNNFMXUyEeutlZgzBBbmmQ" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LNNFMnUyEeutlZgzBBbmmQ"/>
                       </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_ISdzYXUnEeusho0q8JaQng" fontName="Segoe UI" fontHeight="12"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISdzYnUnEeusho0q8JaQng" x="84" y="40" width="46" height="47"/>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_LNA38XUyEeutlZgzBBbmmQ" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LNA38nUyEeutlZgzBBbmmQ" x="25" y="24" width="71" height="73"/>
                     </children>
-                    <children xmi:type="notation:Node" xmi:id="_ISeacHUnEeusho0q8JaQng" type="3007" element="_ISC8o3UnEeusho0q8JaQng">
-                      <children xmi:type="notation:Node" xmi:id="_ISeac3UnEeusho0q8JaQng" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_ISeadHUnEeusho0q8JaQng" x="1" y="-21"/>
+                    <children xmi:type="notation:Node" xmi:id="_0S4zoHUzEeumL8lCNR_tLA" type="3007" element="_0SvpsnUzEeumL8lCNR_tLA">
+                      <children xmi:type="notation:Node" xmi:id="_0S728HUzEeumL8lCNR_tLA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_0S728XUzEeumL8lCNR_tLA" y="-21"/>
                       </children>
-                      <children xmi:type="notation:Node" xmi:id="_IShdwHUnEeusho0q8JaQng" type="3005" element="_ISC8pHUnEeusho0q8JaQng">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_IShdwXUnEeusho0q8JaQng" fontName="Segoe UI"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IShdwnUnEeusho0q8JaQng"/>
+                      <children xmi:type="notation:Node" xmi:id="_0TAvcHUzEeumL8lCNR_tLA" type="3005" element="_0SwQwHUzEeumL8lCNR_tLA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_0TAvcXUzEeumL8lCNR_tLA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0TAvcnUzEeumL8lCNR_tLA"/>
                       </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_ISeacXUnEeusho0q8JaQng" fontName="Segoe UI" fontHeight="12"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISeacnUnEeusho0q8JaQng" x="364" y="35" width="46" height="47"/>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_0S4zoXUzEeumL8lCNR_tLA" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0S4zonUzEeumL8lCNR_tLA" x="635" y="22" width="61" height="63"/>
                     </children>
-                    <children xmi:type="notation:Node" xmi:id="_ISeadXUnEeusho0q8JaQng" type="3007" element="_ISDjsXUnEeusho0q8JaQng">
-                      <children xmi:type="notation:Node" xmi:id="_ISeaeHUnEeusho0q8JaQng" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_ISeaeXUnEeusho0q8JaQng" x="1" y="-21"/>
+                    <children xmi:type="notation:Node" xmi:id="_0S-6QHUzEeumL8lCNR_tLA" type="3007" element="_0Sw30nUzEeumL8lCNR_tLA">
+                      <children xmi:type="notation:Node" xmi:id="_0S-6Q3UzEeumL8lCNR_tLA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_0S-6RHUzEeumL8lCNR_tLA" x="-85" y="-21"/>
                       </children>
-                      <children xmi:type="notation:Node" xmi:id="_ISiE0HUnEeusho0q8JaQng" type="3005" element="_ISDjsnUnEeusho0q8JaQng">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_ISiE0XUnEeusho0q8JaQng" fontName="Segoe UI"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISiE0nUnEeusho0q8JaQng"/>
+                      <children xmi:type="notation:Node" xmi:id="_0TAvc3UzEeumL8lCNR_tLA" type="3005" element="_0Sxe4HUzEeumL8lCNR_tLA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_0TAvdHUzEeumL8lCNR_tLA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0TAvdXUzEeumL8lCNR_tLA"/>
                       </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_ISeadnUnEeusho0q8JaQng" fontName="Segoe UI" fontHeight="12"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISead3UnEeusho0q8JaQng" x="254" y="38" width="49" height="51"/>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_0S-6QXUzEeumL8lCNR_tLA" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0S-6QnUzEeumL8lCNR_tLA" x="410" y="23" width="65" height="62"/>
                     </children>
-                    <children xmi:type="notation:Node" xmi:id="_ISfBgHUnEeusho0q8JaQng" type="3007" element="_ISEKwHUnEeusho0q8JaQng">
-                      <children xmi:type="notation:Node" xmi:id="_ISfBg3UnEeusho0q8JaQng" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_ISfBhHUnEeusho0q8JaQng" x="1" y="-21"/>
+                    <children xmi:type="notation:Node" xmi:id="_0S_hUHUzEeumL8lCNR_tLA" type="3007" element="_0SsmYnUzEeumL8lCNR_tLA">
+                      <children xmi:type="notation:Node" xmi:id="_0S_hU3UzEeumL8lCNR_tLA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_0S_hVHUzEeumL8lCNR_tLA" x="-85" y="-21"/>
                       </children>
-                      <children xmi:type="notation:Node" xmi:id="_ISiE03UnEeusho0q8JaQng" type="3005" element="_ISEKwXUnEeusho0q8JaQng">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_ISiE1HUnEeusho0q8JaQng" fontName="Segoe UI"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISiE1XUnEeusho0q8JaQng"/>
+                      <children xmi:type="notation:Node" xmi:id="_0TBWgHUzEeumL8lCNR_tLA" type="3005" element="_0StNcHUzEeumL8lCNR_tLA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_0TBWgXUzEeumL8lCNR_tLA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0TBWgnUzEeumL8lCNR_tLA"/>
                       </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_ISfBgXUnEeusho0q8JaQng" fontName="Segoe UI" fontHeight="12"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISfBgnUnEeusho0q8JaQng" x="24" y="37" width="49" height="51"/>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_0S_hUXUzEeumL8lCNR_tLA" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0S_hUnUzEeumL8lCNR_tLA" x="554" y="23" width="65" height="62"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_0TAIYHUzEeumL8lCNR_tLA" type="3007" element="_0SvCoHUzEeumL8lCNR_tLA">
+                      <children xmi:type="notation:Node" xmi:id="_0TAIY3UzEeumL8lCNR_tLA" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_0TAIZHUzEeumL8lCNR_tLA" x="-85" y="-21"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_0TBWg3UzEeumL8lCNR_tLA" type="3005" element="_0SvCoXUzEeumL8lCNR_tLA">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_0TBWhHUzEeumL8lCNR_tLA" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0TBWhXUzEeumL8lCNR_tLA"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_0TAIYXUzEeumL8lCNR_tLA" fontName="Segoe UI" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0TAIYnUzEeumL8lCNR_tLA" x="490" y="23" width="65" height="62"/>
                     </children>
                     <styles xmi:type="notation:SortingStyle" xmi:id="_ISaJAXUnEeusho0q8JaQng"/>
                     <styles xmi:type="notation:FilteringStyle" xmi:id="_ISaJAnUnEeusho0q8JaQng"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_ISZh8XUnEeusho0q8JaQng" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISZh8nUnEeusho0q8JaQng" x="1" y="25" width="443" height="108"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ISZh8nUnEeusho0q8JaQng" x="1" y="25" width="1083" height="203"/>
                 </children>
                 <styles xmi:type="notation:SortingStyle" xmi:id="_-HiQcXUmEeusho0q8JaQng"/>
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_-HiQcnUmEeusho0q8JaQng"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_-Hd_AXUmEeusho0q8JaQng" fontName="Segoe UI" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-Hd_AnUmEeusho0q8JaQng" x="60" y="19" width="456" height="356"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-Hd_AnUmEeusho0q8JaQng" x="60" y="19" width="1111" height="356"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="__kYwVXUjEeuekbgSFEhOaA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="__kYwVnUjEeuekbgSFEhOaA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="__kYwUXUjEeuekbgSFEhOaA" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__kYwUnUjEeuekbgSFEhOaA" x="75" y="265" width="1658" height="448"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__kYwUnUjEeuekbgSFEhOaA" x="55" y="355" width="1658" height="448"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_JOHc8nUfEeuFfrTOS3wxZQ"/>
         <edges xmi:type="notation:Edge" xmi:id="_WLOzoHUfEeuFfrTOS3wxZQ" type="4001" element="_WLEbkHUfEeuFfrTOS3wxZQ" source="_UJC5cHUfEeuFfrTOS3wxZQ" target="_WLLwUHUfEeuFfrTOS3wxZQ">
@@ -174,32 +180,32 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLPasXUfEeuFfrTOS3wxZQ" x="-1" y="-9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_WLPasnUfEeuFfrTOS3wxZQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLPas3UfEeuFfrTOS3wxZQ" x="-2" y="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLPas3UfEeuFfrTOS3wxZQ" x="-1" y="7"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_WLPatHUfEeuFfrTOS3wxZQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLPatXUfEeuFfrTOS3wxZQ" x="-1" y="4"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLPatXUfEeuFfrTOS3wxZQ" x="-2" y="3"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_WLOzoXUfEeuFfrTOS3wxZQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_WLOzonUfEeuFfrTOS3wxZQ" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WLOzo3UfEeuFfrTOS3wxZQ" points="[31, 0, -154, 0]$[110, 0, -75, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WLOzo3UfEeuFfrTOS3wxZQ" points="[31, 3, -180, -19]$[105, 10, -106, -12]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WLVhUHUfEeuFfrTOS3wxZQ" id="(0.7075471698113207,0.7211538461538461)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WLVhUXUfEeuFfrTOS3wxZQ" id="(0.7075471698113207,0.7211538461538461)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WLVhUXUfEeuFfrTOS3wxZQ" id="(0.8771245906751909,0.8939923712650986)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_XAF_E3UfEeuFfrTOS3wxZQ" type="4001" element="_XADi1HUfEeuFfrTOS3wxZQ" source="_WLLwUHUfEeuFfrTOS3wxZQ" target="_XAFYAHUfEeuFfrTOS3wxZQ">
-          <children xmi:type="notation:Node" xmi:id="_XAGmIHUfEeuFfrTOS3wxZQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAGmIXUfEeuFfrTOS3wxZQ" x="-1" y="-9"/>
+        <edges xmi:type="notation:Edge" xmi:id="_adJeUHUrEeurN7vlh1L5Tw" type="4001" element="_actZcHUrEeurN7vlh1L5Tw" source="_WLLwUHUfEeuFfrTOS3wxZQ" target="_ac0HIHUrEeurN7vlh1L5Tw">
+          <children xmi:type="notation:Node" xmi:id="_adKFYHUrEeurN7vlh1L5Tw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_adKFYXUrEeurN7vlh1L5Tw" x="-6" y="-8"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_XAGmInUfEeuFfrTOS3wxZQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAGmI3UfEeuFfrTOS3wxZQ" x="-1" y="5"/>
+          <children xmi:type="notation:Node" xmi:id="_adKFYnUrEeurN7vlh1L5Tw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_adKFY3UrEeurN7vlh1L5Tw" x="4" y="7"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_XAGmJHUfEeuFfrTOS3wxZQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XAGmJXUfEeuFfrTOS3wxZQ" x="-1" y="6"/>
+          <children xmi:type="notation:Node" xmi:id="_adKFZHUrEeurN7vlh1L5Tw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_adKFZXUrEeurN7vlh1L5Tw" x="2" y="7"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XAF_FHUfEeuFfrTOS3wxZQ"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_XAF_FXUfEeuFfrTOS3wxZQ" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XAF_FnUfEeuFfrTOS3wxZQ" points="[31, 0, -124, 0]$[80, 0, -75, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XAGmJnUfEeuFfrTOS3wxZQ" id="(0.7075471698113207,0.7211538461538461)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XAGmJ3UfEeuFfrTOS3wxZQ" id="(0.7075471698113207,0.7211538461538461)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_adJeUXUrEeurN7vlh1L5Tw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_adJeUnUrEeurN7vlh1L5Tw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_adJeU3UrEeurN7vlh1L5Tw" points="[46, 39, -144, -123]$[136, 116, -54, -46]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_adRaIHUrEeurN7vlh1L5Tw" id="(0.6198347107438017,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_adRaIXUrEeurN7vlh1L5Tw" id="(0.7075471698113207,1.4423076923076923)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
@@ -224,24 +230,24 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subNodeMappings[name='MoveForward']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" uid="_XABtonUfEeuFfrTOS3wxZQ" name="60cm" incomingEdges="_XADi1HUfEeuFfrTOS3wxZQ" width="-1" height="-1" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_acjocnUrEeurN7vlh1L5Tw" name="150cm" incomingEdges="_actZcHUrEeurN7vlh1L5Tw" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="polycreate:MoveForward" href="MyPolycreate.polycreate#//@sequences.0/@actions.2"/>
         <semanticElements xmi:type="polycreate:MoveForward" href="MyPolycreate.polycreate#//@sequences.0/@actions.2"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_XABto3UfEeuFfrTOS3wxZQ" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/MoveForward.png">
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ackPgHUrEeurN7vlh1L5Tw" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/MoveForward.png">
           <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subNodeMappings[name='MoveForward']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subNodeMappings[name='MoveForward']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" uid="_WLB_UnUfEeuFfrTOS3wxZQ" name="90°" outgoingEdges="_XADi1HUfEeuFfrTOS3wxZQ" incomingEdges="_WLEbkHUfEeuFfrTOS3wxZQ" width="-1" height="-1" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_WLB_UnUfEeuFfrTOS3wxZQ" name="90°" outgoingEdges="_actZcHUrEeurN7vlh1L5Tw" incomingEdges="_WLEbkHUfEeuFfrTOS3wxZQ" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sequences.0/@actions.1"/>
         <semanticElements xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sequences.0/@actions.1"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_WLDNcHUfEeuFfrTOS3wxZQ" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/RotateLeft.png">
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_acmEsXUrEeurN7vlh1L5Tw" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/RotateLeft.png">
           <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subNodeMappings[name='Rotate']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='Sequence']/@subNodeMappings[name='Rotate']"/>
@@ -252,14 +258,6 @@
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_WLEbkXUfEeuFfrTOS3wxZQ" size="2">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@edgeMappings[name='CD_next_action']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_WLEbknUfEeuFfrTOS3wxZQ" labelSize="12"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@edgeMappings[name='CD_next_action']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XADi1HUfEeuFfrTOS3wxZQ" sourceNode="_WLB_UnUfEeuFfrTOS3wxZQ" targetNode="_XABtonUfEeuFfrTOS3wxZQ">
-      <target xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sequences.0/@actions.1"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XAEJ4HUfEeuFfrTOS3wxZQ" size="2">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@edgeMappings[name='CD_next_action']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XAEJ4XUfEeuFfrTOS3wxZQ" labelSize="12"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@edgeMappings[name='CD_next_action']"/>
     </ownedDiagramElements>
@@ -294,85 +292,104 @@
             <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']"/>
-          <ownedDiagramElements xmi:type="diagram:DNode" uid="_ISBHcHUnEeusho0q8JaQng" name="8cm" width="-1" height="-1" resizeKind="NSEW">
-            <target xmi:type="polycreate:MoveForward" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.2"/>
-            <semanticElements xmi:type="polycreate:MoveForward" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.2"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_k36awXUwEeuvFNK0z1JxoQ" name="Grab" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="polycreate:Grab" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.2"/>
+            <semanticElements xmi:type="polycreate:Grab" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.2"/>
             <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
             <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
             <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ISBugHUnEeusho0q8JaQng" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/MoveForward.png">
-              <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='MoveForward']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='MoveForward']"/>
-          </ownedDiagramElements>
-          <ownedDiagramElements xmi:type="diagram:DNode" uid="_ISBugnUnEeusho0q8JaQng" name="Grab" width="-1" height="-1" resizeKind="NSEW">
-            <target xmi:type="polycreate:Grab" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.3"/>
-            <semanticElements xmi:type="polycreate:Grab" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.3"/>
-            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ISCVkHUnEeusho0q8JaQng" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/Grab.png">
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_k37B0HUwEeuvFNK0z1JxoQ" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/Grab.png">
               <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Grab']/@style"/>
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Grab']"/>
           </ownedDiagramElements>
-          <ownedDiagramElements xmi:type="diagram:DNode" uid="_ISCVknUnEeusho0q8JaQng" name="Release" width="-1" height="-1" resizeKind="NSEW">
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_k37o4HUwEeuvFNK0z1JxoQ" name="180°" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.0"/>
+            <semanticElements xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.0"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_k37o4XUwEeuvFNK0z1JxoQ" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/RotateLeft.png">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Rotate']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Rotate']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_k38P8HUwEeuvFNK0z1JxoQ" name="90°" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.3"/>
+            <semanticElements xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.3"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_k38P8XUwEeuvFNK0z1JxoQ" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/RotateLeft.png">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Rotate']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Rotate']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_0SvpsnUzEeumL8lCNR_tLA" name="90°" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.7"/>
+            <semanticElements xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.7"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_0SwQwHUzEeumL8lCNR_tLA" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/RotateLeft.png">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Rotate']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Rotate']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_LM141XUyEeutlZgzBBbmmQ" name="2cm" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="polycreate:MoveBackward" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.1"/>
+            <semanticElements xmi:type="polycreate:MoveBackward" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.1"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_LM2f4HUyEeutlZgzBBbmmQ" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/MoveBackward.png">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='MoveBackward']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='MoveBackward']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_0Sw30nUzEeumL8lCNR_tLA" name="10cm" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="polycreate:MoveBackward" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.4"/>
+            <semanticElements xmi:type="polycreate:MoveBackward" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.4"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_0Sxe4HUzEeumL8lCNR_tLA" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/MoveBackward.png">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='MoveBackward']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='MoveBackward']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_0SsmYnUzEeumL8lCNR_tLA" name="10cm" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="polycreate:MoveForward" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.6"/>
+            <semanticElements xmi:type="polycreate:MoveForward" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.6"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_0StNcHUzEeumL8lCNR_tLA" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/MoveForward.png">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='MoveForward']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='MoveForward']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_0SvCoHUzEeumL8lCNR_tLA" name="Release" width="-1" height="-1" resizeKind="NSEW">
             <target xmi:type="polycreate:Release" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.5"/>
             <semanticElements xmi:type="polycreate:Release" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.5"/>
             <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
             <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
             <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ISCVk3UnEeusho0q8JaQng" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/Release.png">
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_0SvCoXUzEeumL8lCNR_tLA" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/Release.png">
               <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Release']/@style"/>
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Release']"/>
           </ownedDiagramElements>
-          <ownedDiagramElements xmi:type="diagram:DNode" uid="_ISC8oHUnEeusho0q8JaQng" name="180°" width="-1" height="-1" resizeKind="NSEW">
-            <target xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.1"/>
-            <semanticElements xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.1"/>
-            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ISC8oXUnEeusho0q8JaQng" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/RotateLeft.png">
-              <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Rotate']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Rotate']"/>
-          </ownedDiagramElements>
-          <ownedDiagramElements xmi:type="diagram:DNode" uid="_ISC8o3UnEeusho0q8JaQng" name="90°" width="-1" height="-1" resizeKind="NSEW">
-            <target xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.4"/>
-            <semanticElements xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.4"/>
-            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ISC8pHUnEeusho0q8JaQng" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/RotateLeft.png">
-              <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Rotate']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Rotate']"/>
-          </ownedDiagramElements>
-          <ownedDiagramElements xmi:type="diagram:DNode" uid="_ISDjsXUnEeusho0q8JaQng" name="90°" width="-1" height="-1" resizeKind="NSEW">
-            <target xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.6"/>
-            <semanticElements xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.6"/>
-            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ISDjsnUnEeusho0q8JaQng" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/RotateLeft.png">
-              <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Rotate']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='Rotate']"/>
-          </ownedDiagramElements>
-          <ownedDiagramElements xmi:type="diagram:DNode" uid="_ISEKwHUnEeusho0q8JaQng" name="5cm" width="-1" height="-1" resizeKind="NSEW">
-            <target xmi:type="polycreate:MoveBackward" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.0"/>
-            <semanticElements xmi:type="polycreate:MoveBackward" href="MyPolycreate.polycreate#//@sensorChecker/@conditions.0/@alternativeSequence/@actions.0"/>
-            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ISEKwXUnEeusho0q8JaQng" labelSize="12" showIcon="false" workspacePath="/fr.univcotedazur.webots.polycreate.design/icons/MoveBackward.png">
-              <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='MoveBackward']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@containerMappings[name='SensorChecker']/@subContainerMappings[name='ObjectInFront']/@subContainerMappings[name='AlternativeSequence']/@subNodeMappings[name='MoveBackward']"/>
-          </ownedDiagramElements>
         </ownedDiagramElements>
       </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_actZcHUrEeurN7vlh1L5Tw" sourceNode="_WLB_UnUfEeuFfrTOS3wxZQ" targetNode="_acjocnUrEeurN7vlh1L5Tw">
+      <target xmi:type="polycreate:Rotate" href="MyPolycreate.polycreate#//@sequences.0/@actions.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_actZcXUrEeurN7vlh1L5Tw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@edgeMappings[name='CD_next_action']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_actZcnUrEeurN7vlh1L5Tw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']/@defaultLayer/@edgeMappings[name='CD_next_action']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign#//@ownedViewpoints[name='Missions']/@ownedRepresentations[name='Mission%20Diagram']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_JNi1MHUfEeuFfrTOS3wxZQ"/>

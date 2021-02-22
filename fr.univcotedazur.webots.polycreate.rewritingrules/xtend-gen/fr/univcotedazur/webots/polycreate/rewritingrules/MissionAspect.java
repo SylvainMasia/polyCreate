@@ -47,6 +47,7 @@ public class MissionAspect {
     for (final Sequence s : _sequences) {
       SequenceAspect.runIt(s, MissionAspect.controler(_self), _self.getSensorChecker());
     }
+    MissionAspect.controler(_self).delete();
   }
   
   protected static PolyCreateControler _privk3_controler(final MissionAspectMissionAspectProperties _self_, final Mission _self) {

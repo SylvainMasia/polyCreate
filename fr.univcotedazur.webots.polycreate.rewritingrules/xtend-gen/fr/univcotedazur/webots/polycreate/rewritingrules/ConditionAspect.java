@@ -2,6 +2,7 @@ package fr.univcotedazur.webots.polycreate.rewritingrules;
 
 import fr.inria.diverse.k3.al.annotationprocessor.Abstract;
 import fr.inria.diverse.k3.al.annotationprocessor.Aspect;
+import fr.inria.diverse.k3.al.annotationprocessor.ReplaceAspectMethod;
 import fr.inria.diverse.k3.al.annotationprocessor.Step;
 import fr.univcotedazur.kairos.webots.polycreate.controler.PolyCreateControler;
 import fr.univcotedazur.webots.polycreate.Condition;
@@ -11,10 +12,16 @@ import fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspectConditio
 @SuppressWarnings("all")
 public abstract class ConditionAspect {
   @Step
+  @ReplaceAspectMethod
   @Abstract
   public static boolean isValid(final Condition _self, final PolyCreateControler controler) {
     final fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspectConditionAspectProperties _self_ = fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspectConditionAspectContext.getSelf(_self);
     Object result = null;
+    	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.ObjectInFrontAspect
+    		if (_self instanceof fr.univcotedazur.webots.polycreate.ObjectInFront){
+    			result = fr.univcotedazur.webots.polycreate.rewritingrules.ObjectInFrontAspect.isValid((fr.univcotedazur.webots.polycreate.ObjectInFront)_self,controler);
+    		} else
+    		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.ConditionAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.ObjectInFrontAspect
     // #DispatchPointCut_before# boolean isValid(PolyCreateControler)
     if (_self instanceof fr.univcotedazur.webots.polycreate.Condition){
     	fr.inria.diverse.k3.al.annotationprocessor.stepmanager.StepCommand command = new fr.inria.diverse.k3.al.annotationprocessor.stepmanager.StepCommand() {

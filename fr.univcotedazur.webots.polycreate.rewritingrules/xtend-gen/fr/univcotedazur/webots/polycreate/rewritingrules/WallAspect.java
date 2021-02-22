@@ -2,6 +2,7 @@ package fr.univcotedazur.webots.polycreate.rewritingrules;
 
 import fr.inria.diverse.k3.al.annotationprocessor.Abstract;
 import fr.inria.diverse.k3.al.annotationprocessor.Aspect;
+import fr.inria.diverse.k3.al.annotationprocessor.ReplaceAspectMethod;
 import fr.inria.diverse.k3.al.annotationprocessor.Step;
 import fr.univcotedazur.kairos.webots.polycreate.controler.PolyCreateControler;
 import fr.univcotedazur.webots.polycreate.Wall;
@@ -11,10 +12,26 @@ import fr.univcotedazur.webots.polycreate.rewritingrules.WallAspectWallAspectPro
 @SuppressWarnings("all")
 public abstract class WallAspect {
   @Step
+  @ReplaceAspectMethod
   @Abstract
   public static boolean isValid(final Wall _self, final PolyCreateControler controler) {
     final fr.univcotedazur.webots.polycreate.rewritingrules.WallAspectWallAspectProperties _self_ = fr.univcotedazur.webots.polycreate.rewritingrules.WallAspectWallAspectContext.getSelf(_self);
     Object result = null;
+    	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallLeftAspect
+    		if (_self instanceof fr.univcotedazur.webots.polycreate.WallLeft){
+    			result = fr.univcotedazur.webots.polycreate.rewritingrules.WallLeftAspect.isValid((fr.univcotedazur.webots.polycreate.WallLeft)_self,controler);
+    		} else
+    		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallLeftAspect
+    	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallRightAspect
+    		if (_self instanceof fr.univcotedazur.webots.polycreate.WallRight){
+    			result = fr.univcotedazur.webots.polycreate.rewritingrules.WallRightAspect.isValid((fr.univcotedazur.webots.polycreate.WallRight)_self,controler);
+    		} else
+    		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallRightAspect
+    	// BeginInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallFrontAspect
+    		if (_self instanceof fr.univcotedazur.webots.polycreate.WallFront){
+    			result = fr.univcotedazur.webots.polycreate.rewritingrules.WallFrontAspect.isValid((fr.univcotedazur.webots.polycreate.WallFront)_self,controler);
+    		} else
+    		// EndInjectInto fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect#boolean isValid(PolyCreateControler) from fr.univcotedazur.webots.polycreate.rewritingrules.WallFrontAspect
     // #DispatchPointCut_before# boolean isValid(PolyCreateControler)
     if (_self instanceof fr.univcotedazur.webots.polycreate.Wall){
     	fr.inria.diverse.k3.al.annotationprocessor.stepmanager.StepCommand command = new fr.inria.diverse.k3.al.annotationprocessor.stepmanager.StepCommand() {

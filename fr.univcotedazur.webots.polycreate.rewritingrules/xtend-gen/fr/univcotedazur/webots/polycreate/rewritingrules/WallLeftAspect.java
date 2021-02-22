@@ -5,11 +5,12 @@ import fr.inria.diverse.k3.al.annotationprocessor.ReplaceAspectMethod;
 import fr.inria.diverse.k3.al.annotationprocessor.Step;
 import fr.univcotedazur.kairos.webots.polycreate.controler.PolyCreateControler;
 import fr.univcotedazur.webots.polycreate.WallLeft;
+import fr.univcotedazur.webots.polycreate.rewritingrules.WallAspect;
 import fr.univcotedazur.webots.polycreate.rewritingrules.WallLeftAspectWallLeftAspectProperties;
 
 @Aspect(className = WallLeft.class)
 @SuppressWarnings("all")
-public class WallLeftAspect {
+public class WallLeftAspect extends WallAspect {
   @Step
   @ReplaceAspectMethod
   public static boolean isValid(final WallLeft _self, final PolyCreateControler controler) {

@@ -37,19 +37,24 @@ class MissionAspect {
 		for(Sequence s : _self.sequences) {
 			s.runIt(_self.controler, _self.sensorChecker);
 		}
+		_self.controler.delete();
 	}
 }
 
 //################################################ SEQUENCE
 @Aspect(className=Sequence)
 class SequenceAspect {	
+	var public boolean isAlternative = false;
+	
 	@Step
 	@ReplaceAspectMethod
 	def void runIt(PolyCreateControler controler, SensorChecker logicalVerifications) {
+		
 		System.out.println("Running sequence");
 		for (var i = 0; i < _self.actions.size; i++) {
 			val action = _self.actions.get(i);
-			action.runIt(controler, logicalVerifications);
+			System.out.println()
+			action.runIt(controler, logicalVerifications, _self.isAlternative);
 		}
 	}
 }
@@ -60,6 +65,7 @@ class SequenceAspect {
 abstract class ConditionAspect {
 	
 	@Step
+	@ReplaceAspectMethod
 	def abstract boolean isValid(PolyCreateControler controler);
 }
 
@@ -67,11 +73,12 @@ abstract class ConditionAspect {
 abstract class WallAspect {
 	
 	@Step
+	@ReplaceAspectMethod
 	def abstract boolean isValid(PolyCreateControler controler);
 }
 
 @Aspect(className=WallLeft)
-class WallLeftAspect {
+class WallLeftAspect extends WallAspect {
 	
 	@Step
 	@ReplaceAspectMethod
@@ -81,7 +88,7 @@ class WallLeftAspect {
 }
 
 @Aspect(className=WallRight)
-class WallRightAspect {
+class WallRightAspect extends WallAspect {
 	
 	@Step
 	@ReplaceAspectMethod
@@ -91,7 +98,7 @@ class WallRightAspect {
 }
 
 @Aspect(className=WallFront)
-class WallFrontAspect {
+class WallFrontAspect extends WallAspect {
 	
 	@Step
 	@ReplaceAspectMethod
@@ -101,15 +108,27 @@ class WallFrontAspect {
 }
 
 @Aspect(className=ObjectInFront)
-class ObjectInFrontAspect {
+class ObjectInFrontAspect extends ConditionAspect {
 	
 	@Step
 	@ReplaceAspectMethod
 	def boolean isValid(PolyCreateControler controler) {
-		return controler.getObjectDistanceToGripper() < 2;
+		var frontObjs = controler.frontCamera.getCameraRecognitionObjects();
+		if (frontObjs.length > 0) {
+			val obj = frontObjs.get(0);
+			var frontObjPos = obj.getPosition();
+			var calc = frontObjPos.get(0) + frontObjPos.get(1);
+			if (calc < -0.05 && calc > -0.06) {
+				System.out.println("C'est touché");
+				return true;
+			}
+		}
+		return false;
 	}
 }
 
+
+//################################################### SensorChecker
 @Aspect(className=SensorChecker)
 class SensorCheckerAspect {
 	@Step
@@ -117,6 +136,10 @@ class SensorCheckerAspect {
 	def boolean runIt(PolyCreateControler controler){
 		for (Condition condition : _self.conditions) {
 			if (condition.isValid(controler)) {
+				System.out.println("C'est valide");
+				//controler.stop();
+				System.out.println("Stop");
+				condition.alternativeSequence.isAlternative = true;
 				condition.alternativeSequence.runIt(controler, _self);
 				return true;
 			}
@@ -130,7 +153,7 @@ class SensorCheckerAspect {
 abstract class ActionAspect {
 	
 	@Step
-	def abstract void runIt(PolyCreateControler controler, SensorChecker logicalVerifications);
+	def abstract void runIt(PolyCreateControler controler, SensorChecker logicalVerifications, boolean isAlternative);
 }
 
 @Aspect(className=Grab)
@@ -138,10 +161,10 @@ class GrabAspect extends ActionAspect {
 	
 	@Step
 	@ReplaceAspectMethod
-	def void runIt(PolyCreateControler controler, SensorChecker logicalVerifications){
+	def void runIt(PolyCreateControler controler, SensorChecker logicalVerifications, boolean isAlternative){
 		System.out.println("Grabing object");
 		controler.closeGripper();
-		controler.passiveWait(0.5);
+		controler.passiveWait(1);
 	}
 }
 
@@ -150,7 +173,7 @@ class ReleaseAspect extends ActionAspect {
 	
 	@Step
 	@ReplaceAspectMethod
-	def void runIt(PolyCreateControler controler, SensorChecker logicalVerifications){
+	def void runIt(PolyCreateControler controler, SensorChecker logicalVerifications, boolean isAlternative){
 		System.out.println("Grabing object");
 		controler.openGripper();
 		controler.passiveWait(0.5);
@@ -162,8 +185,12 @@ class RotateAspect extends ActionAspect {
 	
 	@Step
 	@ReplaceAspectMethod
-	def void runIt(PolyCreateControler controler, SensorChecker logicalVerifications){
-		val robotDegrees = (_self.degrees as float / 100) * 2.11;
+	def void runIt(PolyCreateControler controler, SensorChecker logicalVerifications, boolean isAlternative){
+		var finalDegrees = _self.degrees;
+		if (finalDegrees >= 180) {
+			finalDegrees += finalDegrees / 20; // second magic number
+		}
+		val robotDegrees = (finalDegrees as float / 100) * 2.14; // magic number
 		System.out.println("Turning " + robotDegrees + " degrees");
 		controler.turn(robotDegrees);
 		controler.passiveWait(robotDegrees / 2.5);
@@ -175,10 +202,10 @@ class MoveForwardAspect extends ActionAspect {
 	
 	@Step
 	@ReplaceAspectMethod
-	def void runIt(PolyCreateControler controler, SensorChecker logicalVerifications){
+	def void runIt(PolyCreateControler controler, SensorChecker logicalVerifications, boolean isAlternative){
+		System.out.println("Going forward " + _self.distance + "cm");
 		for (var i = 0; i < _self.distance; i += 5) {
-			if (logicalVerifications.runIt(controler)) {
-				controler.stop();
+			if (!isAlternative && logicalVerifications.runIt(controler)) {
 				return;
 			}
 			controler.goForward();
@@ -192,15 +219,14 @@ class MoveBackwardAspect extends ActionAspect {
 	
 	@Step
 	@ReplaceAspectMethod
-	def void runIt(PolyCreateControler controler, SensorChecker logicalVerifications){
+	def void runIt(PolyCreateControler controler, SensorChecker logicalVerifications, boolean isAlternative){
 		System.out.println("Going backward " + _self.distance + "cm");
 		for (var i = 0; i < _self.distance; i += 5) {
-			if (logicalVerifications.runIt(controler)) {
-				controler.stop();
+			if (!isAlternative && logicalVerifications.runIt(controler)) {
 				return;
 			}
 			controler.goBackward();
-			controler.passiveWait(5 * 0.05);
+			controler.passiveWait(5 * 0.1);
 		}
 	}
 }
