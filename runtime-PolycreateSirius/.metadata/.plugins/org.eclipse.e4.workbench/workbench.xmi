@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmlns:ui="http://www.eclipse.org/ui/2010/UIModel/application/ui" xmi:id="_MAxwAHVaEeuwMLVHGGDSpg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_MAxwAXVaEeuwMLVHGGDSpg" bindingContexts="_MA6UI3VaEeuwMLVHGGDSpg">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;Mission 1 Diagram&quot; tooltip=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird/Mission 1 Diagram&quot;>&#xD;&#xA;&lt;persistable REP_DESC_URI=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird#_JN4zcHUfEeuFfrTOS3wxZQ&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;Mission 1 Diagram&quot; uri=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird#_JOHc8XUfEeuFfrTOS3wxZQ&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.sirius.ui.editor.session&quot; name=&quot;representations.aird&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.modelisation/representations.aird&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.modelisation/representations.aird&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Services.java&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/Services.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/Services.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Activator.java&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/Activator.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/Activator.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MissiondiagramDebugServices.java&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/services/MissiondiagramDebugServices.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/services/MissiondiagramDebugServices.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.pde.ui.buildEditor&quot; name=&quot;build.properties&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/build.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/build.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;plugin.properties&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/plugin.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/plugin.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID&quot; name=&quot;test.polycreate&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.modelisation/test.polycreate&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.modelisation/test.polycreate&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.pde.ui.manifestEditor&quot; name=&quot;MANIFEST.MF&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID&quot; name=&quot;cleaning.polycreate&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.modelisation/cleaning.polycreate&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.modelisation/cleaning.polycreate&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID&quot; name=&quot;MyPolycreate.polycreate&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.modelisation/MyPolycreate.polycreate&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.modelisation/MyPolycreate.polycreate&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;cleaning_room.polycreate&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.modelisation/cleaning_room.polycreate&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.modelisation/cleaning_room.polycreate&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;Main Mission Diagram&quot; tooltip=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird/Main Mission Diagram&quot;>&#xD;&#xA;&lt;persistable SESSION_RESOURCE_URI=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;Main Mission Diagram&quot; uri=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird#_dJwCQW77Eeul2Kbquf7PeQ&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.sirius.editor.editorPlugin.SiriusEditorID&quot; name=&quot;polycreate.odesign&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;Mission 1 Diagram&quot; tooltip=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird/Mission 1 Diagram&quot;>&#xD;&#xA;&lt;persistable REP_DESC_URI=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird#_JN4zcHUfEeuFfrTOS3wxZQ&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;Mission 1 Diagram&quot; uri=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird#_JOHc8XUfEeuFfrTOS3wxZQ&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID&quot; name=&quot;MyPolycreate.polycreate&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.modelisation/MyPolycreate.polycreate&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.modelisation/MyPolycreate.polycreate&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;Second Mission Diagram&quot; tooltip=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird/Second Mission Diagram&quot;>&#xD;&#xA;&lt;persistable REP_DESC_URI=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird#_X6Fg0HaNEeuFxcCI6yc4NA&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;Second Mission Diagram&quot; uri=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird#_X6JyQXaNEeuFxcCI6yc4NA&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Services.java&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/Services.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/Services.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID&quot; name=&quot;SecondScenario.polycreate&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.modelisation/SecondScenario.polycreate&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.modelisation/SecondScenario.polycreate&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.sirius.ui.editor.session&quot; name=&quot;representations.aird&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.modelisation/representations.aird&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.modelisation/representations.aird&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.sirius.editor.editorPlugin.SiriusEditorID&quot; name=&quot;polycreate.odesign&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/description/polycreate.odesign&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.pde.ui.manifestEditor&quot; name=&quot;plugin.xml&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/plugin.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/plugin.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;plugin.properties&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/plugin.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/plugin.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.pde.ui.buildEditor&quot; name=&quot;build.properties&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/build.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/build.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.pde.ui.manifestEditor&quot; name=&quot;MANIFEST.MF&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Activator.java&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/Activator.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/Activator.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MissiondiagramDebugServices.java&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/services/MissiondiagramDebugServices.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/services/MissiondiagramDebugServices.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID&quot; name=&quot;test.polycreate&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.modelisation/test.polycreate&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.modelisation/test.polycreate&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID&quot; name=&quot;cleaning.polycreate&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.modelisation/cleaning.polycreate&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.modelisation/cleaning.polycreate&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;cleaning_room.polycreate&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.modelisation/cleaning_room.polycreate&quot;>&#xD;&#xA;&lt;persistable path=&quot;/fr.univcotedazur.webots.polycreate.modelisation/cleaning_room.polycreate&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;Main Mission Diagram&quot; tooltip=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird/Main Mission Diagram&quot;>&#xD;&#xA;&lt;persistable SESSION_RESOURCE_URI=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;Main Mission Diagram&quot; uri=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird#_dJwCQW77Eeul2Kbquf7PeQ&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_MAxwAXVaEeuwMLVHGGDSpg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_MAxwAnVaEeuwMLVHGGDSpg" x="-2584" y="180" width="2485" height="1324">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_MAxwAXVaEeuwMLVHGGDSpg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_MAxwAnVaEeuwMLVHGGDSpg" x="-2051" y="-28" width="2485" height="1324">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -11,6 +11,7 @@
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1613407696796"/>
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
     <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_MAxwAnVaEeuwMLVHGGDSpg" selectedElement="_MAxwA3VaEeuwMLVHGGDSpg" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_MAxwA3VaEeuwMLVHGGDSpg" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_MAxwHnVaEeuwMLVHGGDSpg">
         <children xsi:type="advanced:Perspective" xmi:id="_MAxwBHVaEeuwMLVHGGDSpg" elementId="org.eclipse.gemoc.xdsmlframework.ide.ui.xdsml.perspective" selectedElement="_MAxwBXVaEeuwMLVHGGDSpg" label="xDSML" iconURI="platform:/plugin/org.eclipse.gemoc.xdsmlframework.ide.ui/icons/IconeGemocLanguage-16.png">
@@ -198,8 +199,9 @@
           <tags>persp.viewSC:org.eclipse.jdt.junit.ResultView</tags>
           <tags>persp.viewSC:org.eclipse.ant.ui.views.AntView</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_MAxwH3VaEeuwMLVHGGDSpg" selectedElement="_MAxwJnVaEeuwMLVHGGDSpg" horizontal="true">
-            <children xsi:type="basic:PartStack" xmi:id="_MAxwIHVaEeuwMLVHGGDSpg" elementId="org.eclipse.debug.internal.ui.NavigatorFolderView" containerData="1467" selectedElement="_MAxwInVaEeuwMLVHGGDSpg">
+            <children xsi:type="basic:PartStack" xmi:id="_MAxwIHVaEeuwMLVHGGDSpg" elementId="org.eclipse.debug.internal.ui.NavigatorFolderView" containerData="1913" selectedElement="_MAxwInVaEeuwMLVHGGDSpg">
               <tags>org.eclipse.e4.primaryNavigationStack</tags>
+              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_MAxwIXVaEeuwMLVHGGDSpg" elementId="org.eclipse.debug.ui.DebugView" ref="_MA5tynVaEeuwMLVHGGDSpg" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:Debug</tags>
@@ -221,8 +223,8 @@
                 <tags>categoryTag:Java</tags>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_MAxwJnVaEeuwMLVHGGDSpg" containerData="8533" selectedElement="_MAxwJ3VaEeuwMLVHGGDSpg">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_MAxwJ3VaEeuwMLVHGGDSpg" containerData="7844" selectedElement="_MAxwKHVaEeuwMLVHGGDSpg" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_MAxwJnVaEeuwMLVHGGDSpg" containerData="8087" selectedElement="_MAxwJ3VaEeuwMLVHGGDSpg">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_MAxwJ3VaEeuwMLVHGGDSpg" containerData="6759" selectedElement="_MAxwKHVaEeuwMLVHGGDSpg" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_MAxwKHVaEeuwMLVHGGDSpg" elementId="org.eclipse.ui.editorss" containerData="7993" ref="_MA5ssXVaEeuwMLVHGGDSpg"/>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_MAxwKXVaEeuwMLVHGGDSpg" visible="false" containerData="2007" selectedElement="_MAxwM3VaEeuwMLVHGGDSpg">
                   <children xsi:type="basic:PartStack" xmi:id="_MAxwKnVaEeuwMLVHGGDSpg" elementId="org.eclipse.debug.internal.ui.OutlineFolderView" visible="false" containerData="5000" selectedElement="_MAxwK3VaEeuwMLVHGGDSpg">
@@ -270,8 +272,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_MAxwNXVaEeuwMLVHGGDSpg" elementId="org.eclipse.debug.internal.ui.ToolsFolderView" containerData="2156" selectedElement="_MAxwNnVaEeuwMLVHGGDSpg">
-                <tags>active</tags>
+              <children xsi:type="basic:PartStack" xmi:id="_MAxwNXVaEeuwMLVHGGDSpg" elementId="org.eclipse.debug.internal.ui.ToolsFolderView" containerData="3241" selectedElement="_MAxwNnVaEeuwMLVHGGDSpg">
                 <children xsi:type="advanced:Placeholder" xmi:id="_MAxwNnVaEeuwMLVHGGDSpg" elementId="org.eclipse.ui.console.ConsoleView" ref="_MA5tp3VaEeuwMLVHGGDSpg" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
@@ -347,7 +348,7 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_MA5ssXVaEeuwMLVHGGDSpg" elementId="org.eclipse.ui.editorss" selectedElement="_MA5ssnVaEeuwMLVHGGDSpg">
-      <children xsi:type="basic:PartStack" xmi:id="_MA5ssnVaEeuwMLVHGGDSpg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_MA5s7HVaEeuwMLVHGGDSpg">
+      <children xsi:type="basic:PartStack" xmi:id="_MA5ssnVaEeuwMLVHGGDSpg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_2j3tkHaNEeuFxcCI6yc4NA">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <children xsi:type="basic:Part" xmi:id="_MA5ss3VaEeuwMLVHGGDSpg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="polycreate.odesign" iconURI="platform:/plugin/org.eclipse.sirius.editor/icons/full/obj16/file_odesign.gif" closeable="true">
@@ -376,119 +377,36 @@
             <tags>popup:org.eclipse.sirius.editor.editorPlugin.SiriusEditorID</tags>
           </menus>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_MA5suXVaEeuwMLVHGGDSpg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MyPolycreate.polycreate" iconURI="platform:/plugin/fr.univcotedazur.webots.polycreate.editor/icons/full/obj16/PolycreateModelFile.gif" closeable="true">
+        <children xsi:type="basic:Part" xmi:id="_MTPZgHaNEeuFxcCI6yc4NA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SecondScenario.polycreate" iconURI="platform:/plugin/fr.univcotedazur.webots.polycreate.editor/icons/full/obj16/PolycreateModelFile.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID&quot; name=&quot;SecondScenario.polycreate&quot; partName=&quot;SecondScenario.polycreate&quot; title=&quot;SecondScenario.polycreate&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.modelisation/SecondScenario.polycreate&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/fr.univcotedazur.webots.polycreate.modelisation/SecondScenario.polycreate&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_idUPAHaNEeuFxcCI6yc4NA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Services.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Services.java&quot; partName=&quot;Services.java&quot; title=&quot;Services.java&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/Services.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/Services.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1037&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_2j3tkHaNEeuFxcCI6yc4NA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Second Mission Diagram" iconURI="platform:/plugin/org.eclipse.sirius.diagram.ui/icons/DDiagram.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;Second Mission Diagram&quot; partName=&quot;Second Mission Diagram&quot; title=&quot;Second Mission Diagram&quot; tooltip=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird/Second Mission Diagram&quot;>&#xD;&#xA;&lt;input REP_DESC_URI=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird#_X6Fg0HaNEeuFxcCI6yc4NA&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; name=&quot;Second Mission Diagram&quot; uri=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird#_X6JyQXaNEeuFxcCI6yc4NA&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID</tags>
+          <tags>removeOnHide</tags>
+          <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_WGMZ8HaQEeuKxKTgLxqf-Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MyPolycreate.polycreate" iconURI="platform:/plugin/fr.univcotedazur.webots.polycreate.editor/icons/full/obj16/PolycreateModelFile.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID&quot; name=&quot;MyPolycreate.polycreate&quot; partName=&quot;MyPolycreate.polycreate&quot; title=&quot;MyPolycreate.polycreate&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.modelisation/MyPolycreate.polycreate&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/fr.univcotedazur.webots.polycreate.modelisation/MyPolycreate.polycreate&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
           <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5sunVaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5su3VaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5svHVaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5svXVaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5svnVaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5sv3VaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5swHVaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5swXVaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5swnVaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5sw3VaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5sxHVaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5sxXVaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5sxnVaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5s43VaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5s5HVaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5s5XVaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5s5nVaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5s53VaEeuwMLVHGGDSpg" elementId="fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:fr.univcotedazur.webots.polycreate.presentation.PolycreateEditorID</tags>
-          </menus>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_MA5s6HVaEeuwMLVHGGDSpg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Services.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Services.java&quot; partName=&quot;Services.java&quot; title=&quot;Services.java&quot; tooltip=&quot;fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/Services.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/fr.univcotedazur.webots.polycreate.design/src/fr/univcotedazur/webots/polycreate/design/Services.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;50&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5s6XVaEeuwMLVHGGDSpg" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5s6nVaEeuwMLVHGGDSpg" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5s63VaEeuwMLVHGGDSpg" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_MA5s7HVaEeuwMLVHGGDSpg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Mission 1 Diagram" iconURI="platform:/plugin/org.eclipse.sirius.diagram.ui/icons/DDiagram.gif" closeable="true">
+        <children xsi:type="basic:Part" xmi:id="_Z_rM8HaQEeuKxKTgLxqf-Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Mission 1 Diagram" iconURI="platform:/plugin/org.eclipse.sirius.diagram.ui/icons/DDiagram.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;Mission 1 Diagram&quot; partName=&quot;Mission 1 Diagram&quot; title=&quot;Mission 1 Diagram&quot; tooltip=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird/Mission 1 Diagram&quot;>&#xD;&#xA;&lt;input REP_DESC_URI=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird#_JN4zcHUfEeuFfrTOS3wxZQ&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; name=&quot;Mission 1 Diagram&quot; uri=&quot;platform:/resource/fr.univcotedazur.webots.polycreate.modelisation/representations.aird#_JOHc8XUfEeuFfrTOS3wxZQ&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID</tags>
           <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5s7XVaEeuwMLVHGGDSpg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_MA5s7nVaEeuwMLVHGGDSpg" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu</tags>
-          </menus>
         </children>
       </children>
     </sharedElements>
@@ -498,6 +416,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;1&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_MA5tZnVaEeuwMLVHGGDSpg" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -617,8 +537,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_MA5tqHVaEeuwMLVHGGDSpg" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -894,7 +812,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_MA5t-XVaEeuwMLVHGGDSpg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_eRqQ8HVbEeulzPjDomgkYQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_MA8wYXVaEeuwMLVHGGDSpg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_k66OoHaUEeu5_aml_2jrrg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_MA8wYXVaEeuwMLVHGGDSpg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_MA5uBnVaEeuwMLVHGGDSpg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -949,7 +867,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_MA5uZ3VaEeuwMLVHGGDSpg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_eRrfFHVbEeulzPjDomgkYQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_MA8wCHVaEeuwMLVHGGDSpg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_k67cyHaUEeu5_aml_2jrrg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_MA8wCHVaEeuwMLVHGGDSpg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_MA5ugnVaEeuwMLVHGGDSpg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

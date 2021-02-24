@@ -2,6 +2,7 @@ package fr.univcotedazur.webots.polycreate.design;
 
 import fr.univcotedazur.webots.polycreate.Action;
 import fr.univcotedazur.webots.polycreate.Condition;
+import fr.univcotedazur.webots.polycreate.Mission;
 import fr.univcotedazur.webots.polycreate.Sequence;
 
 /**
@@ -16,6 +17,16 @@ public class Services {
     		return null;
     	} else {
     		return parentSequence.getActions().get(actionPosition + 1);
+    	}
+    }
+    
+    public Sequence getNextSequence(Sequence sequence) {
+    	Mission parentMission = (Mission) sequence.eContainer();
+    	int sequencePosition = parentMission.getSequences().indexOf(sequence);
+    	if (sequencePosition == parentMission.getSequences().size() -1) {
+    		return null;
+    	} else {
+    		return parentMission.getSequences().get(sequencePosition + 1);
     	}
     }
     
