@@ -533,7 +533,7 @@ public class PolycreatePackageImpl extends EPackageImpl implements PolycreatePac
 		initEReference(getMission_Sequences(), this.getSequence(), null, "sequences", null, 1, -1, Mission.class,
 				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE,
 				IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getMission_Time(), ecorePackage.getEInt(), "time", null, 0, 1, Mission.class, !IS_TRANSIENT,
+		initEAttribute(getMission_Time(), ecorePackage.getEInt(), "time", "0", 0, 1, Mission.class, !IS_TRANSIENT,
 				!IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getMission_SensorChecker(), this.getSensorChecker(), null, "sensorChecker", null, 1, 1,
 				Mission.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,

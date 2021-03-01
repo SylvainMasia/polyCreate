@@ -43,6 +43,7 @@ public interface Mission extends EObject {
 
 	/**
 	 * Returns the value of the '<em><b>Time</b></em>' attribute.
+	 * The default value is <code>"0"</code>.
 	 * <!-- begin-user-doc -->
 	 * <p>
 	 * If the meaning of the '<em>Time</em>' attribute isn't clear,
@@ -52,7 +53,7 @@ public interface Mission extends EObject {
 	 * @return the value of the '<em>Time</em>' attribute.
 	 * @see #setTime(int)
 	 * @see fr.univcotedazur.webots.polycreate.PolycreatePackage#getMission_Time()
-	 * @model
+	 * @model default="0"
 	 * @generated
 	 */
 	int getTime();

@@ -523,7 +523,7 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_9ys80nUOEeu-oYeQnNt96g" iconPath="/fr.univcotedazur.webots.polycreate.edit/icons/full/obj16/Mission.gif" description="_9ys80HUOEeu-oYeQnNt96g" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216"/>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_8UrfoHUOEeu-oYeQnNt96g" name="time : EInt" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_8UrfoHUOEeu-oYeQnNt96g" name="time : EInt = 0" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="polycreate.ecore#//Mission/time"/>
         <semanticElements xmi:type="ecore:EAttribute" href="polycreate.ecore#//Mission/time"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_9yxOQXUOEeu-oYeQnNt96g" labelAlignment="LEFT">

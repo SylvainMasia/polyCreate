@@ -12,6 +12,7 @@ IRobot Create Behavioural Language Engineering
 - fr.univcotedazur.webots.polycreate.edit/icons : contient les icones de la syntaxe abstraite
 - fr.univcotedazur.webots.polycreate.rewritingrules : contient les rewritingrules (les aspects dans le fichier .xtend)
 - fr.univcotedazur.webots.polycreate.xdsml : contient le fichier .dsl qui lie le .ecore (domain modele) avec le k3 (les aspects)
+- runtime-PolycreateSirius : contient la partie Sirius et nos scénarios
 
 # Initialiser l'environnement
 
@@ -35,7 +36,7 @@ Voici notre domain model :
 
 ![Figure 1 : domain model](./assets/domainmodel.png)
 
-Notre objet principal est une Mission. Ce dernier possède une liste de séquences qui elles même contiennent des actions. La mission contient également un objet SensorChecker. Cet objet contient une liste de conditions qui peuvent être la vérification si un objet se trouve devant, ou si une collision survient en face, à droite ou à gauche. Si une condition est valide, on entrera alors dans une séquence alternative puis on reprendra le flot d'exécution de la séquence initiale. Cette implémentation permet par exemple d'avoir une séquence qui parcours une pièce, puis si il y a un objet on entrera dans la séquence alternative pour par exemple déplacer l'objet et nettoyer en dessous.
+Notre objet principal est une Mission. Ce dernier possède une liste de séquences qui elles même contiennent des actions. La mission contient également un objet SensorChecker. Cet objet contient une liste de conditions qui vont être executées après chaque action. Ces conditions peuvent être la vérification si un objet se trouve devant, ou si une collision survient en face, à droite ou à gauche. Si une condition est valide, on entrera alors dans une séquence alternative puis on reprendra le flot d'exécution de la séquence initiale. Cette implémentation permet par exemple d'avoir une séquence qui parcours une pièce, puis si il y a un objet on entrera dans la séquence alternative pour par exemple déplacer l'objet et nettoyer en dessous.
 
 ## Sirius
 
@@ -68,6 +69,11 @@ Voici le rendu graphique :
 
 Voici la vidéo d'exécution : 
 ![Démonstration](./assets/scenario2.png)
+
+# Debugging
+
+Pour nous aider à débugger le projet, nous avons mis en place un système graphique indiquant sur quel step nous nous trouvons.
+![Figure 7 : en jaune, debbuging du step actuel](./assets/debugging.png)
 
 # Installation
 
