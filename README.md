@@ -55,7 +55,7 @@ Voici le rendu graphique :
 ![Figure 4 : rendu graphique du premier scénario](./assets/scenario_1_graphique.png)
 
 Voici la vidéo d'exécution : 
-![Démonstration](./assets/scenario1.mp4)
+[Démonstration](./assets/scenario1.mp4)
 
 ## Scénario 2
 
@@ -68,7 +68,7 @@ Voici le rendu graphique :
 ![Figure 6 : rendu graphique du premier scénario](./assets/scenario_2_graphique.png)
 
 Voici la vidéo d'exécution : 
-![Démonstration](./assets/scenario2.mp4)
+[Démonstration](./assets/scenario2.mp4)
 
 # Debugging
 
