@@ -1,4 +1,4 @@
-# polyCreate
+# PolyCreate
 
 IRobot Create Behavioural Language Engineering
 
@@ -6,9 +6,9 @@ IRobot Create Behavioural Language Engineering
 
 [IRobot's Create](https://cyberbotics.com/doc/guide/create)
 
-# Hierarchy
+# Hierarchie
 
-- fr.univcotedazur.webots.polycreate : contient la syntaxe abastraite
+- fr.univcotedazur.webots.polycreate : contient la syntaxe abstraite
 - fr.univcotedazur.webots.polycreate.edit/icons : contient les icones de la syntaxe abstraite
 - fr.univcotedazur.webots.polycreate.rewritingrules : contient les rewritingrules (les aspects dans le fichier .xtend)
 - fr.univcotedazur.webots.polycreate.xdsml : contient le fichier .dsl qui lie le .ecore (domain modele) avec le k3 (les aspects)
@@ -81,10 +81,6 @@ Pour nous aider à débugger le projet, nous avons mis en place un système grap
 	- C:\Users\damin\AppData\Local\Programs\Webots\lib\controller
 	- C:\Users\damin\AppData\Local\Programs\Webots\msys64\mingw64\bin
 	- C:\Users\damin\AppData\Local\Programs\Webots\msys64\mingw64\bin\cpp
-- edit le build.properties du projet fr.univcotedazur.kairos.webots.polycreate.controler
-	- remove tout ce qu'il a des .so
-- edit le .classpath du projet fr.univcotedazur.kairos.webots.polycreate.controler
-	- supprimer de la ligne 8 a 20 (tous les classpathentry presque)
 - dans C:\Users\damin\AppData\Local\Programs\Webots\lib\controller tout copier dans dossier fr.univcotedazur.kairos.webots.polycreate.controler/webotslibs
 - open gemoc > import > general > existing projects into worskapce > fr.univcotedazur.kairos.webots.polycreate.controler
 - clic droit sur src > build path > sources machin
