@@ -73,7 +73,7 @@ Voici la vidéo d'exécution :
 # Debugging
 
 Pour nous aider à débugger le projet, nous avons mis en place un système graphique indiquant sur quel step nous nous trouvons.
-![Figure 7 : en jaune, debbuging du step actuel](./assets/debugging.png)
+![Figure 7 : en jaune, debbuging du step actuel](./assets/debugging.PNG)
 
 # Installation
 
